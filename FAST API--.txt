@@ -1,0 +1,354 @@
+FAST API--
+
+Think of FastAPI as a smart assistant for building web services — it automatically validates your data, generates documentation, and runs extremely fast.
+
+FastAPI was the FIRST Python framework to use Python's type hints for automatic request validation, response serialization, and API documentation all at once. This was revolutionary.
+
+
+FastAPI handles requests asynchronously without blocking
+
+FastAPI is built on ASGI (Asynchronous Server Gateway Interface) using Starlette
+
+FastAPI auto-generates two interactive documentation pages with zero extra code:  /docs  (Swagger UI) and  /redoc  (ReDoc). Every endpoint, every parameter, every response is documented automatically from your Python code.
+
+FastAPI natively supports Python's  async/await  syntax. This means it can handle thousands of concurrent requests efficiently, unlike older synchronous frameworks.
+
+FastAPI is designed for APIs — if you need server-side HTML rendering, Django or Flask may be more appropriate.
+
+ASGI Server Required: You need Uvicorn or Hypercorn to run it — not just the built-in Python server.
+
+
+First, what is the problem being solved?
+Imagine Uber's server gets 10,000 requests at the same time from 10,000 users all tapping "Find a Ride" simultaneously.
+How does the server handle all of them?
+
+The Old Way — Synchronous (older frameworks)
+Think of a bank with only 1 cashier.
+Customer 1 comes → Cashier starts processing
+Cashier is waiting for the system to load...
+Cashier is still waiting...
+Meanwhile Customer 2, 3, 4... are ALL standing in line doing nothing
+Customer 1 done → Now Customer 2 gets served
+The cashier does one person at a time. Everyone else just waits.
+This is called synchronous — do one thing, finish it, then move to next.
+The problem? If your server takes even 0.1 seconds per request, and 10,000 people request at the same time — the last person waits forever.
+
+The New Way — Async/Await (FastAPI)
+Now think of a smart waiter in a restaurant.
+Table 1 orders → Waiter places order to kitchen → moves on (doesn't stand there waiting)
+Table 2 orders → Waiter places order to kitchen → moves on
+Table 3 orders → Waiter places order to kitchen → moves on
+
+Kitchen finishes Table 2 first → Waiter delivers it
+Kitchen finishes Table 1 → Waiter delivers it
+Kitchen finishes Table 3 → Waiter delivers it
+The waiter doesn't stand frozen at one table waiting for the food. He moves on and comes back when the food is ready.
+This is exactly what async/await does in code.
+
+What does it look like in code?
+python# Old synchronous way
+def get_driver_location(driver_id):
+    result = database.find(driver_id)  # ← server FREEZES here waiting
+    return result
+
+# FastAPI async way
+async def get_driver_location(driver_id):
+    result = await database.find(driver_id)  # ← server says "go find it, I'll do other things meanwhile"
+    return result
+```
+
+The word **`await`** literally means:
+> *"Hey, go do this task. I won't freeze and wait — I'll handle other requests. Come back and tell me when you're done."*
+
+---
+
+## Real Uber Example
+
+When you tap "Find a Ride":
+
+**Synchronous (old) server behavior:**
+```
+User 1 request comes in
+Server asks database for nearby drivers...
+Server frozen, waiting for database...
+User 2, 3, 4... all stuck waiting
+Database responds → Server answers User 1
+Now finally User 2 gets a turn
+```
+
+**Async FastAPI behavior:**
+```
+User 1 request → Server asks database → moves on immediately
+User 2 request → Server asks database → moves on immediately
+User 3 request → Server asks database → moves on immediately
+Database responds for User 2 first → Server answers User 2
+Database responds for User 1 → Server answers User 1
+Database responds for User 3 → Server answers User 3
+All 3 handled almost simultaneously — no one is waiting because of someone else.
+
+Simple one-line analogies
+ConceptReal lifeSynchronous1 cashier serving one person fully before nextAsyncSmart waiter handling many tables at onceawait"Go do this, come back when done — I'll stay busy"Concurrent requestsMany users hitting the app at the exact same time
+
+Why does this matter for Netflix / Uber?
+
+Netflix has 230 million users
+At any moment, thousands are pressing Play simultaneously
+Each "Play" button = a request to the server asking "which video file should I stream?"
+If the server was synchronous, the 1000th person would wait for the first 999 to finish first
+With FastAPI's async — all 1000 get answered almost at the same instant
+
+
+
+FastAPI    → Letter writing. Ask → Get answer → Done.
+             (Booking uber, searching youtube, fetching scores)
+
+WebSocket  → Phone call. Always connected, instant both ways.
+             (PUBG gameplay, live chat, live score push)
+
+CDN        → Copies of content stored near you geographically.
+             (How YouTube & Hotstar serve millions simultaneously)
+
+Chunked    → Video delivered in small pieces, not all at once.
+Streaming    (How all video platforms actually work)
+
+
+
+
+@app.get("/find-drivers")
+def find_drivers(city: str, radius: float):
+    # logic here
+```
+
+FastAPI **reads this code** and automatically understands:
+```
+Endpoint name  → /find-drivers
+Method         → GET
+Parameter 1    → city (text)
+Parameter 2    → radius (number)
+```
+
+And instantly creates a webpage at `/docs` showing all of this.
+
+---
+
+## What does that /docs page actually look like?
+
+Imagine you open a webpage and you see this:
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🟢 GET    /find-drivers     Find nearby drivers
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Parameters:
+  city    → text     → required
+  radius  → number   → optional (default 2.0)
+
+[ Try it out ] ← you can click this button!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🟡 POST   /book-ride        Book a ride
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🟢 GET    /trip-history     Get past trips
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+Every single endpoint of your entire app — **listed, explained, and testable** — without you writing a single line of documentation.
+
+---
+
+## The "Try it out" button — this is the wow part
+
+On this `/docs` page you can actually:
+```
+Click "Try it out" on /find-drivers
+→ Type city = "Bangalore"
+→ Type radius = 3.0
+→ Hit Execute
+
+Page shows you:
+→ The exact request that was sent
+→ The real response from your server
+→ The response time
+```
+
+You are **testing your API right inside the documentation page.**
+
+No Postman. No extra tool. No setup.
+
+---
+
+## Why is this a big deal in real companies?
+
+At a company like Uber there are multiple teams:
+```
+Backend team    → builds the API (writes Python code)
+Mobile team     → builds the app (needs to know what API does)
+Web team        → builds website (needs to know what API does)
+New joinee      → just joined today (has no idea what exists)
+```
+
+With FastAPI:
+```
+All of them just open → http://uberserver.com/docs
+See every endpoint listed
+Understand exactly what to send and what they get back
+Test it right there
+Nobody had to write or explain anything
+
+
+
+What is Starlette then?
+FastAPI didn't build everything from scratch.
+Think of it like building a car:
+Starlette  →  The engine and chassis (core machinery)
+FastAPI    →  The full car with steering, AC, GPS, fancy features on top
+Starlette handles all the low-level ASGI stuff — routing, middleware, requests, responses.
+FastAPI sits on top of Starlette and adds:
+
+Auto documentation
+Data validation
+Easy async support
+Developer friendly features
+
+
+
+So how does FastAPI match them?
+The secret is — most of the time in a web request, Python isn't actually doing anything.
+Let's see what happens when you book an Uber:
+Request comes in
+Python receives it                     → 0.001 seconds
+Python asks database "find drivers"    → 0.001 seconds
+Database is searching...               → 0.1 seconds  ← Python is just WAITING here
+Database responds                      → 0.001 seconds
+Python sends response back             → 0.001 seconds
+95% of the time Python is just sitting idle waiting for the database.
+Old frameworks — Python freezes and waits doing nothing.
+FastAPI — Python says "okay database, you go search, I'll handle 500 other requests meanwhile, tell me when you're done."
+Python active work    →  5% of time
+Python waiting        →  95% of time
+
+Old way  → Python frozen during that 95%
+FastAPI  → Python handling other requests during that 95%
+FastAPI didn't make Python faster — it stopped Python from wasting time doing nothing.
+
+
+🔹 Why do we define item_id in BOTH places?
+@app.put("/items/{item_id}")   # (1) Path parameter
+def update_item(item_id: int): # (2) Function parameter
+✅ (1) /items/{item_id} → tells FastAPI where to get the value from (URL)
+{item_id} means:
+👉 “Extract this value from the URL path”
+✅ (2) item_id: int → tells FastAPI what to do with it
+It becomes a function argument
+: int means:
+👉 convert it to integer
+👉 validate it
+🔁 Flow (important)
+
+When request comes:
+
+PUT /items/10
+
+FastAPI does:
+
+See /items/{item_id} → extract 10
+Pass it into function → item_id = 10
+Call:
+update_item(10)
+❗ What if you remove one?
+❌ Remove from URL:
+@app.put("/items/")
+def update_item(item_id: int):
+
+➡️ FastAPI won’t know where to get item_id → ❌ error
+
+❌ Remove from function:
+@app.put("/items/{item_id}")
+def update_item():
+
+➡️ Value exists in URL but not used → ❌ useless / error
+
+🔹 Which URL should you hit?
+
+You must hit:
+
+PUT http://127.0.0.1:8000/items/10
+
+or in browser tools like:
+
+Postman
+curl
+Example using curl:
+curl -X PUT http://127.0.0.1:8000/items/10
+
+
+
+
+@app.get("/")
+def get_data(name,age):
+    return {"message":"HIi, Chetan Here, playing iwth FastAPI"}
+
+but here wee pass without it so will it not work or what 
+
+This is a really good observation — you’ve hit an important FastAPI concept 👍
+
+🔹 Your code:
+@app.get("/")
+def get_data(name, age):
+    return {"message": "Hii, Chetan Here, playing with FastAPI"}
+❓ Will this work?
+
+👉 YES — but not like you might expect
+
+FastAPI will not take name and age from the URL path, because you didn’t define them there.
+
+Instead, it treats them as query parameters.
+
+🔹 How FastAPI interprets this
+
+Since your route is:
+
+"/"
+
+and not:
+
+"/{name}/{age}"
+
+FastAPI assumes:
+
+name → query param
+age  → query param
+🔹 So how do you call it?
+
+You must hit this URL:
+
+http://127.0.0.1:8000/?name=Chetan&age=21
+🔁 Flow
+
+Request:
+
+GET /?name=Chetan&age=21
+
+FastAPI does:
+
+get_data(name="Chetan", age="21")
+❗ If you don’t pass them?
+http://127.0.0.1:8000/
+
+➡️ ❌ You’ll get error like:
+
+{
+  "detail": [
+    {"loc": ["query", "name"], "msg": "field required"},
+    {"loc": ["query", "age"], "msg": "field required"}
+  ]
+}
+🔹 Fix (optional)
+✅ Make them optional:
+def get_data(name: str = None, age: int = None):
+✅ Or define them in path:
+@app.get("/{name}/{age}")
+def get_data(name: str, age: int):
+
+Call:
+
+http://127.0.0.1:8000/Chetan/21
