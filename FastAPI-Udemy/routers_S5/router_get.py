@@ -4,10 +4,10 @@ from typing import Optional
 
 router=APIRouter(
     prefix='/user',
-    tags=["user"]
+    tags=["router"]
 )
 
-@router.get("/hey")
+@router.get("/hey",tags=['intro'])
 def start(speed:Optional[int]=None):
     return f"Hii, I'm {speed}x Fast, {speed}xFastAPI"
 
@@ -31,7 +31,7 @@ def start(speed:int):
 # def start(speed:int):
 #     return f"Hii, I'm {speed}x Fast, {speed}xFastAPI"
 
-@router.get("/qp")
+@router.get("/qp",tags=['intro'])
 def noparam():
     return {"Greet":"Hii old fossil"}
 
@@ -54,45 +54,3 @@ def qparam(id:int,name:str="Bittu",age:int=18):
 def test(id:int,pid:int,valid:bool=True , username:str="Chal_Chal_Awe"):
     return {"Testify":f"Test on {id} with page no {pid} is {valid} by {username}"}
 
-
-#Status code
-
-@router.get("/status/{age}",tags=['Status code'])
-def nofound(age:int,resp:Response):
-    if age<18:
-        resp.status_code=status.HTTP_425_TOO_EARLY
-        return {"error":"Underage Balak"}
-    elif age >65:
-        resp.status_code=status.HTTP_406_NOT_ACCEPTABLE
-        return {"error":"Overage BadaBalak(GHEE KHATAM)"}
-    else:
-        resp.status_code=status.HTTP_200_OK
-        return {"message":"Eligible Voter"}
-
-#or
-
-@router.get("/status2/{age}",tags=['Status code'])
-def nofound2(age: int):
-    if age < 18:
-        raise HTTPException(status_code=425, detail="Underage Balak")
-    elif age >65:
-        raise HTTPException(status_code=406, detail="Overage BadaBalak(GHEE KHATAM)")
-    else:
-        return {"message":"Eligible Voter"}
-    
-# S & D
-@router.get("/S-D/{id}",tags=['S & D'],summary="First Way",description="First way to add summary and desc for API")
-def test(id:int=1,valid:bool=True , username:Optional[str]="Chal_Chal_Awe"):
-    return {"Testify":f"Test on {id} for S and D is {valid} by {username}"}
-
-@router.get("/S-D2/{id}",tags=['S & D'])
-def test2(id:int=1,valid:bool=True , username:Optional[str]="Chal_Chal_Awe"):
-    """
-    - **summary**="Second Way"
-    - **description**="Second way to add summary and desc for API"
-    """
-    return {"Testify":f"Test on {id} for S and D is {valid} by {username}"}
-
-@router.get("/S-D3/{id}",tags=['S & D'],summary="First Way",description="First way to add summary and desc for API",response_description="Checked")
-def test3(id:int=1,valid:bool=True , username:Optional[str]="Chal_Chal_Awe"):
-    return {"Testify":f"Test on {id} for S and D is {valid} by {username}"}
