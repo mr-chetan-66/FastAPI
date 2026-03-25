@@ -352,3 +352,35 @@ def get_data(name: str, age: int):
 Call:
 
 http://127.0.0.1:8000/Chetan/21
+
+
+🧵 1. Synchronous Endpoint (def)
+✔ What it means:
+
+Runs in a normal thread.
+Blocks execution until the function completes.
+Good for CPU‑bound or simple operations.
+
+✔ Example:
+Python@router.get("/sync")def sync_endpoint():    import time    time.sleep(5)  # blocks the thread for 5 seconds    return {"msg": "Sync is done"}``Show more lines
+✔ Behavior:
+If this endpoint takes 5 sec, that worker/thread stays busy for 5 sec.
+
+⚡ 2. Asynchronous Endpoint (async def)
+✔ What it means:
+
+Uses Python’s asyncio event loop.
+Does NOT block when waiting on I/O operations.
+Ideal for:
+
+calling databases
+external APIs
+reading/writing files
+network operations
+
+
+
+✔ Example:
+Python@router.get("/async")async def async_endpoint():    import asyncio    await asyncio.sleep(5)  # non-blocking    return {"msg": "Async is done"}Show more lines
+✔ Behavior:
+Even during the 5‑sec sleep, FastAPI can serve other requests.

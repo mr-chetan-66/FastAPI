@@ -25,7 +25,7 @@ def match(type:Match):
 def start(speed:int):
     return f"Hii, I'm {speed}x Fast, {speed}xFastAPI"
 
-# order matter if we write code like thsi eve f we hit right url it will show error as it expect int not hey so put the literal one first or we can say put the utl param api endpoint definition in last 
+# order matter if we write code like this even if we hit right url it will show error as it expect int not hey so put the literal one first or we can say put the url param api endpoint definition in last 
 
 # @app.get("/user/hey")
 # def start(speed:int):
@@ -38,7 +38,7 @@ def noparam():
 # @app.get("/qp")
 # def qparam(id:int,name:str="Bittu",age:int=18):
 #     return {"Greet":f"Hii {name}, are you really {age}-years old"}
-# this will nt work as we have create to endpoint on sma route so firts one will remain and second oen get skip , it a rule , not to have to api on same route , instead we can use combination of path and query parameter to solve it 
+# this will n0t work as we have create to endpoint on same route so first one will remain and second one get skip , it a rule , not to have api on same route , instead we can use combination of path and query parameter to solve it 
 
 @router.get("/qp/{id}",tags=['Both-param'])
 def qparam(id:int,name:str="Bittu",age:int=18):
@@ -51,13 +51,13 @@ def qparam(id:int,name:str="Bittu",age:int=18):
 
 
 @router.get("/test-param/{id}/onpage/{pid}",tags=['Both-param'])
-def test(id:int=1,pid:int=1,valid:bool=True , username:str="Chal_Chal_Awe"):
+def test(id:int,pid:int,valid:bool=True , username:str="Chal_Chal_Awe"):
     return {"Testify":f"Test on {id} with page no {pid} is {valid} by {username}"}
 
 
 #Status code
 
-@router.get("/status/{age}",status_code=status.HTTP_404_NOT_FOUND,tags=['Status code'])
+@router.get("/status/{age}",tags=['Status code'])
 def nofound(age:int,resp:Response):
     if age<18:
         resp.status_code=status.HTTP_425_TOO_EARLY
