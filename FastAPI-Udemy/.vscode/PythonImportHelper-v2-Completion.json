@@ -1,0 +1,1656 @@
+[
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DbArticle",
+        "importPath": "DB_2.db_model2",
+        "description": "DB_2.db_model2",
+        "isExtraImport": true,
+        "detail": "DB_2.db_model2",
+        "documentation": {}
+    },
+    {
+        "label": "DbUser",
+        "importPath": "DB_2.db_model2",
+        "description": "DB_2.db_model2",
+        "isExtraImport": true,
+        "detail": "DB_2.db_model2",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "importPath": "DB_2.hash2",
+        "description": "DB_2.hash2",
+        "isExtraImport": true,
+        "detail": "DB_2.hash2",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleBase",
+        "importPath": "schema2",
+        "description": "schema2",
+        "isExtraImport": true,
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "importPath": "schema2",
+        "description": "schema2",
+        "isExtraImport": true,
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleBase",
+        "importPath": "schema2",
+        "description": "schema2",
+        "isExtraImport": true,
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleDisplay",
+        "importPath": "schema2",
+        "description": "schema2",
+        "isExtraImport": true,
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "importPath": "schema2",
+        "description": "schema2",
+        "isExtraImport": true,
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "UserDisplay",
+        "importPath": "schema2",
+        "description": "schema2",
+        "isExtraImport": true,
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "DB_2.database2",
+        "description": "DB_2.database2",
+        "isExtraImport": true,
+        "detail": "DB_2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "DB_2.database2",
+        "description": "DB_2.database2",
+        "isExtraImport": true,
+        "detail": "DB_2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "engine2",
+        "importPath": "DB_2.database2",
+        "description": "DB_2.database2",
+        "isExtraImport": true,
+        "detail": "DB_2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm.session",
+        "description": "sqlalchemy.orm.session",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.session",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "importPath": "schema_db",
+        "description": "schema_db",
+        "isExtraImport": true,
+        "detail": "schema_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "importPath": "schema_db",
+        "description": "schema_db",
+        "isExtraImport": true,
+        "detail": "schema_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserDisplay",
+        "importPath": "schema_db",
+        "description": "schema_db",
+        "isExtraImport": true,
+        "detail": "schema_db",
+        "documentation": {}
+    },
+    {
+        "label": "DbUser",
+        "importPath": "DB_S7.db_model",
+        "description": "DB_S7.db_model",
+        "isExtraImport": true,
+        "detail": "DB_S7.db_model",
+        "documentation": {}
+    },
+    {
+        "label": "DbUser",
+        "importPath": "DB_S7.db_model",
+        "description": "DB_S7.db_model",
+        "isExtraImport": true,
+        "detail": "DB_S7.db_model",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "importPath": "DB_S7.hash",
+        "description": "DB_S7.hash",
+        "isExtraImport": true,
+        "detail": "DB_S7.hash",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "DB_S7.database",
+        "description": "DB_S7.database",
+        "isExtraImport": true,
+        "detail": "DB_S7.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "DB_S7.database",
+        "description": "DB_S7.database",
+        "isExtraImport": true,
+        "detail": "DB_S7.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "DB_S7.database",
+        "description": "DB_S7.database",
+        "isExtraImport": true,
+        "detail": "DB_S7.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "DB_S7.database",
+        "description": "DB_S7.database",
+        "isExtraImport": true,
+        "detail": "DB_S7.database",
+        "documentation": {}
+    },
+    {
+        "label": "db_func",
+        "importPath": "DB_S7",
+        "description": "DB_S7",
+        "isExtraImport": true,
+        "detail": "DB_S7",
+        "documentation": {}
+    },
+    {
+        "label": "db_model",
+        "importPath": "DB_S7",
+        "description": "DB_S7",
+        "isExtraImport": true,
+        "detail": "DB_S7",
+        "documentation": {}
+    },
+    {
+        "label": "db_func2",
+        "importPath": "DB_2",
+        "description": "DB_2",
+        "isExtraImport": true,
+        "detail": "DB_2",
+        "documentation": {}
+    },
+    {
+        "label": "db_model2",
+        "importPath": "DB_2",
+        "description": "DB_2",
+        "isExtraImport": true,
+        "detail": "DB_2",
+        "documentation": {}
+    },
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "db_route2",
+        "importPath": "routers_S5",
+        "description": "routers_S5",
+        "isExtraImport": true,
+        "detail": "routers_S5",
+        "documentation": {}
+    },
+    {
+        "label": "router_get",
+        "importPath": "routers_S5",
+        "description": "routers_S5",
+        "isExtraImport": true,
+        "detail": "routers_S5",
+        "documentation": {}
+    },
+    {
+        "label": "router_post",
+        "importPath": "routers_S5",
+        "description": "routers_S5",
+        "isExtraImport": true,
+        "detail": "routers_S5",
+        "documentation": {}
+    },
+    {
+        "label": "db_route",
+        "importPath": "routers_S5",
+        "description": "routers_S5",
+        "isExtraImport": true,
+        "detail": "routers_S5",
+        "documentation": {}
+    },
+    {
+        "label": "live_viewer",
+        "importPath": "routers_S5",
+        "description": "routers_S5",
+        "isExtraImport": true,
+        "detail": "routers_S5",
+        "documentation": {}
+    },
+    {
+        "label": "UberUser",
+        "kind": 6,
+        "importPath": "CRUD.crud_operation",
+        "description": "CRUD.crud_operation",
+        "peekOfCode": "class UberUser(BaseModel):\n    id: int\n    name: str\n    email: str\n    phone: str\n    default_location: Optional[str] = None\n    preferred_payment: Optional[str] = None\n# A REAL collection (List)\nusers: List[UberUser] = []\n# ------------------------------",
+        "detail": "CRUD.crud_operation",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "CRUD.crud_operation",
+        "description": "CRUD.crud_operation",
+        "peekOfCode": "def create_user(user: UberUser):\n    users.append(user)\n    return {\"message\": \"User created\", \"user\": user}\n# ------------------------------\n# GET - Get all users\n# ------------------------------\n@app.get(\"/users\")\ndef get_all_users():\n    return users\n# ------------------------------",
+        "detail": "CRUD.crud_operation",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_users",
+        "kind": 2,
+        "importPath": "CRUD.crud_operation",
+        "description": "CRUD.crud_operation",
+        "peekOfCode": "def get_all_users():\n    return users\n# ------------------------------\n# GET - Get single user\n# ------------------------------\n@app.get(\"/users/{user_id}\")\ndef get_user(user_id: int):\n    for user in users:\n        if user.id == user_id:\n            return user",
+        "detail": "CRUD.crud_operation",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "CRUD.crud_operation",
+        "description": "CRUD.crud_operation",
+        "peekOfCode": "def get_user(user_id: int):\n    for user in users:\n        if user.id == user_id:\n            return user\n    raise HTTPException(status_code=404, detail=\"User not found\")\n# ------------------------------\n# PUT - Replace Entire User\n# ------------------------------\n@app.put(\"/users/{user_id}\")\ndef replace_user(user_id: int, new_user: UberUser):",
+        "detail": "CRUD.crud_operation",
+        "documentation": {}
+    },
+    {
+        "label": "replace_user",
+        "kind": 2,
+        "importPath": "CRUD.crud_operation",
+        "description": "CRUD.crud_operation",
+        "peekOfCode": "def replace_user(user_id: int, new_user: UberUser):\n    for index, user in enumerate(users):\n        if user.id == user_id:\n            users[index] = new_user\n            return {\"message\": \"User replaced\", \"user\": new_user}\n    raise HTTPException(status_code=404, detail=\"User not found\")\n# ------------------------------\n# PATCH - Update Partial Fields\n# ------------------------------\n@app.patch(\"/users/{user_id}\")",
+        "detail": "CRUD.crud_operation",
+        "documentation": {}
+    },
+    {
+        "label": "patch_user",
+        "kind": 2,
+        "importPath": "CRUD.crud_operation",
+        "description": "CRUD.crud_operation",
+        "peekOfCode": "def patch_user(user_id: int, updates: dict):\n    for index, user in enumerate(users):\n        if user.id == user_id:\n            updated_data = user.dict()\n            updated_data.update(updates)\n            updated_user = UberUser(**updated_data)\n            users[index] = updated_user\n            return {\"message\": \"User updated\", \"user\": updated_user}\n    raise HTTPException(status_code=404, detail=\"User not found\")\n# ------------------------------",
+        "detail": "CRUD.crud_operation",
+        "documentation": {}
+    },
+    {
+        "label": "delete_user",
+        "kind": 2,
+        "importPath": "CRUD.crud_operation",
+        "description": "CRUD.crud_operation",
+        "peekOfCode": "def delete_user(user_id: int):\n    for index, user in enumerate(users):\n        if user.id == user_id:\n            users.pop(index)\n            return {\"message\": \"User deleted\"}\n    raise HTTPException(status_code=404, detail=\"User not found\")",
+        "detail": "CRUD.crud_operation",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "CRUD.crud_operation",
+        "description": "CRUD.crud_operation",
+        "peekOfCode": "app = FastAPI()\n# ------------------------------\n# Uber User Model\n# ------------------------------\nclass UberUser(BaseModel):\n    id: int\n    name: str\n    email: str\n    phone: str\n    default_location: Optional[str] = None",
+        "detail": "CRUD.crud_operation",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "DB_2.database2",
+        "description": "DB_2.database2",
+        "peekOfCode": "def get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "DB_2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "DB_2.database2",
+        "description": "DB_2.database2",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./fastapi-practice2.db\"\nengine2 = create_engine(\n    SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine2)\nBase = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db",
+        "detail": "DB_2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "engine2",
+        "kind": 5,
+        "importPath": "DB_2.database2",
+        "description": "DB_2.database2",
+        "peekOfCode": "engine2 = create_engine(\n    SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine2)\nBase = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "DB_2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "DB_2.database2",
+        "description": "DB_2.database2",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine2)\nBase = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "DB_2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "DB_2.database2",
+        "description": "DB_2.database2",
+        "peekOfCode": "Base = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "DB_2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "DB_2.db_func2",
+        "description": "DB_2.db_func2",
+        "peekOfCode": "def create_user(request:UserBase,db:Session):\n    new_user=DbUser(\n        username=request.username,\n        email=request.email,\n        password=Hash.hash(request.password)\n    )\n    db.add(new_user)\n    db.commit()\n    db.refresh(new_user)\n    return new_user",
+        "detail": "DB_2.db_func2",
+        "documentation": {}
+    },
+    {
+        "label": "read_user",
+        "kind": 2,
+        "importPath": "DB_2.db_func2",
+        "description": "DB_2.db_func2",
+        "peekOfCode": "def read_user(id:int,db:Session):\n    user=db.query(DbUser).filter(DbUser.id==id).first()\n    if user is None:\n        return None\n    return user\ndef create_article(request:ArticleBase,db:Session):\n    new_article=DbArticle(\n        title=request.title,\n        content=request.content,\n        published=request.published,",
+        "detail": "DB_2.db_func2",
+        "documentation": {}
+    },
+    {
+        "label": "create_article",
+        "kind": 2,
+        "importPath": "DB_2.db_func2",
+        "description": "DB_2.db_func2",
+        "peekOfCode": "def create_article(request:ArticleBase,db:Session):\n    new_article=DbArticle(\n        title=request.title,\n        content=request.content,\n        published=request.published,\n        user_id=request.customer_id\n    )\n    db.add(new_article)\n    db.commit()\n    db.refresh(new_article)",
+        "detail": "DB_2.db_func2",
+        "documentation": {}
+    },
+    {
+        "label": "read_article",
+        "kind": 2,
+        "importPath": "DB_2.db_func2",
+        "description": "DB_2.db_func2",
+        "peekOfCode": "def read_article(id:int,db:Session):\n    article=db.query(DbArticle).filter(DbArticle.id==id).first()\n    if article is None:\n        return None\n    return article",
+        "detail": "DB_2.db_func2",
+        "documentation": {}
+    },
+    {
+        "label": "DbUser",
+        "kind": 6,
+        "importPath": "DB_2.db_model2",
+        "description": "DB_2.db_model2",
+        "peekOfCode": "class DbUser(Base):\n    __tablename__='users'\n    id=Column(Integer,primary_key=True,index=True)\n    username=Column(String)\n    email=Column(String)\n    password=Column(String)\n    items=relationship('DbArticle',back_populates='user')\nclass DbArticle(Base):\n    __tablename__='articles'\n    id=Column(Integer,primary_key=True,index=True)",
+        "detail": "DB_2.db_model2",
+        "documentation": {}
+    },
+    {
+        "label": "DbArticle",
+        "kind": 6,
+        "importPath": "DB_2.db_model2",
+        "description": "DB_2.db_model2",
+        "peekOfCode": "class DbArticle(Base):\n    __tablename__='articles'\n    id=Column(Integer,primary_key=True,index=True)\n    title=Column(String)\n    content=Column(String)\n    published=Column(Boolean)\n    user_id=Column(Integer, ForeignKey('users.id'))\n    user=relationship('DbUser',back_populates='items')",
+        "detail": "DB_2.db_model2",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "kind": 6,
+        "importPath": "DB_2.hash2",
+        "description": "DB_2.hash2",
+        "peekOfCode": "class Hash:\n    @staticmethod\n    def hash(password:str):\n        return pwd_cxt.hash(password)\n    @staticmethod\n    def verify(plain_pass:str,hashed_pass:str):\n        return pwd_cxt.verify(plain_pass,hashed_pass)",
+        "detail": "DB_2.hash2",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "DB_S7.database",
+        "description": "DB_S7.database",
+        "peekOfCode": "def get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "DB_S7.database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "DB_S7.database",
+        "description": "DB_S7.database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./fastapi-practice2.db\"\nengine = create_engine(\n    SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db",
+        "detail": "DB_S7.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "DB_S7.database",
+        "description": "DB_S7.database",
+        "peekOfCode": "engine = create_engine(\n    SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "DB_S7.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "DB_S7.database",
+        "description": "DB_S7.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "DB_S7.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "DB_S7.database",
+        "description": "DB_S7.database",
+        "peekOfCode": "Base = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "DB_S7.database",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "DB_S7.db_func",
+        "description": "DB_S7.db_func",
+        "peekOfCode": "def create_user(request:UserBase,db:Session):\n    new_user=DbUser(\n        username=request.username,\n        email=request.email,\n        password=Hash.hash(request.password)\n    )\n    db.add(new_user)\n    db.commit()\n    db.refresh(new_user)\n    return new_user",
+        "detail": "DB_S7.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "read_all",
+        "kind": 2,
+        "importPath": "DB_S7.db_func",
+        "description": "DB_S7.db_func",
+        "peekOfCode": "def read_all(db:Session):\n    return db.query(DbUser).all()\ndef read_one(id:int,db:Session):\n    return db.query(DbUser).filter(DbUser.id==id).first()\ndef update(id:int,request:UserBase,db:Session):\n    user=db.query(DbUser).filter(DbUser.id==id).first()\n    if user is None:\n        return None\n    user.username=request.username\n    user.email=request.email",
+        "detail": "DB_S7.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "read_one",
+        "kind": 2,
+        "importPath": "DB_S7.db_func",
+        "description": "DB_S7.db_func",
+        "peekOfCode": "def read_one(id:int,db:Session):\n    return db.query(DbUser).filter(DbUser.id==id).first()\ndef update(id:int,request:UserBase,db:Session):\n    user=db.query(DbUser).filter(DbUser.id==id).first()\n    if user is None:\n        return None\n    user.username=request.username\n    user.email=request.email\n    user.password=Hash.hash(request.password)\n    db.commit()",
+        "detail": "DB_S7.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "kind": 2,
+        "importPath": "DB_S7.db_func",
+        "description": "DB_S7.db_func",
+        "peekOfCode": "def update(id:int,request:UserBase,db:Session):\n    user=db.query(DbUser).filter(DbUser.id==id).first()\n    if user is None:\n        return None\n    user.username=request.username\n    user.email=request.email\n    user.password=Hash.hash(request.password)\n    db.commit()\n    db.refresh(user)\n    return user",
+        "detail": "DB_S7.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "DB_S7.db_func",
+        "description": "DB_S7.db_func",
+        "peekOfCode": "def delete(id:int,db:Session):\n    user=db.query(DbUser).filter(DbUser.id==id).first()\n    if user is None:\n        return None\n    db.delete(user)\n    db.commit()\n    return user",
+        "detail": "DB_S7.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "DbUser",
+        "kind": 6,
+        "importPath": "DB_S7.db_model",
+        "description": "DB_S7.db_model",
+        "peekOfCode": "class DbUser(Base):\n    __tablename__='users'\n    id=Column(Integer,primary_key=True,index=True)\n    username=Column(String)\n    email=Column(String)\n    password=Column(String)",
+        "detail": "DB_S7.db_model",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "kind": 6,
+        "importPath": "DB_S7.hash",
+        "description": "DB_S7.hash",
+        "peekOfCode": "class Hash:\n    @staticmethod\n    def hash(password: str):\n        return pwd_cxt.hash(password)\n    @staticmethod\n    def verify(password: str, hashed_pass: str):\n        return pwd_cxt.verify(password, hashed_pass)",
+        "detail": "DB_S7.hash",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_cxt",
+        "kind": 5,
+        "importPath": "DB_S7.hash",
+        "description": "DB_S7.hash",
+        "peekOfCode": "pwd_cxt = CryptContext(schemes=[\"pbkdf2_sha256\"], deprecated=\"auto\")\nclass Hash:\n    @staticmethod\n    def hash(password: str):\n        return pwd_cxt.hash(password)\n    @staticmethod\n    def verify(password: str, hashed_pass: str):\n        return pwd_cxt.verify(password, hashed_pass)",
+        "detail": "DB_S7.hash",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "routers_S5.db_route",
+        "description": "routers_S5.db_route",
+        "peekOfCode": "def create_user(request:UserBase,db:Session=Depends(get_db)):\n    return db_func.create_user(request,db)\n## READ ALL USER\n@router.get(\"/read_all\",response_model=List[UserDisplay])\ndef read_all(db:Session=Depends(get_db)):\n    return db_func.read_all(db)\n## READ ONE USER\n@router.get(\"/read/{id}\",response_model=UserDisplay)\ndef read_one(id:int,db:Session=Depends(get_db)):\n    user=db_func.read_one(id,db)",
+        "detail": "routers_S5.db_route",
+        "documentation": {}
+    },
+    {
+        "label": "read_all",
+        "kind": 2,
+        "importPath": "routers_S5.db_route",
+        "description": "routers_S5.db_route",
+        "peekOfCode": "def read_all(db:Session=Depends(get_db)):\n    return db_func.read_all(db)\n## READ ONE USER\n@router.get(\"/read/{id}\",response_model=UserDisplay)\ndef read_one(id:int,db:Session=Depends(get_db)):\n    user=db_func.read_one(id,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n## UPDATE USER",
+        "detail": "routers_S5.db_route",
+        "documentation": {}
+    },
+    {
+        "label": "read_one",
+        "kind": 2,
+        "importPath": "routers_S5.db_route",
+        "description": "routers_S5.db_route",
+        "peekOfCode": "def read_one(id:int,db:Session=Depends(get_db)):\n    user=db_func.read_one(id,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n## UPDATE USER\n@router.put(\"/update/{id}\",response_model=UserDisplay)\ndef update(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.update(id,request,db)\n    if user is None:",
+        "detail": "routers_S5.db_route",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "kind": 2,
+        "importPath": "routers_S5.db_route",
+        "description": "routers_S5.db_route",
+        "peekOfCode": "def update(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.update(id,request,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n## DELETE USER\n@router.delete(\"/delete/{id}\",response_model=UserDisplay)\ndef delete(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.delete(id,db)\n    if user is None:",
+        "detail": "routers_S5.db_route",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "routers_S5.db_route",
+        "description": "routers_S5.db_route",
+        "peekOfCode": "def delete(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.delete(id,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user",
+        "detail": "routers_S5.db_route",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "routers_S5.db_route2",
+        "description": "routers_S5.db_route2",
+        "peekOfCode": "def create_user(request:UserBase,db:Session=Depends(get_db)):\n    return db_func2.create_user(request,db)\n@router.get('/read_user/{id}',response_model=UserDisplay)\ndef read_user(id:int,db:Session=Depends(get_db)):\n    user=db_func2.read_user(id,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n@router.post(\"/create_article\",response_model=ArticleDisplay)\ndef create_article(request:ArticleBase,db:Session=Depends(get_db)):",
+        "detail": "routers_S5.db_route2",
+        "documentation": {}
+    },
+    {
+        "label": "read_user",
+        "kind": 2,
+        "importPath": "routers_S5.db_route2",
+        "description": "routers_S5.db_route2",
+        "peekOfCode": "def read_user(id:int,db:Session=Depends(get_db)):\n    user=db_func2.read_user(id,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n@router.post(\"/create_article\",response_model=ArticleDisplay)\ndef create_article(request:ArticleBase,db:Session=Depends(get_db)):\n    return db_func2.create_article(request,db)\n@router.get(\"/read_article/{id}\",response_model=ArticleDisplay)\ndef read_article(id:int,db:Session=Depends(get_db)):",
+        "detail": "routers_S5.db_route2",
+        "documentation": {}
+    },
+    {
+        "label": "create_article",
+        "kind": 2,
+        "importPath": "routers_S5.db_route2",
+        "description": "routers_S5.db_route2",
+        "peekOfCode": "def create_article(request:ArticleBase,db:Session=Depends(get_db)):\n    return db_func2.create_article(request,db)\n@router.get(\"/read_article/{id}\",response_model=ArticleDisplay)\ndef read_article(id:int,db:Session=Depends(get_db)):\n    article=db_func2.read_article(id,db)\n    if article is None:\n        raise HTTPException(status_code=404,detail='Article Not Found')\n    return article",
+        "detail": "routers_S5.db_route2",
+        "documentation": {}
+    },
+    {
+        "label": "read_article",
+        "kind": 2,
+        "importPath": "routers_S5.db_route2",
+        "description": "routers_S5.db_route2",
+        "peekOfCode": "def read_article(id:int,db:Session=Depends(get_db)):\n    article=db_func2.read_article(id,db)\n    if article is None:\n        raise HTTPException(status_code=404,detail='Article Not Found')\n    return article",
+        "detail": "routers_S5.db_route2",
+        "documentation": {}
+    },
+    {
+        "label": "live_users",
+        "kind": 2,
+        "importPath": "routers_S5.live_viewer",
+        "description": "routers_S5.live_viewer",
+        "peekOfCode": "def live_users(db: Session = Depends(get_db)):\n    users = db.query(DbUser).all()\n    # Convert SQLAlchemy objects → dict\n    output = []\n    for u in users:\n        d = u.__dict__.copy()\n        d.pop(\"_sa_instance_state\", None)\n        output.append(d)\n    return output",
+        "detail": "routers_S5.live_viewer",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers_S5.live_viewer",
+        "description": "routers_S5.live_viewer",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/live\",\n    tags=[\"Live Debug\"]\n)\n@router.get(\"/users\")\ndef live_users(db: Session = Depends(get_db)):\n    users = db.query(DbUser).all()\n    # Convert SQLAlchemy objects → dict\n    output = []\n    for u in users:",
+        "detail": "routers_S5.live_viewer",
+        "documentation": {}
+    },
+    {
+        "label": "Match",
+        "kind": 6,
+        "importPath": "routers_S5.router_get",
+        "description": "routers_S5.router_get",
+        "peekOfCode": "class Match(str,Enum):\n    Test=90\n    ODI=50\n    T20=20\n@router.get(\"/match/{type}\",tags=['URLparam'])\ndef match(type:Match):\n    return {'message':f'Its a {type.name} match, that is {type.value}-overs'}\n# URL param api , by deafaut 1 \n@router.get(\"/{speed}\",tags=['URLparam'])\ndef start(speed:int):",
+        "detail": "routers_S5.router_get",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "routers_S5.router_get",
+        "description": "routers_S5.router_get",
+        "peekOfCode": "def start(speed:Optional[int]=None):\n    return f\"Hii, I'm {speed}x Fast, {speed}xFastAPI\"\nclass Match(str,Enum):\n    Test=90\n    ODI=50\n    T20=20\n@router.get(\"/match/{type}\",tags=['URLparam'])\ndef match(type:Match):\n    return {'message':f'Its a {type.name} match, that is {type.value}-overs'}\n# URL param api , by deafaut 1 ",
+        "detail": "routers_S5.router_get",
+        "documentation": {}
+    },
+    {
+        "label": "match",
+        "kind": 2,
+        "importPath": "routers_S5.router_get",
+        "description": "routers_S5.router_get",
+        "peekOfCode": "def match(type:Match):\n    return {'message':f'Its a {type.name} match, that is {type.value}-overs'}\n# URL param api , by deafaut 1 \n@router.get(\"/{speed}\",tags=['URLparam'])\ndef start(speed:int):\n    return f\"Hii, I'm {speed}x Fast, {speed}xFastAPI\"\n# order matter if we write code like this even if we hit right url it will show error as it expect int not hey so put the literal one first or we can say put the url param api endpoint definition in last \n# @app.get(\"/user/hey\")\n# def start(speed:int):\n#     return f\"Hii, I'm {speed}x Fast, {speed}xFastAPI\"",
+        "detail": "routers_S5.router_get",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "routers_S5.router_get",
+        "description": "routers_S5.router_get",
+        "peekOfCode": "def start(speed:int):\n    return f\"Hii, I'm {speed}x Fast, {speed}xFastAPI\"\n# order matter if we write code like this even if we hit right url it will show error as it expect int not hey so put the literal one first or we can say put the url param api endpoint definition in last \n# @app.get(\"/user/hey\")\n# def start(speed:int):\n#     return f\"Hii, I'm {speed}x Fast, {speed}xFastAPI\"\n@router.get(\"/qp\",tags=['intro'])\ndef noparam():\n    return {\"Greet\":\"Hii old fossil\"}\n# @app.get(\"/qp\")",
+        "detail": "routers_S5.router_get",
+        "documentation": {}
+    },
+    {
+        "label": "noparam",
+        "kind": 2,
+        "importPath": "routers_S5.router_get",
+        "description": "routers_S5.router_get",
+        "peekOfCode": "def noparam():\n    return {\"Greet\":\"Hii old fossil\"}\n# @app.get(\"/qp\")\n# def qparam(id:int,name:str=\"Bittu\",age:int=18):\n#     return {\"Greet\":f\"Hii {name}, are you really {age}-years old\"}\n# this will n0t work as we have create to endpoint on same route so first one will remain and second one get skip , it a rule , not to have api on same route , instead we can use combination of path and query parameter to solve it \n@router.get(\"/qp/{id}\",tags=['Both-param'])\ndef qparam(id:int,name:str=\"Bittu\",age:int=18):\n    return {\"Greet\":f\"Hii {name}, are you really {age}-years old\"}\n# @app.get(\"/qp/{id}\")",
+        "detail": "routers_S5.router_get",
+        "documentation": {}
+    },
+    {
+        "label": "qparam",
+        "kind": 2,
+        "importPath": "routers_S5.router_get",
+        "description": "routers_S5.router_get",
+        "peekOfCode": "def qparam(id:int,name:str=\"Bittu\",age:int=18):\n    return {\"Greet\":f\"Hii {name}, are you really {age}-years old\"}\n# @app.get(\"/qp/{id}\")\n# def revqparam(id:int,age:int=19,name:str=\"Chintu\"):\n#     return {\"Greet\":f\"Hii {age}, are you really {name}-years old\"}\n# this will not work as we pass keywor var arg so order doesnt matter here / though we have different fucn name but it is on same route\n@router.get(\"/test-param/{id}/onpage/{pid}\",tags=['Both-param'])\ndef test(id:int,pid:int,valid:bool=True , username:str=\"Chal_Chal_Awe\"):\n    return {\"Testify\":f\"Test on {id} with page no {pid} is {valid} by {username}\"}",
+        "detail": "routers_S5.router_get",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": "routers_S5.router_get",
+        "description": "routers_S5.router_get",
+        "peekOfCode": "def test(id:int,pid:int,valid:bool=True , username:str=\"Chal_Chal_Awe\"):\n    return {\"Testify\":f\"Test on {id} with page no {pid} is {valid} by {username}\"}",
+        "detail": "routers_S5.router_get",
+        "documentation": {}
+    },
+    {
+        "label": "test1",
+        "kind": 2,
+        "importPath": "routers_S5.router_post",
+        "description": "routers_S5.router_post",
+        "peekOfCode": "def test1():\n    return \"User added successfully\"",
+        "detail": "routers_S5.router_post",
+        "documentation": {}
+    },
+    {
+        "label": "PaginationParams",
+        "kind": 6,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "class PaginationParams:\n    def __init__(self, skip: int = 0, limit: int = 10):\n        self.skip = skip\n        self.limit = limit\n@app.get(\"/products/\")\ndef list_products(pagination: PaginationParams = Depends()):\n    return {\"skip\": pagination.skip, \"limit\": pagination.limit}\n# http://127.0.0.1:8000/products/?skip=5&limit=20\n# http://127.0.0.1:8000/products/?skip=10\n# http://127.0.0.1:8000/products/---------------------------------",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "common_parameters",
+        "kind": 2,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "def common_parameters(q: str | None = None):\n    return {\"q\": q}\n@app.get('/dep_inj')\ndef di(comm:dict=Depends(common_parameters)):\n    return comm\n# http://127.0.0.1:8000/items/?q=test123--------------------------\nclass PaginationParams:\n    def __init__(self, skip: int = 0, limit: int = 10):\n        self.skip = skip\n        self.limit = limit",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "di",
+        "kind": 2,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "def di(comm:dict=Depends(common_parameters)):\n    return comm\n# http://127.0.0.1:8000/items/?q=test123--------------------------\nclass PaginationParams:\n    def __init__(self, skip: int = 0, limit: int = 10):\n        self.skip = skip\n        self.limit = limit\n@app.get(\"/products/\")\ndef list_products(pagination: PaginationParams = Depends()):\n    return {\"skip\": pagination.skip, \"limit\": pagination.limit}",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "list_products",
+        "kind": 2,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "def list_products(pagination: PaginationParams = Depends()):\n    return {\"skip\": pagination.skip, \"limit\": pagination.limit}\n# http://127.0.0.1:8000/products/?skip=5&limit=20\n# http://127.0.0.1:8000/products/?skip=10\n# http://127.0.0.1:8000/products/---------------------------------\n# Reusable Security Dependencies\ndef get_token_header(token: str | None = None):\n    if token != \"secret-token\":\n        raise HTTPException(status_code=400, detail=\"Invalid token\")\n@app.get(\"/secure-data/\")",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "get_token_header",
+        "kind": 2,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "def get_token_header(token: str | None = None):\n    if token != \"secret-token\":\n        raise HTTPException(status_code=400, detail=\"Invalid token\")\n@app.get(\"/secure-data/\")\ndef secure_data(token: str = Depends(get_token_header)):\n    return {\"secret\": \"value\"}\n# http://127.0.0.1:8000/secure-data/?token=secret-token\n# http://127.0.0.1:8000/secure-data/?token=abc----------------------------\n# Global (Router-Level) Dependencies\nrouter = APIRouter(",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "secure_data",
+        "kind": 2,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "def secure_data(token: str = Depends(get_token_header)):\n    return {\"secret\": \"value\"}\n# http://127.0.0.1:8000/secure-data/?token=secret-token\n# http://127.0.0.1:8000/secure-data/?token=abc----------------------------\n# Global (Router-Level) Dependencies\nrouter = APIRouter(\n    prefix=\"/admin\",\n    dependencies=[Depends(get_token_header)]\n)\n@router.get(\"/stats\")",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "admin_stats",
+        "kind": 2,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "def admin_stats():\n    return {\"stats\": \"admin only\"}\n# Every endpoint inside this router requires the get_token_header dependency.\n# before running any route in this router.\n# If the dependency fails, the endpoint won’t run.\n# So ALL /admin/* routes require a valid token.\n# http://127.0.0.1:8000/admin/stats?token=secret-token\n# http://127.0.0.1:8000/admin/stats?token=abc---------------------------------\n#@router.get(\"/stats\", dependencies=[Depends(get_token_header)]) --> if you want for specific operation\nfrom fastapi import Depends",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@app.get(\"/users/\")\ndef read_users(db: Session = Depends(get_db)):\n    return db.query(User).all()\n# http://127.0.0.1:8000/users/",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "read_users",
+        "kind": 2,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "def read_users(db: Session = Depends(get_db)):\n    return db.query(User).all()\n# http://127.0.0.1:8000/users/\n# http://localhost:8000/users/ -------------------------------------\nimport sqlite3\nfrom fastapi import FastAPI, Depends\napp = FastAPI()\ndef create_connection():\n    return sqlite3.connect(\"test.db\")\ndef get_connection():",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "create_connection",
+        "kind": 2,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "def create_connection():\n    return sqlite3.connect(\"test.db\")\ndef get_connection():\n    conn = create_connection()\n    try:\n        yield conn\n    finally:\n        conn.close()\n@app.get(\"/test\")\ndef test(conn = Depends(get_connection)):",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "kind": 2,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "def get_connection():\n    conn = create_connection()\n    try:\n        yield conn\n    finally:\n        conn.close()\n@app.get(\"/test\")\ndef test(conn = Depends(get_connection)):\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT sqlite_version();\")",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "def test(conn = Depends(get_connection)):\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT sqlite_version();\")\n    return {\"version\": cursor.fetchone()}\n# Request comes in\n#       ↓\n# get_connection() runs\n#       ↓\n# conn = create_connection()\n#       ↓",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "app = FastAPI()\ndef common_parameters(q: str | None = None):\n    return {\"q\": q}\n@app.get('/dep_inj')\ndef di(comm:dict=Depends(common_parameters)):\n    return comm\n# http://127.0.0.1:8000/items/?q=test123--------------------------\nclass PaginationParams:\n    def __init__(self, skip: int = 0, limit: int = 10):\n        self.skip = skip",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/admin\",\n    dependencies=[Depends(get_token_header)]\n)\n@router.get(\"/stats\")\ndef admin_stats():\n    return {\"stats\": \"admin only\"}\n# Every endpoint inside this router requires the get_token_header dependency.\n# before running any route in this router.\n# If the dependency fails, the endpoint won’t run.",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "dependency_injection",
+        "description": "dependency_injection",
+        "peekOfCode": "app = FastAPI()\ndef create_connection():\n    return sqlite3.connect(\"test.db\")\ndef get_connection():\n    conn = create_connection()\n    try:\n        yield conn\n    finally:\n        conn.close()\n@app.get(\"/test\")",
+        "detail": "dependency_injection",
+        "documentation": {}
+    },
+    {
+        "label": "start",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def start():\n    return \"Hii, I'm Fast, FastAPI\"\n## DB_S7 -- CREATE DATABASE --------------\ndb_model.Base.metadata.create_all(engine)\ndb_model2.Base.metadata.create_all(engine2)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "get_data",
+        "kind": 2,
+        "importPath": "notes",
+        "description": "notes",
+        "peekOfCode": "def get_data():\n    return {\"message\":\"HIi, Chetan Here, playing iwth FastAPI\"}\n# @app.post(\"/\")\n# def get_data():\n#     return {\"message\":\"HIi, Chetan Here, playing iwth FastAPI\"}\n# @app.post(\"/users\")\n# def create_user():\n#     return {\"msg\": \"User created\"}\n# import uvicorn\n# if __name__ == \"__main__\":",
+        "detail": "notes",
+        "documentation": {}
+    },
+    {
+        "label": "nofound",
+        "kind": 2,
+        "importPath": "operation_desc_S4",
+        "description": "operation_desc_S4",
+        "peekOfCode": "def nofound(age:int,resp:Response):\n    if age<18:\n        resp.status_code=status.HTTP_425_TOO_EARLY\n        return {\"error\":\"Underage Balak\"}\n    elif age >65:\n        resp.status_code=status.HTTP_406_NOT_ACCEPTABLE\n        return {\"error\":\"Overage BadaBalak(GHEE KHATAM)\"}\n    else:\n        resp.status_code=status.HTTP_200_OK\n        return {\"message\":\"Eligible Voter\"}",
+        "detail": "operation_desc_S4",
+        "documentation": {}
+    },
+    {
+        "label": "nofound2",
+        "kind": 2,
+        "importPath": "operation_desc_S4",
+        "description": "operation_desc_S4",
+        "peekOfCode": "def nofound2(age: int):\n    if age < 18:\n        raise HTTPException(status_code=425, detail=\"Underage Balak\")\n    elif age >65:\n        raise HTTPException(status_code=406, detail=\"Overage BadaBalak(GHEE KHATAM)\")\n    else:\n        return {\"message\":\"Eligible Voter\"}\n# S & D -------------------------------------------------------\n@app.get(\"/S-D/{id}\",tags=['OPS Desc'],summary=\"First Way\",description=\"First way to add summary and desc for API\")\ndef test(id:int=1,valid:bool=True , username:Optional[str]=\"Chal_Chal_Awe\"):",
+        "detail": "operation_desc_S4",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": "operation_desc_S4",
+        "description": "operation_desc_S4",
+        "peekOfCode": "def test(id:int=1,valid:bool=True , username:Optional[str]=\"Chal_Chal_Awe\"):\n    return {\"Testify\":f\"Test on {id} for S and D is {valid} by {username}\"}\n@app.get(\"/S-D2/{id}\",tags=['OPS Desc'])\ndef test2(id:int=1,valid:bool=True , username:Optional[str]=\"Chal_Chal_Awe\"):\n    \"\"\"\n    - **summary**=\"Second Way\"\n    - **description**=\"Second way to add summary and desc for API\"\n    \"\"\"\n    return {\"Testify\":f\"Test on {id} for S and D is {valid} by {username}\"}\n@app.get(\"/S-D3/{id}\",tags=['OPS Desc'],summary=\"First Way\",description=\"First way to add summary and desc for API\",response_description=\"Checked\")",
+        "detail": "operation_desc_S4",
+        "documentation": {}
+    },
+    {
+        "label": "test2",
+        "kind": 2,
+        "importPath": "operation_desc_S4",
+        "description": "operation_desc_S4",
+        "peekOfCode": "def test2(id:int=1,valid:bool=True , username:Optional[str]=\"Chal_Chal_Awe\"):\n    \"\"\"\n    - **summary**=\"Second Way\"\n    - **description**=\"Second way to add summary and desc for API\"\n    \"\"\"\n    return {\"Testify\":f\"Test on {id} for S and D is {valid} by {username}\"}\n@app.get(\"/S-D3/{id}\",tags=['OPS Desc'],summary=\"First Way\",description=\"First way to add summary and desc for API\",response_description=\"Checked\")\ndef test3(id:int=1,valid:bool=True , username:Optional[str]=\"Chal_Chal_Awe\"):\n    return {\"Testify\":f\"Test on {id} for S and D is {valid} by {username}\"}",
+        "detail": "operation_desc_S4",
+        "documentation": {}
+    },
+    {
+        "label": "test3",
+        "kind": 2,
+        "importPath": "operation_desc_S4",
+        "description": "operation_desc_S4",
+        "peekOfCode": "def test3(id:int=1,valid:bool=True , username:Optional[str]=\"Chal_Chal_Awe\"):\n    return {\"Testify\":f\"Test on {id} for S and D is {valid} by {username}\"}",
+        "detail": "operation_desc_S4",
+        "documentation": {}
+    },
+    {
+        "label": "UserModel",
+        "kind": 6,
+        "importPath": "parameter_metadata_S6",
+        "description": "parameter_metadata_S6",
+        "peekOfCode": "class UserModel(BaseModel):\n    name:str\n    age:int\n    format:str\n@app.post(\"/model\",tags=['parameter'])\ndef m1(user:UserModel):\n    # we can access model param like user.name,user.age . This is request bidy exampel where we need to insert dta in json format when we hit the url \n    return {\"DATA\":user}\n#this is example of request body with both param\n@app.post(\"/model-param/{id}\",tags=['parameter'])",
+        "detail": "parameter_metadata_S6",
+        "documentation": {}
+    },
+    {
+        "label": "ImageModel",
+        "kind": 6,
+        "importPath": "parameter_metadata_S6",
+        "description": "parameter_metadata_S6",
+        "peekOfCode": "class ImageModel(BaseModel):\n    url:str\n    desc:str\nclass BlogModel(BaseModel):\n    name:str\n    author:str\n    tags:List[str]=[] #complex subtype with default empty list\n    metadata:Dict[str,str]={'key1':'val1'} # we can pass any colection of python\n    image:Optional[ImageModel]=None",
+        "detail": "parameter_metadata_S6",
+        "documentation": {}
+    },
+    {
+        "label": "BlogModel",
+        "kind": 6,
+        "importPath": "parameter_metadata_S6",
+        "description": "parameter_metadata_S6",
+        "peekOfCode": "class BlogModel(BaseModel):\n    name:str\n    author:str\n    tags:List[str]=[] #complex subtype with default empty list\n    metadata:Dict[str,str]={'key1':'val1'} # we can pass any colection of python\n    image:Optional[ImageModel]=None",
+        "detail": "parameter_metadata_S6",
+        "documentation": {}
+    },
+    {
+        "label": "m1",
+        "kind": 2,
+        "importPath": "parameter_metadata_S6",
+        "description": "parameter_metadata_S6",
+        "peekOfCode": "def m1(user:UserModel):\n    # we can access model param like user.name,user.age . This is request bidy exampel where we need to insert dta in json format when we hit the url \n    return {\"DATA\":user}\n#this is example of request body with both param\n@app.post(\"/model-param/{id}\",tags=['parameter'])\ndef m1(user:UserModel,id:int,nickname=\"Chintu\"):\n    # we can access model param like user.name,user.age\n    return {\"DATA\":f\"{user} , {id}, {nickname}\"}\n##VALIDATOR ------------------------------------------------\n#parameter metadata # import Query  ",
+        "detail": "parameter_metadata_S6",
+        "documentation": {}
+    },
+    {
+        "label": "m1",
+        "kind": 2,
+        "importPath": "parameter_metadata_S6",
+        "description": "parameter_metadata_S6",
+        "peekOfCode": "def m1(user:UserModel,id:int,nickname=\"Chintu\"):\n    # we can access model param like user.name,user.age\n    return {\"DATA\":f\"{user} , {id}, {nickname}\"}\n##VALIDATOR ------------------------------------------------\n#parameter metadata # import Query  \n@app.get(\"/metadata/{id}\",tags=['parameter'])\ndef meta(user:UserModel,id:int,user_id:int=Query( \n    None,                                               ## added title and description\n    title=\"user id\",\n    description=\" User ID desc\",",
+        "detail": "parameter_metadata_S6",
+        "documentation": {}
+    },
+    {
+        "label": "meta",
+        "kind": 2,
+        "importPath": "parameter_metadata_S6",
+        "description": "parameter_metadata_S6",
+        "peekOfCode": "def meta(user:UserModel,id:int,user_id:int=Query( \n    None,                                               ## added title and description\n    title=\"user id\",\n    description=\" User ID desc\",\n    alias=\"User ID\",\n    deprecated=True\n    ),\n        content:str=Body(\"Hi hwo are you \"), # its a default value therefore optional by defalut that is if we dont provide it in json while hitting url it will still display default value\n        #if we want to make is  non optional that is madatory then we have to use '...' or Ellipsis in place of default value\n        number:int=Body(...,",
+        "detail": "parameter_metadata_S6",
+        "documentation": {}
+    },
+    {
+        "label": "read_items",
+        "kind": 2,
+        "importPath": "parameter_metadata_S6",
+        "description": "parameter_metadata_S6",
+        "peekOfCode": "def read_items(search: str = Query(None, min_length=3), limit: int = 10):\n    return {\"search\": search, \"limit\": limit}\n# BODY--  describe how JSOn both should be \n# PATH--  describe how path param both should be \n# QUERY--  describe how query param both should be\n## PARAMETER MULTIPLE VALUES ---------------------------------------\n# Multiple value -- only query parameter can have multiple values\n# URL EG-- ?User_ID=10&v=1.0&v=2.0&v=3.0 these value sent a slist to function\n@app.get(\"/multi_value\",tags=['parameter'])\ndef mv(v:Optional[List[str]]=Query(None)):",
+        "detail": "parameter_metadata_S6",
+        "documentation": {}
+    },
+    {
+        "label": "mv",
+        "kind": 2,
+        "importPath": "parameter_metadata_S6",
+        "description": "parameter_metadata_S6",
+        "peekOfCode": "def mv(v:Optional[List[str]]=Query(None)):\n    return{\n        'version':v #list of mutliple value display\n    }\n@app.get(\"/multi_value_default\",tags=['parameter'])\ndef mvdefault(v:Optional[List[str]]=Query(['1.0','2.0','3.0'])):\n    return{\n        'version':v #list of mutliple value display\n    }\n## NUMBER VALIDATOR --------------------------------------------",
+        "detail": "parameter_metadata_S6",
+        "documentation": {}
+    },
+    {
+        "label": "mvdefault",
+        "kind": 2,
+        "importPath": "parameter_metadata_S6",
+        "description": "parameter_metadata_S6",
+        "peekOfCode": "def mvdefault(v:Optional[List[str]]=Query(['1.0','2.0','3.0'])):\n    return{\n        'version':v #list of mutliple value display\n    }\n## NUMBER VALIDATOR --------------------------------------------\n@app.get(\"/nums1/{item_id}\",tags=['parameter'])\ndef read_item(item_id: int = Path(..., gt=0,lt=10)):\n    return {\"item_id\": item_id}\n@app.get(\"/nums2/{item_id}\",tags=['parameter'])\ndef read_item(item_id: int = Path(..., ge=0,le=10)):",
+        "detail": "parameter_metadata_S6",
+        "documentation": {}
+    },
+    {
+        "label": "read_item",
+        "kind": 2,
+        "importPath": "parameter_metadata_S6",
+        "description": "parameter_metadata_S6",
+        "peekOfCode": "def read_item(item_id: int = Path(..., gt=0,lt=10)):\n    return {\"item_id\": item_id}\n@app.get(\"/nums2/{item_id}\",tags=['parameter'])\ndef read_item(item_id: int = Path(..., ge=0,le=10)):\n    return {\"item_id\": item_id}\n##COMPLEX SUBTYPE ---------------------------------------------------\nclass ImageModel(BaseModel):\n    url:str\n    desc:str\nclass BlogModel(BaseModel):",
+        "detail": "parameter_metadata_S6",
+        "documentation": {}
+    },
+    {
+        "label": "read_item",
+        "kind": 2,
+        "importPath": "parameter_metadata_S6",
+        "description": "parameter_metadata_S6",
+        "peekOfCode": "def read_item(item_id: int = Path(..., ge=0,le=10)):\n    return {\"item_id\": item_id}\n##COMPLEX SUBTYPE ---------------------------------------------------\nclass ImageModel(BaseModel):\n    url:str\n    desc:str\nclass BlogModel(BaseModel):\n    name:str\n    author:str\n    tags:List[str]=[] #complex subtype with default empty list",
+        "detail": "parameter_metadata_S6",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "schema2",
+        "description": "schema2",
+        "peekOfCode": "class UserBase(BaseModel):\n    username:str\n    email:str\n    password:str\nclass Article(BaseModel):\n    title:str\n    content:str\n    published:bool\n    class Config():\n        from_attributes=True",
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "Article",
+        "kind": 6,
+        "importPath": "schema2",
+        "description": "schema2",
+        "peekOfCode": "class Article(BaseModel):\n    title:str\n    content:str\n    published:bool\n    class Config():\n        from_attributes=True\nclass UserDisplay(BaseModel):\n    username:str\n    email:str\n    items:List[Article]=[]",
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "UserDisplay",
+        "kind": 6,
+        "importPath": "schema2",
+        "description": "schema2",
+        "peekOfCode": "class UserDisplay(BaseModel):\n    username:str\n    email:str\n    items:List[Article]=[]\n    class Config():\n        from_attributes=True\nclass ArticleBase(BaseModel):\n    title:str\n    content:str\n    published:bool",
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleBase",
+        "kind": 6,
+        "importPath": "schema2",
+        "description": "schema2",
+        "peekOfCode": "class ArticleBase(BaseModel):\n    title:str\n    content:str\n    published:bool\n    customer_id:int\nclass User(BaseModel):\n    id:int\n    username:str\n    class Config():\n        from_attributes=True",
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "schema2",
+        "description": "schema2",
+        "peekOfCode": "class User(BaseModel):\n    id:int\n    username:str\n    class Config():\n        from_attributes=True\nclass ArticleDisplay(BaseModel):\n    title:str\n    content:str\n    published:bool\n    user:User",
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "ArticleDisplay",
+        "kind": 6,
+        "importPath": "schema2",
+        "description": "schema2",
+        "peekOfCode": "class ArticleDisplay(BaseModel):\n    title:str\n    content:str\n    published:bool\n    user:User\n    class Config():\n        from_attributes=True",
+        "detail": "schema2",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "schema_db",
+        "description": "schema_db",
+        "peekOfCode": "class UserBase(BaseModel):\n    username:str\n    email:str\n    password:str\nclass UserDisplay(BaseModel):\n    username:str\n    email:str\n    class Config():\n        from_attributes=True",
+        "detail": "schema_db",
+        "documentation": {}
+    },
+    {
+        "label": "UserDisplay",
+        "kind": 6,
+        "importPath": "schema_db",
+        "description": "schema_db",
+        "peekOfCode": "class UserDisplay(BaseModel):\n    username:str\n    email:str\n    class Config():\n        from_attributes=True",
+        "detail": "schema_db",
+        "documentation": {}
+    }
+]

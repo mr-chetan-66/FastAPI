@@ -1,0 +1,31 @@
+from fastapi import Depends,APIRouter,HTTPException
+from DB_2 import db_func2
+from DB_2.database2 import get_db
+from schema2 import ArticleBase, ArticleDisplay, UserBase, UserDisplay
+from sqlalchemy.orm import Session
+
+
+router=APIRouter(prefix='/db_route2',tags=['db_route2'])
+
+@router.post("/create_user",response_model=UserDisplay)
+def create_user(request:UserBase,db:Session=Depends(get_db)):
+    return db_func2.create_user(request,db)
+
+@router.get('/read_user/{id}',response_model=UserDisplay)
+def read_user(id:int,db:Session=Depends(get_db)):
+    user=db_func2.read_user(id,db)
+    if user is None:
+        raise HTTPException(status_code=404,detail='User Not Found')
+    return user
+
+@router.post("/create_article",response_model=ArticleDisplay)
+def create_article(request:ArticleBase,db:Session=Depends(get_db)):
+    return db_func2.create_article(request,db)
+
+@router.get("/read_article/{id}",response_model=ArticleDisplay)
+def read_article(id:int,db:Session=Depends(get_db)):
+    article=db_func2.read_article(id,db)
+    if article is None:
+        raise HTTPException(status_code=404,detail='Article Not Found')
+    return article
+    

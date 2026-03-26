@@ -1,0 +1,41 @@
+from DB_2.db_model2 import DbArticle, DbUser
+from DB_2.hash2 import Hash
+from schema2 import ArticleBase, UserBase
+from sqlalchemy.orm import Session
+
+def create_user(request:UserBase,db:Session):
+    new_user=DbUser(
+        username=request.username,
+        email=request.email,
+        password=Hash.hash(request.password)
+    )
+    db.add(new_user)
+    db.commit()
+    db.refresh(new_user)
+    return new_user
+
+def read_user(id:int,db:Session):
+    user=db.query(DbUser).filter(DbUser.id==id).first()
+    if user is None:
+        return None
+    return user
+
+def create_article(request:ArticleBase,db:Session):
+    new_article=DbArticle(
+        title=request.title,
+        content=request.content,
+        published=request.published,
+        user_id=request.customer_id
+    )
+    
+    db.add(new_article)
+    db.commit()
+    db.refresh(new_article)
+    return new_article
+
+def read_article(id:int,db:Session):
+    article=db.query(DbArticle).filter(DbArticle.id==id).first()
+    if article is None:
+        return None
+    
+    return article
