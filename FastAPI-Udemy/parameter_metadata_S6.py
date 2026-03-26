@@ -5,7 +5,7 @@ from typing import Optional,List,Dict
 app=FastAPI()
 
 
-##REQUEST BODY
+##REQUEST BODY----------------------------------------------
 class UserModel(BaseModel):
     name:str
     age:int
@@ -23,7 +23,7 @@ def m1(user:UserModel,id:int,nickname="Chintu"):
     # we can access model param like user.name,user.age
     return {"DATA":f"{user} , {id}, {nickname}"}
 
-##VALIDATOR
+##VALIDATOR ------------------------------------------------
 #parameter metadata # import Query  
 @app.get("/metadata/{id}",tags=['parameter'])
 def meta(user:UserModel,id:int,user_id:int=Query( 
@@ -59,7 +59,7 @@ def read_items(search: str = Query(None, min_length=3), limit: int = 10):
 # QUERY--  describe how query param both should be
 
 
-## PARAMETER MULTIPLE VALUES
+## PARAMETER MULTIPLE VALUES ---------------------------------------
 # Multiple value -- only query parameter can have multiple values
 # URL EG-- ?User_ID=10&v=1.0&v=2.0&v=3.0 these value sent a slist to function
 
@@ -75,7 +75,7 @@ def mvdefault(v:Optional[List[str]]=Query(['1.0','2.0','3.0'])):
         'version':v #list of mutliple value display
     }
     
-## NUMBER VALIDATOR
+## NUMBER VALIDATOR --------------------------------------------
 @app.get("/nums1/{item_id}",tags=['parameter'])
 def read_item(item_id: int = Path(..., gt=0,lt=10)):
     return {"item_id": item_id}
@@ -84,7 +84,7 @@ def read_item(item_id: int = Path(..., gt=0,lt=10)):
 def read_item(item_id: int = Path(..., ge=0,le=10)):
     return {"item_id": item_id}
 
-##COMPLEX SUBTYPE
+##COMPLEX SUBTYPE ---------------------------------------------------
 
 class ImageModel(BaseModel):
     url:str

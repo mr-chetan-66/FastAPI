@@ -3,7 +3,7 @@ from typing import Optional
 
 app=FastAPI()
 
-#Status code
+#Status code-------------------------------------
 
 @app.get("/status/{age}",tags=['OPS Desc'])
 def nofound(age:int,resp:Response):
@@ -28,7 +28,7 @@ def nofound2(age: int):
     else:
         return {"message":"Eligible Voter"}
     
-# S & D
+# S & D -------------------------------------------------------
 @app.get("/S-D/{id}",tags=['OPS Desc'],summary="First Way",description="First way to add summary and desc for API")
 def test(id:int=1,valid:bool=True , username:Optional[str]="Chal_Chal_Awe"):
     return {"Testify":f"Test on {id} for S and D is {valid} by {username}"}

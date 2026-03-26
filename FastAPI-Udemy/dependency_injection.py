@@ -9,7 +9,7 @@ def common_parameters(q: str | None = None):
 def di(comm:dict=Depends(common_parameters)):
     return comm
 
-# http://127.0.0.1:8000/items/?q=test123
+# http://127.0.0.1:8000/items/?q=test123--------------------------
 
 class PaginationParams:
     def __init__(self, skip: int = 0, limit: int = 10):
@@ -22,7 +22,7 @@ def list_products(pagination: PaginationParams = Depends()):
 
 # http://127.0.0.1:8000/products/?skip=5&limit=20
 # http://127.0.0.1:8000/products/?skip=10
-# http://127.0.0.1:8000/products/
+# http://127.0.0.1:8000/products/---------------------------------
 
 # Reusable Security Dependencies
 
@@ -35,7 +35,7 @@ def secure_data(token: str = Depends(get_token_header)):
     return {"secret": "value"}
 
 # http://127.0.0.1:8000/secure-data/?token=secret-token
-# http://127.0.0.1:8000/secure-data/?token=abc
+# http://127.0.0.1:8000/secure-data/?token=abc----------------------------
 
 # Global (Router-Level) Dependencies
 router = APIRouter(
@@ -52,7 +52,7 @@ def admin_stats():
 # If the dependency fails, the endpoint won’t run.
 # So ALL /admin/* routes require a valid token.
 # http://127.0.0.1:8000/admin/stats?token=secret-token
-# http://127.0.0.1:8000/admin/stats?token=abc
+# http://127.0.0.1:8000/admin/stats?token=abc---------------------------------
 
 #@router.get("/stats", dependencies=[Depends(get_token_header)]) --> if you want for specific operation
 
@@ -72,7 +72,7 @@ def read_users(db: Session = Depends(get_db)):
     return db.query(User).all()
 
 # http://127.0.0.1:8000/users/
-# http://localhost:8000/users/
+# http://localhost:8000/users/ -------------------------------------
 
 import sqlite3
 from fastapi import FastAPI, Depends
