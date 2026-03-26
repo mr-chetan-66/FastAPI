@@ -36,7 +36,7 @@ def update(id:int,request:UserBase,db:Session):
     
     
 def delete(id:int,db:Session):
-    user=db.delete(DbUser).filter(DbUser.id==id).first()
+    user=db.query(DbUser).filter(DbUser.id==id).first()
     if user is None:
         return None
     

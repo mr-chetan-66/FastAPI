@@ -48,6 +48,22 @@
         "documentation": {}
     },
     {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -129,6 +145,14 @@
     },
     {
         "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -201,14 +225,6 @@
     },
     {
         "label": "Path",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -377,6 +393,14 @@
     },
     {
         "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
         "importPath": "sqlalchemy.orm.session",
         "description": "sqlalchemy.orm.session",
         "isExtraImport": true,
@@ -416,6 +440,14 @@
         "documentation": {}
     },
     {
+        "label": "DbUser",
+        "importPath": "DB_S7.db_model",
+        "description": "DB_S7.db_model",
+        "isExtraImport": true,
+        "detail": "DB_S7.db_model",
+        "documentation": {}
+    },
+    {
         "label": "Hash",
         "importPath": "DB_S7.hash",
         "description": "DB_S7.hash",
@@ -425,6 +457,14 @@
     },
     {
         "label": "Base",
+        "importPath": "DB_S7.database",
+        "description": "DB_S7.database",
+        "isExtraImport": true,
+        "detail": "DB_S7.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
         "importPath": "DB_S7.database",
         "description": "DB_S7.database",
         "isExtraImport": true,
@@ -506,6 +546,14 @@
     },
     {
         "label": "db_route",
+        "importPath": "routers_S5",
+        "description": "routers_S5",
+        "isExtraImport": true,
+        "detail": "routers_S5",
+        "documentation": {}
+    },
+    {
+        "label": "live_viewer",
         "importPath": "routers_S5",
         "description": "routers_S5",
         "isExtraImport": true,
@@ -670,7 +718,7 @@
         "kind": 2,
         "importPath": "FastAPI-Udemy.DB_S7.db_func",
         "description": "FastAPI-Udemy.DB_S7.db_func",
-        "peekOfCode": "def delete(id:int,db:Session):\n    user=db.delete(DbUser).filter(DbUser.id==id).first()\n    if user is None:\n        return None\n    db.delete(user)\n    db.commit()\n    return user",
+        "peekOfCode": "def delete(id:int,db:Session):\n    user=db.query(DbUser).filter(DbUser.id==id).first()\n    if user is None:\n        return None\n    db.delete(user)\n    db.commit()\n    return user",
         "detail": "FastAPI-Udemy.DB_S7.db_func",
         "documentation": {}
     },
@@ -706,7 +754,7 @@
         "kind": 2,
         "importPath": "FastAPI-Udemy.routers_S5.db_route",
         "description": "FastAPI-Udemy.routers_S5.db_route",
-        "peekOfCode": "def create_user(request:UserBase,db:Session=Depends(get_db)):\n    return db_func.create_user(request,db)\n## READ ALL USER\n@router.post(\"/read_all\",response_model=List[UserDisplay])\ndef read_all(db:Session=Depends(get_db)):\n    return db_func.read_all(db)\n## READ ONE USER\n@router.post(\"/read/{id}\",response_model=UserDisplay)\ndef read_one(id:int,db:Session=Depends(get_db)):\n    user=db_func.read_one(db)",
+        "peekOfCode": "def create_user(request:UserBase,db:Session=Depends(get_db)):\n    return db_func.create_user(request,db)\n## READ ALL USER\n@router.get(\"/read_all\",response_model=List[UserDisplay])\ndef read_all(db:Session=Depends(get_db)):\n    return db_func.read_all(db)\n## READ ONE USER\n@router.get(\"/read/{id}\",response_model=UserDisplay)\ndef read_one(id:int,db:Session=Depends(get_db)):\n    user=db_func.read_one(id,db)",
         "detail": "FastAPI-Udemy.routers_S5.db_route",
         "documentation": {}
     },
@@ -715,7 +763,7 @@
         "kind": 2,
         "importPath": "FastAPI-Udemy.routers_S5.db_route",
         "description": "FastAPI-Udemy.routers_S5.db_route",
-        "peekOfCode": "def read_all(db:Session=Depends(get_db)):\n    return db_func.read_all(db)\n## READ ONE USER\n@router.post(\"/read/{id}\",response_model=UserDisplay)\ndef read_one(id:int,db:Session=Depends(get_db)):\n    user=db_func.read_one(db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n## UPDATE USER",
+        "peekOfCode": "def read_all(db:Session=Depends(get_db)):\n    return db_func.read_all(db)\n## READ ONE USER\n@router.get(\"/read/{id}\",response_model=UserDisplay)\ndef read_one(id:int,db:Session=Depends(get_db)):\n    user=db_func.read_one(id,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n## UPDATE USER",
         "detail": "FastAPI-Udemy.routers_S5.db_route",
         "documentation": {}
     },
@@ -724,7 +772,7 @@
         "kind": 2,
         "importPath": "FastAPI-Udemy.routers_S5.db_route",
         "description": "FastAPI-Udemy.routers_S5.db_route",
-        "peekOfCode": "def read_one(id:int,db:Session=Depends(get_db)):\n    user=db_func.read_one(db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n## UPDATE USER\n@router.post(\"/update/{id}\",response_model=UserDisplay)\ndef update(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.update(id,request,db)\n    if user is None:",
+        "peekOfCode": "def read_one(id:int,db:Session=Depends(get_db)):\n    user=db_func.read_one(id,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n## UPDATE USER\n@router.put(\"/update/{id}\",response_model=UserDisplay)\ndef update(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.update(id,request,db)\n    if user is None:",
         "detail": "FastAPI-Udemy.routers_S5.db_route",
         "documentation": {}
     },
@@ -733,7 +781,7 @@
         "kind": 2,
         "importPath": "FastAPI-Udemy.routers_S5.db_route",
         "description": "FastAPI-Udemy.routers_S5.db_route",
-        "peekOfCode": "def update(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.update(id,request,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n## DELETE USER\n@router.post(\"/delete/{id}\",response_model=UserDisplay)\ndef delete(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.delete(id,request,db)\n    if user is None:",
+        "peekOfCode": "def update(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.update(id,request,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n## DELETE USER\n@router.delete(\"/delete/{id}\",response_model=UserDisplay)\ndef delete(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.delete(id,db)\n    if user is None:",
         "detail": "FastAPI-Udemy.routers_S5.db_route",
         "documentation": {}
     },
@@ -742,8 +790,26 @@
         "kind": 2,
         "importPath": "FastAPI-Udemy.routers_S5.db_route",
         "description": "FastAPI-Udemy.routers_S5.db_route",
-        "peekOfCode": "def delete(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.delete(id,request,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user",
+        "peekOfCode": "def delete(id:int,request:UserBase,db:Session=Depends(get_db)):\n    user=db_func.delete(id,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user",
         "detail": "FastAPI-Udemy.routers_S5.db_route",
+        "documentation": {}
+    },
+    {
+        "label": "live_users",
+        "kind": 2,
+        "importPath": "FastAPI-Udemy.routers_S5.live_viewer",
+        "description": "FastAPI-Udemy.routers_S5.live_viewer",
+        "peekOfCode": "def live_users(db: Session = Depends(get_db)):\n    users = db.query(DbUser).all()\n    # Convert SQLAlchemy objects → dict\n    output = []\n    for u in users:\n        d = u.__dict__.copy()\n        d.pop(\"_sa_instance_state\", None)\n        output.append(d)\n    return output",
+        "detail": "FastAPI-Udemy.routers_S5.live_viewer",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "FastAPI-Udemy.routers_S5.live_viewer",
+        "description": "FastAPI-Udemy.routers_S5.live_viewer",
+        "peekOfCode": "router = APIRouter(\n    prefix=\"/live\",\n    tags=[\"Live Debug\"]\n)\n@router.get(\"/users\")\ndef live_users(db: Session = Depends(get_db)):\n    users = db.query(DbUser).all()\n    # Convert SQLAlchemy objects → dict\n    output = []\n    for u in users:",
+        "detail": "FastAPI-Udemy.routers_S5.live_viewer",
         "documentation": {}
     },
     {
@@ -963,6 +1029,15 @@
         "documentation": {}
     },
     {
+        "label": "get_data",
+        "kind": 2,
+        "importPath": "FastAPI-Udemy.notes",
+        "description": "FastAPI-Udemy.notes",
+        "peekOfCode": "def get_data():\n    return {\"message\":\"HIi, Chetan Here, playing iwth FastAPI\"}\n# @app.post(\"/\")\n# def get_data():\n#     return {\"message\":\"HIi, Chetan Here, playing iwth FastAPI\"}\n# @app.post(\"/users\")\n# def create_user():\n#     return {\"msg\": \"User created\"}\n# import uvicorn\n# if __name__ == \"__main__\":",
+        "detail": "FastAPI-Udemy.notes",
+        "documentation": {}
+    },
+    {
         "label": "nofound",
         "kind": 2,
         "importPath": "FastAPI-Udemy.operation_desc_S4",
@@ -1109,9 +1184,18 @@
     {
         "label": "UserBase",
         "kind": 6,
+        "importPath": "FastAPI-Udemy.schema2",
+        "description": "FastAPI-Udemy.schema2",
+        "peekOfCode": "class UserBase(BaseModel):",
+        "detail": "FastAPI-Udemy.schema2",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
         "importPath": "FastAPI-Udemy.schema_db",
         "description": "FastAPI-Udemy.schema_db",
-        "peekOfCode": "class UserBase(BaseModel):\n    username:str\n    email:str\n    password:str\nclass UserDisplay(BaseModel):\n    username:str\n    email:str\n    class Config():\n        orm_mode=True",
+        "peekOfCode": "class UserBase(BaseModel):\n    username:str\n    email:str\n    password:str\nclass UserDisplay(BaseModel):\n    username:str\n    email:str\n    class Config():\n        from_attributes=True",
         "detail": "FastAPI-Udemy.schema_db",
         "documentation": {}
     },
@@ -1120,17 +1204,8 @@
         "kind": 6,
         "importPath": "FastAPI-Udemy.schema_db",
         "description": "FastAPI-Udemy.schema_db",
-        "peekOfCode": "class UserDisplay(BaseModel):\n    username:str\n    email:str\n    class Config():\n        orm_mode=True",
+        "peekOfCode": "class UserDisplay(BaseModel):\n    username:str\n    email:str\n    class Config():\n        from_attributes=True",
         "detail": "FastAPI-Udemy.schema_db",
-        "documentation": {}
-    },
-    {
-        "label": "get_data",
-        "kind": 2,
-        "importPath": "notes",
-        "description": "notes",
-        "peekOfCode": "def get_data():\n    return {\"message\":\"HIi, Chetan Here, playing iwth FastAPI\"}\n# @app.post(\"/\")\n# def get_data():\n#     return {\"message\":\"HIi, Chetan Here, playing iwth FastAPI\"}\n# @app.post(\"/users\")\n# def create_user():\n#     return {\"msg\": \"User created\"}\n# import uvicorn\n# if __name__ == \"__main__\":",
-        "detail": "notes",
         "documentation": {}
     }
 ]

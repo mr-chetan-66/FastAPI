@@ -18,21 +18,21 @@ def create_user(request:UserBase,db:Session=Depends(get_db)):
     return db_func.create_user(request,db)
 
 ## READ ALL USER
-@router.post("/read_all",response_model=List[UserDisplay])
+@router.get("/read_all",response_model=List[UserDisplay])
 def read_all(db:Session=Depends(get_db)):
     return db_func.read_all(db)
 
 
 ## READ ONE USER
-@router.post("/read/{id}",response_model=UserDisplay)
+@router.get("/read/{id}",response_model=UserDisplay)
 def read_one(id:int,db:Session=Depends(get_db)):
-    user=db_func.read_one(db)
+    user=db_func.read_one(id,db)
     if user is None:
         raise HTTPException(status_code=404,detail='User Not Found')
     return user
 
 ## UPDATE USER
-@router.post("/update/{id}",response_model=UserDisplay)
+@router.put("/update/{id}",response_model=UserDisplay)
 def update(id:int,request:UserBase,db:Session=Depends(get_db)):
     user=db_func.update(id,request,db)
     if user is None:
@@ -40,9 +40,9 @@ def update(id:int,request:UserBase,db:Session=Depends(get_db)):
     return user
 
 ## DELETE USER
-@router.post("/delete/{id}",response_model=UserDisplay)
+@router.delete("/delete/{id}",response_model=UserDisplay)
 def delete(id:int,request:UserBase,db:Session=Depends(get_db)):
-    user=db_func.delete(id,request,db)
+    user=db_func.delete(id,db)
     if user is None:
         raise HTTPException(status_code=404,detail='User Not Found')
     return user

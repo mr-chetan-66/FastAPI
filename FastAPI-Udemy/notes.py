@@ -177,3 +177,5 @@ def get_data():
 # def read_item(item_id: int): # item_id=None
 #     return {"item_id": item_id}
 
+# Path and Query ---> always in URL
+# body and pydantic model --> json payload/body
