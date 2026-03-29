@@ -1,4 +1,5 @@
 from DB_2.db_model2 import DbArticle, DbUser
+from DB_2.exception import StoryException
 from DB_2.hash2 import Hash
 from schema2 import ArticleBase, UserBase
 from sqlalchemy.orm import Session
@@ -20,7 +21,15 @@ def read_user(id:int,db:Session):
         return None
     return user
 
+def read_user_by_username(name:str,db:Session):
+    user=db.query(DbUser).filter(DbUser.username==name).first()
+    if user is None:
+        return None
+    return user
+
 def create_article(request:ArticleBase,db:Session):
+    if request.content.startswith('Once upon a time'):
+        raise StoryException("No storytelling please.")
     new_article=DbArticle(
         title=request.title,
         content=request.content,

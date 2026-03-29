@@ -1,3 +1,5 @@
+from logging import ERROR
+
 from fastapi import FastAPI
 
 app=FastAPI()
@@ -179,3 +181,120 @@ def get_data():
 
 # Path and Query ---> always in URL
 # body and pydantic model --> json payload/body
+
+
+# STATUS CODE:
+
+# 1XX ===    INFORMATIONAL
+# 2XX ===    SUCCESS
+# 3XX ===    REDIRECTION
+# 4XX ===    CLIENT ERROR
+# 5XX ===    SERVER ERROR
+
+# Request is an object that contains everything the client sends to the server.
+# When a browser or API client hits your FastAPI endpoint, the incoming HTTP request contains:
+
+# URL (path)
+# Query parameters
+# Headers
+# Cookies
+# Form data
+# JSON body
+# Client IP
+# Method (GET/POST/PUT etc.)
+# Files uploaded
+
+# FastAPI wraps all of this into a Request object.
+
+## FASTAPI AUTHENTICATION --
+
+# Headers are metadata sent with an HTTP request or response.
+# They are NOT part of the body.
+# ✔ Use cases
+# Common examples:
+
+# Authorization (Bearer tokens, API keys)
+# Content-Type (JSON, HTML, file, etc.)
+# User-Agent (browser/device info)
+# CORS headers
+# Custom metadata (X-Request-ID, X-Client-Version, etc.)
+
+# from fastapi import FastAPI, Response, Cookie
+
+# app = FastAPI()
+
+# @app.get("/set-cookie")
+# def set_cookie(response: Response):
+#     response.set_cookie(key="session_id", value="abc123")
+#     return {"message": "cookie set"}
+
+# @app.get("/read-cookie")
+# def read_cookie(session_id: str = Cookie(None)):
+#     return {"session_id": session_id}
+
+# OAuth2PasswordBearer tells FastAPI:
+
+# "This API will receive a token from the user"
+# "The token will be sent in the header: Authorization: Bearer <token>"</token>
+# "tokenUrl='token'" means:
+# The client must request the token from the /token endpoint.
+
+# Your login/password are sent in the body of the request, NOT the URL.
+
+# @router.post("/token")
+# def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
+#     user = authenticate(form_data.username, form_data.password)
+#     token = create_access_token({"sub": user.username})
+#     return {"access_token": token, "token_type": "bearer"}
+
+
+# OAuth2PasswordRequestForm = Depends()
+# This means:
+
+# FastAPI automatically reads username/password from form data
+# Not from the URL
+# Not from query parameters
+# Not from headers
+
+
+# token: str = Depends(oauth2_scheme)
+# FastAPI does:
+
+# Look inside HTTP headers
+# Find Authorization: Bearer <token>
+# Extract the token
+# Give the raw token string to your function
+
+# That's it.
+# No verification yet.
+
+
+# FastAPI has a built-in OAuth2 system.
+# When you write this:
+
+
+# request: OAuth2PasswordRequestForm = Depends()
+
+# FastAPI automatically extracts:
+
+# username
+# password
+
+# from the request BODY
+
+
+# 🔥 YOU HAVE TWO COMPLETELY SEPARATE PROCESSES
+# 1️⃣ Token Generation (Login)
+# Endpoint: /token
+
+# User sends username/password
+# Server checks DB
+# Server creates JWT
+# Returns JWT
+
+# This is required by OAuth2 Password Flow.
+
+# 2️⃣ Token Verification (Protected Endpoints)
+# Your code validates token manually, e.g.:
+# PythonDepends(get_current_user)Show more lines
+# This step has nothing to do with /token.

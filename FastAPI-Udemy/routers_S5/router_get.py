@@ -1,6 +1,7 @@
-from fastapi import APIRouter,status,Response,HTTPException
+from fastapi import APIRouter
 from enum import Enum
 from typing import Optional
+
 
 router=APIRouter(
     prefix='/user',
@@ -53,4 +54,8 @@ def qparam(id:int,name:str="Bittu",age:int=18):
 @router.get("/test-param/{id}/onpage/{pid}",tags=['Both-param'])
 def test(id:int,pid:int,valid:bool=True , username:str="Chal_Chal_Awe"):
     return {"Testify":f"Test on {id} with page no {pid} is {valid} by {username}"}
+
+
+
+
 
