@@ -1,5 +1,6 @@
 from typing import List
 from fastapi import APIRouter,Depends,HTTPException
+from custom_log import database_log
 from schema_db import UserBase, UserDisplay
 from sqlalchemy.orm import Session
 from DB_S7.database import get_db
@@ -8,7 +9,8 @@ from DB_S7 import db_func
 
 router=APIRouter(
     prefix='/db_user',
-    tags=['db_user']
+    tags=['db_user'],
+    dependencies=[Depends(database_log)]
 )
 
 

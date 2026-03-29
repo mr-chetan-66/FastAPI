@@ -1,0 +1,4 @@
+Create User : User jetha is created 
+MyResponseAPI : Raw Response  
+http://127.0.0.1:8000/response/raw?tags=MyResponseAPI&message=Raw%20Response%20 
+ 

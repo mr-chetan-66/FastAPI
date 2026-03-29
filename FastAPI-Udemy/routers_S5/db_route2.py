@@ -4,12 +4,16 @@ from DB_2.database2 import get_db
 from schema2 import ArticleBase, ArticleDisplay, UserBase, UserDisplay
 from sqlalchemy.orm import Session
 from Auth_S9.oauth2 import verify_user_using_jwt
+from custom_log import database_log, log
 
-
-router=APIRouter(prefix='/db_route2',tags=['db_route2'])
+router=APIRouter(
+    prefix='/db_route2',
+    tags=['db_route2'],
+    dependencies=[Depends(database_log)])
 
 @router.post("/create_user",response_model=UserDisplay)
 def create_user(request:UserBase,db:Session=Depends(get_db)):
+    log("Create User",f"User {request.username} is created")
     return db_func2.create_user(request,db)
 
 @router.get('/read_user/{id}',response_model=UserDisplay)

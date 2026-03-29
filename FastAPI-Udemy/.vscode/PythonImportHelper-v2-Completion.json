@@ -1,5 +1,14 @@
 [
     {
+        "label": "fastapi",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -113,6 +122,30 @@
     },
     {
         "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -176,6 +209,22 @@
         "documentation": {}
     },
     {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -192,7 +241,15 @@
         "documentation": {}
     },
     {
-        "label": "HTTPException",
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -201,22 +258,6 @@
     },
     {
         "label": "Request",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -273,14 +314,6 @@
     },
     {
         "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -441,6 +474,22 @@
     },
     {
         "label": "Base",
+        "importPath": "DB_2.database2",
+        "description": "DB_2.database2",
+        "isExtraImport": true,
+        "detail": "DB_2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "DB_2.database2",
+        "description": "DB_2.database2",
+        "isExtraImport": true,
+        "detail": "DB_2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
         "importPath": "DB_2.database2",
         "description": "DB_2.database2",
         "isExtraImport": true,
@@ -1040,6 +1089,38 @@
         "documentation": {}
     },
     {
+        "label": "database_log",
+        "importPath": "custom_log",
+        "description": "custom_log",
+        "isExtraImport": true,
+        "detail": "custom_log",
+        "documentation": {}
+    },
+    {
+        "label": "database_log",
+        "importPath": "custom_log",
+        "description": "custom_log",
+        "isExtraImport": true,
+        "detail": "custom_log",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "custom_log",
+        "description": "custom_log",
+        "isExtraImport": true,
+        "detail": "custom_log",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "importPath": "custom_log",
+        "description": "custom_log",
+        "isExtraImport": true,
+        "detail": "custom_log",
+        "documentation": {}
+    },
+    {
         "label": "db_func",
         "importPath": "DB_S7",
         "description": "DB_S7",
@@ -1053,6 +1134,23 @@
         "description": "DB_S7",
         "isExtraImport": true,
         "detail": "DB_S7",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi.responses",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
         "documentation": {}
     },
     {
@@ -1104,11 +1202,46 @@
         "documentation": {}
     },
     {
+        "label": "HTMLResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
         "label": "JSONResponse",
         "importPath": "fastapi.responses",
         "description": "fastapi.responses",
         "isExtraImport": true,
         "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
         "documentation": {}
     },
     {
@@ -1137,6 +1270,14 @@
         "documentation": {}
     },
     {
+        "label": "init",
+        "importPath": "mimetypes",
+        "description": "mimetypes",
+        "isExtraImport": true,
+        "detail": "mimetypes",
+        "documentation": {}
+    },
+    {
         "label": "sqlite3",
         "kind": 6,
         "isExtraImport": true,
@@ -1146,11 +1287,35 @@
         "documentation": {}
     },
     {
+        "label": "html",
+        "importPath": "client",
+        "description": "client",
+        "isExtraImport": true,
+        "detail": "client",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi.websockets",
+        "description": "fastapi.websockets",
+        "isExtraImport": true,
+        "detail": "fastapi.websockets",
+        "documentation": {}
+    },
+    {
         "label": "authetication_route",
         "importPath": "Auth_S9",
         "description": "Auth_S9",
         "isExtraImport": true,
         "detail": "Auth_S9",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "importPath": "routers_S5",
+        "description": "routers_S5",
+        "isExtraImport": true,
+        "detail": "routers_S5",
         "documentation": {}
     },
     {
@@ -1218,11 +1383,35 @@
         "documentation": {}
     },
     {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
         "label": "ERROR",
         "importPath": "logging",
         "description": "logging",
         "isExtraImport": true,
         "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
         "documentation": {}
     },
     {
@@ -1653,7 +1842,7 @@
         "kind": 2,
         "importPath": "routers_S5.db_route2",
         "description": "routers_S5.db_route2",
-        "peekOfCode": "def create_user(request:UserBase,db:Session=Depends(get_db)):\n    return db_func2.create_user(request,db)\n@router.get('/read_user/{id}',response_model=UserDisplay)\ndef read_user(id:int,db:Session=Depends(get_db),current_user:UserBase=Depends(verify_user_using_jwt)):\n    user=db_func2.read_user(id,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n@router.post(\"/create_article\",response_model=ArticleDisplay)\ndef create_article(request:ArticleBase,db:Session=Depends(get_db)):",
+        "peekOfCode": "def create_user(request:UserBase,db:Session=Depends(get_db)):\n    log(\"Create User\",f\"User {request.username} is created\")\n    return db_func2.create_user(request,db)\n@router.get('/read_user/{id}',response_model=UserDisplay)\ndef read_user(id:int,db:Session=Depends(get_db),current_user:UserBase=Depends(verify_user_using_jwt)):\n    user=db_func2.read_user(id,db)\n    if user is None:\n        raise HTTPException(status_code=404,detail='User Not Found')\n    return user\n@router.post(\"/create_article\",response_model=ArticleDisplay)",
         "detail": "routers_S5.db_route2",
         "documentation": {}
     },
@@ -1682,6 +1871,33 @@
         "description": "routers_S5.db_route2",
         "peekOfCode": "def read_article(id:int,db:Session=Depends(get_db),current_user:UserBase=Depends(verify_user_using_jwt)):\n    article=db_func2.read_article(id,db)\n    if article is None:\n        raise HTTPException(status_code=404,detail='Article Not Found')\n    return {'data':article,\n            'Current User':current_user}",
         "detail": "routers_S5.db_route2",
+        "documentation": {}
+    },
+    {
+        "label": "get_file",
+        "kind": 2,
+        "importPath": "routers_S5.file",
+        "description": "routers_S5.file",
+        "peekOfCode": "def get_file(file:bytes=File(...)):\n    content=file.decode('utf-8').split(\"\\r\\n\")\n    return content\n#@uploadfile is wrapper of file \n@router.post('/2')\ndef get_file_by_uploadfile(upload_file:UploadFile=File(...)):\n    path=f'./Files_S10/{upload_file.filename}'\n    with open(path,\"wb\") as f:\n        #shutil is a built-in Python module for high-level file operations. shell utilities → shutil\n        shutil.copyfileobj(upload_file.file,f)",
+        "detail": "routers_S5.file",
+        "documentation": {}
+    },
+    {
+        "label": "get_file_by_uploadfile",
+        "kind": 2,
+        "importPath": "routers_S5.file",
+        "description": "routers_S5.file",
+        "peekOfCode": "def get_file_by_uploadfile(upload_file:UploadFile=File(...)):\n    path=f'./Files_S10/{upload_file.filename}'\n    with open(path,\"wb\") as f:\n        #shutil is a built-in Python module for high-level file operations. shell utilities → shutil\n        shutil.copyfileobj(upload_file.file,f)\n        # with open(path, \"wb\") as f:\n        #     f.write(upload_file.file.read())\n        #         ✔ Simple\n        #         ✖ If the file is large (1GB), your RAM will cry\n        #         ✖ Not recommended for production",
+        "detail": "routers_S5.file",
+        "documentation": {}
+    },
+    {
+        "label": "download_file",
+        "kind": 2,
+        "importPath": "routers_S5.file",
+        "description": "routers_S5.file",
+        "peekOfCode": "def download_file(name:str):\n    path=f'Files_S10/{name}'\n    if not os.path.exists(path):\n        return f\"Error: {name} file not found\"\n    return FileResponse(path,media_type='application/pdf',filename=name)",
+        "detail": "routers_S5.file",
         "documentation": {}
     },
     {
@@ -1752,7 +1968,7 @@
         "kind": 5,
         "importPath": "routers_S5.response_route",
         "description": "routers_S5.response_route",
-        "peekOfCode": "router = APIRouter(prefix='/response',tags=['response'])\ntemplates = Jinja2Templates(directory=\"./templates\")\nproduct=['Laptop','Phone','Bluetooth']\n# 1. JSONResponse (default)\n@router.get(\"/json\", response_class=JSONResponse)\nasync def json_res():\n    return {\"message\": \"This is JSONResponse example\"}\n# 2. PlainTextResponse\n@router.get(\"/text\", response_class=PlainTextResponse)\nasync def text_res():",
+        "peekOfCode": "router = APIRouter(prefix='/response',tags=['response'],dependencies=[Depends(log)])\ntemplates = Jinja2Templates(directory=\"./templates\")\nproduct=['Laptop','Phone','Bluetooth']\n# 1. JSONResponse (default)\n@router.get(\"/json\", response_class=JSONResponse)\nasync def json_res():\n    return {\"message\": \"This is JSONResponse example\"}\n# 2. PlainTextResponse\n@router.get(\"/text\", response_class=PlainTextResponse)\nasync def text_res():",
         "detail": "routers_S5.response_route",
         "documentation": {}
     },
@@ -1838,138 +2054,174 @@
         "documentation": {}
     },
     {
+        "label": "html",
+        "kind": 5,
+        "importPath": "client",
+        "description": "client",
+        "peekOfCode": "html = \"\"\"\n<!DOCTYPE html>\n<html>\n    <head>\n        <title>Chat</title>\n    </head>\n    <body>\n        <h1>WebSocket Chat</h1>\n        <form action=\"\" onsubmit=\"sendMessage(event)\">\n            <input type=\"text\" id=\"messageText\" autocomplete=\"off\"/>",
+        "detail": "client",
+        "documentation": {}
+    },
+    {
+        "label": "log",
+        "kind": 2,
+        "importPath": "custom_log",
+        "description": "custom_log",
+        "peekOfCode": "def log(tags=\"My-Response-API\",message=\"No Message\",request:Request=None):\n    with open(\"log.txt\",\"a+\") as f:\n        f.write(f\"{tags} : {message} \\n\")\n        f.write(f\"{request.url} \\n \")\ndef database_log(tags=\"My-DB1-API\",message=\"No Message\",request:Request=None):\n    with open(\"db_log.txt\",\"a+\") as f:\n        f.write(f\"{tags} : {message} \\n\")\n        f.write(f\"{request.url} \\n \")",
+        "detail": "custom_log",
+        "documentation": {}
+    },
+    {
+        "label": "database_log",
+        "kind": 2,
+        "importPath": "custom_log",
+        "description": "custom_log",
+        "peekOfCode": "def database_log(tags=\"My-DB1-API\",message=\"No Message\",request:Request=None):\n    with open(\"db_log.txt\",\"a+\") as f:\n        f.write(f\"{tags} : {message} \\n\")\n        f.write(f\"{request.url} \\n \")",
+        "detail": "custom_log",
+        "documentation": {}
+    },
+    {
         "label": "PaginationParams",
         "kind": 6,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "class PaginationParams:\n    def __init__(self, skip: int = 0, limit: int = 10):\n        self.skip = skip\n        self.limit = limit\n@app.get(\"/products/\")\ndef list_products(pagination: PaginationParams = Depends()):\n    return {\"skip\": pagination.skip, \"limit\": pagination.limit}\n# http://127.0.0.1:8000/products/?skip=5&limit=20\n# http://127.0.0.1:8000/products/?skip=10\n# http://127.0.0.1:8000/products/---------------------------------",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
+        "peekOfCode": "class User:\n    def __init__(self,name:str='Chetan' , age:int=22):\n        self.name=name\n        self.age=age\n@app.post('create_user')        \ndef create_user(name:str,age:int,password:str,user:User=Depends(User)):\n    return{\n        \"Name\":user.name,\n        \"Age\":user.age\n    }",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "common_parameters",
         "kind": 2,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "def common_parameters(q: str | None = None):\n    return {\"q\": q}\n@app.get('/dep_inj')\ndef di(comm:dict=Depends(common_parameters)):\n    return comm\n# http://127.0.0.1:8000/items/?q=test123--------------------------\nclass PaginationParams:\n    def __init__(self, skip: int = 0, limit: int = 10):\n        self.skip = skip\n        self.limit = limit",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "di",
         "kind": 2,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "def di(comm:dict=Depends(common_parameters)):\n    return comm\n# http://127.0.0.1:8000/items/?q=test123--------------------------\nclass PaginationParams:\n    def __init__(self, skip: int = 0, limit: int = 10):\n        self.skip = skip\n        self.limit = limit\n@app.get(\"/products/\")\ndef list_products(pagination: PaginationParams = Depends()):\n    return {\"skip\": pagination.skip, \"limit\": pagination.limit}",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "list_products",
         "kind": 2,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
-        "peekOfCode": "def list_products(pagination: PaginationParams = Depends()):\n    return {\"skip\": pagination.skip, \"limit\": pagination.limit}\n# http://127.0.0.1:8000/products/?skip=5&limit=20\n# http://127.0.0.1:8000/products/?skip=10\n# http://127.0.0.1:8000/products/---------------------------------\n# Reusable Security Dependencies\ndef get_token_header(token: str | None = None):\n    if token != \"secret-token\":\n        raise HTTPException(status_code=400, detail=\"Invalid token\")\n@app.get(\"/secure-data/\")",
-        "detail": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
+        "peekOfCode": "def list_products(pagination: PaginationParams = Depends()):\n    return {\"skip\": pagination.skip, \"limit\": pagination.limit}\n# http://127.0.0.1:8000/products/?skip=5&limit=20\n# http://127.0.0.1:8000/products/?skip=10\n# http://127.0.0.1:8000/products/---------------------------------\nclass User:\n    def __init__(self,name:str='Chetan' , age:int=22):\n        self.name=name\n        self.age=age\n@app.post('create_user')        ",
+        "detail": "dependencies_S13",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
+        "peekOfCode": "def create_user(name:str,age:int,password:str,user:User=Depends(User)):\n    return{\n        \"Name\":user.name,\n        \"Age\":user.age\n    }\n# Reusable Security Dependencies\ndef get_token_header(token: str | None = None):",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "get_token_header",
         "kind": 2,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "def get_token_header(token: str | None = None):\n    if token != \"secret-token\":\n        raise HTTPException(status_code=400, detail=\"Invalid token\")\n@app.get(\"/secure-data/\")\ndef secure_data(token: str = Depends(get_token_header)):\n    return {\"secret\": \"value\"}\n# http://127.0.0.1:8000/secure-data/?token=secret-token\n# http://127.0.0.1:8000/secure-data/?token=abc----------------------------\n# Global (Router-Level) Dependencies\nrouter = APIRouter(",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "secure_data",
         "kind": 2,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "def secure_data(token: str = Depends(get_token_header)):\n    return {\"secret\": \"value\"}\n# http://127.0.0.1:8000/secure-data/?token=secret-token\n# http://127.0.0.1:8000/secure-data/?token=abc----------------------------\n# Global (Router-Level) Dependencies\nrouter = APIRouter(\n    prefix=\"/admin\",\n    dependencies=[Depends(get_token_header)]\n)\n@router.get(\"/stats\")",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "admin_stats",
         "kind": 2,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "def admin_stats():\n    return {\"stats\": \"admin only\"}\n# Every endpoint inside this router requires the get_token_header dependency.\n# before running any route in this router.\n# If the dependency fails, the endpoint won’t run.\n# So ALL /admin/* routes require a valid token.\n# http://127.0.0.1:8000/admin/stats?token=secret-token\n# http://127.0.0.1:8000/admin/stats?token=abc---------------------------------\n#@router.get(\"/stats\", dependencies=[Depends(get_token_header)]) --> if you want for specific operation\nfrom fastapi import Depends",
-        "detail": "dependency_injection",
-        "documentation": {}
-    },
-    {
-        "label": "get_db",
-        "kind": 2,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
-        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()\n@app.get(\"/users/\")\ndef read_users(db: Session = Depends(get_db)):\n    return db.query(User).all()\n# http://127.0.0.1:8000/users/",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "read_users",
         "kind": 2,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
-        "peekOfCode": "def read_users(db: Session = Depends(get_db)):\n    return db.query(User).all()\n# http://127.0.0.1:8000/users/\n# http://localhost:8000/users/ -------------------------------------\nimport sqlite3\nfrom fastapi import FastAPI, Depends\napp = FastAPI()\ndef create_connection():\n    return sqlite3.connect(\"test.db\")\ndef get_connection():",
-        "detail": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
+        "peekOfCode": "def read_users(db: Session = Depends(get_db)):\n    return db.query(User).all()\n# http://127.0.0.1:8000/users/\n# http://localhost:8000/users/ -------------------------------------\nimport sqlite3\nfrom fastapi import FastAPI, Depends\nfrom DB_2.database2 import SessionLocal, get_db\napp = FastAPI()\ndef create_connection():\n    return sqlite3.connect(\"test.db\")",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "create_connection",
         "kind": 2,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "def create_connection():\n    return sqlite3.connect(\"test.db\")\ndef get_connection():\n    conn = create_connection()\n    try:\n        yield conn\n    finally:\n        conn.close()\n@app.get(\"/test\")\ndef test(conn = Depends(get_connection)):",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "get_connection",
         "kind": 2,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "def get_connection():\n    conn = create_connection()\n    try:\n        yield conn\n    finally:\n        conn.close()\n@app.get(\"/test\")\ndef test(conn = Depends(get_connection)):\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT sqlite_version();\")",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "test",
         "kind": 2,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "def test(conn = Depends(get_connection)):\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT sqlite_version();\")\n    return {\"version\": cursor.fetchone()}\n# Request comes in\n#       ↓\n# get_connection() runs\n#       ↓\n# conn = create_connection()\n#       ↓",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "app",
         "kind": 5,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "app = FastAPI()\ndef common_parameters(q: str | None = None):\n    return {\"q\": q}\n@app.get('/dep_inj')\ndef di(comm:dict=Depends(common_parameters)):\n    return comm\n# http://127.0.0.1:8000/items/?q=test123--------------------------\nclass PaginationParams:\n    def __init__(self, skip: int = 0, limit: int = 10):\n        self.skip = skip",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "router",
         "kind": 5,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "router = APIRouter(\n    prefix=\"/admin\",\n    dependencies=[Depends(get_token_header)]\n)\n@router.get(\"/stats\")\ndef admin_stats():\n    return {\"stats\": \"admin only\"}\n# Every endpoint inside this router requires the get_token_header dependency.\n# before running any route in this router.\n# If the dependency fails, the endpoint won’t run.",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
         "label": "app",
         "kind": 5,
-        "importPath": "dependency_injection",
-        "description": "dependency_injection",
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
         "peekOfCode": "app = FastAPI()\ndef create_connection():\n    return sqlite3.connect(\"test.db\")\ndef get_connection():\n    conn = create_connection()\n    try:\n        yield conn\n    finally:\n        conn.close()\n@app.get(\"/test\")",
-        "detail": "dependency_injection",
+        "detail": "dependencies_S13",
         "documentation": {}
     },
     {
@@ -1977,7 +2229,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def story_exception_handler(request:Request,exec:StoryException):\n    return JSONResponse(status_code=status.HTTP_418_IM_A_TEAPOT,content={'details':exec.message})\n# app.exception_handler(HTTPException)\n# def custom_handaler(request:Request,exec:StoryException):\n#     return PlainTextResponse(str(exec),status_code=400)\n# Normal home endpoint api \n@app.get(\"/user\",tags=['intro'])\ndef start():\n    return \"Hii, I'm Fast, FastAPI\"\n## DB_S7 -- CREATE DATABASE --------------",
+        "peekOfCode": "def story_exception_handler(request:Request,exec:StoryException):\n    return JSONResponse(status_code=status.HTTP_418_IM_A_TEAPOT,content={'details':exec.message})\n# app.exception_handler(HTTPException)\n# def custom_handaler(request:Request,exec:StoryException):\n#     return PlainTextResponse(str(exec),status_code=400)\n@app.get(\"/\")\nasync def get():\n    return HTMLResponse(html)\nclient=[]   #Every browser that connects via WebSocket gets stored here so we can send messages to everyone.\n@app.websocket(\"/chat\")",
         "detail": "main",
         "documentation": {}
     },
@@ -2213,6 +2465,42 @@
         "description": "schema_db",
         "peekOfCode": "class UserDisplay(BaseModel):\n    username:str\n    email:str\n    class Config():\n        from_attributes=True",
         "detail": "schema_db",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_all_product",
+        "kind": 2,
+        "importPath": "test_main",
+        "description": "test_main",
+        "peekOfCode": "def test_get_all_product():\n    response=client.get(\"/response/get_all\")\n    assert response.status_code==200\ndef test_auth_error():\n    response=client.post(\"/token\",data={'username':\"\",'password':''})\n# No access token should be returned\n    assert response.json().get(\"access_token\") is None\ndef test_auth_sucess():\n    response=client.post(\"/token\",data={'username':\"cat\",'password':'cat'})\n    assert response.json().get(\"access_token\")",
+        "detail": "test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_auth_error",
+        "kind": 2,
+        "importPath": "test_main",
+        "description": "test_main",
+        "peekOfCode": "def test_auth_error():\n    response=client.post(\"/token\",data={'username':\"\",'password':''})\n# No access token should be returned\n    assert response.json().get(\"access_token\") is None\ndef test_auth_sucess():\n    response=client.post(\"/token\",data={'username':\"cat\",'password':'cat'})\n    assert response.json().get(\"access_token\")\ndef test_post_article():\n    # 1. Login to get token\n    auth = client.post(\"/token\", data={\"username\": \"cat\", \"password\": \"cat\"})",
+        "detail": "test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_auth_sucess",
+        "kind": 2,
+        "importPath": "test_main",
+        "description": "test_main",
+        "peekOfCode": "def test_auth_sucess():\n    response=client.post(\"/token\",data={'username':\"cat\",'password':'cat'})\n    assert response.json().get(\"access_token\")\ndef test_post_article():\n    # 1. Login to get token\n    auth = client.post(\"/token\", data={\"username\": \"cat\", \"password\": \"cat\"})\n    access_token = auth.json().get(\"access_token\")\n    assert access_token  # ensure token exists\n    # 2. Create article\n    response = client.post(",
+        "detail": "test_main",
+        "documentation": {}
+    },
+    {
+        "label": "test_post_article",
+        "kind": 2,
+        "importPath": "test_main",
+        "description": "test_main",
+        "peekOfCode": "def test_post_article():\n    # 1. Login to get token\n    auth = client.post(\"/token\", data={\"username\": \"cat\", \"password\": \"cat\"})\n    access_token = auth.json().get(\"access_token\")\n    assert access_token  # ensure token exists\n    # 2. Create article\n    response = client.post(\n        \"/db_route2/create_article\",\n        json={\n            \"title\": \"test_title\",",
+        "detail": "test_main",
         "documentation": {}
     }
 ]

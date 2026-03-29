@@ -4,3 +4,7 @@ sqlalchemy
 passlib
 python-multipart
 python-jwt
+aiofile
+requests
+pytest
+websockets

@@ -298,3 +298,47 @@ def get_data():
 # Your code validates token manually, e.g.:
 # PythonDepends(get_current_user)Show more lines
 # This step has nothing to do with /token.
+
+
+
+# ✅ 1. Should you use async def in FastAPI?
+# Yes — it is good practice to use async def for most FastAPI endpoints.
+# Why?
+# Because:
+# ✔ Async functions allow concurrency
+# FastAPI uses asyncio, which means while your API waits for I/O (database calls, file read, network requests), it can serve other users.
+# ✔ Async avoids blocking the event loop
+# If one request sleeps or waits for I/O, others can continue.
+# ✔ Best for:
+
+# Database queries
+# Calling other APIs
+# File reading/writing
+# Background tasks
+# Streaming
+# Any I/O-bound work
+
+
+# ❌ When you should NOT use async def?
+# If your function performs CPU-heavy work:
+
+# image processing
+# machine learning computation
+# heavy loops
+
+# Then async does not help — and can even hurt performance.
+# Use regular def in those cases.
+
+
+# 2. When do you use await?
+# Simple rule:
+# 👉 You can only use await inside async def.
+# 👉 You must use await when calling async functions.
+# Example:
+    
+#     async def get_data():
+#     return "hello"
+
+# async def route():
+#     x = await get_data()
+#     return x

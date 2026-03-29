@@ -1,6 +1,8 @@
 
 
-from fastapi import APIRouter, Response,HTTPException
+import asyncio
+
+import fastapi
 from fastapi.responses import (
     JSONResponse,
     PlainTextResponse,
@@ -10,10 +12,11 @@ from fastapi.responses import (
     RedirectResponse,
 )
 from fastapi.templating import Jinja2Templates
-from fastapi import Request
+from fastapi import Request,Depends,APIRouter,Response
 import time
+from custom_log import log
 
-router = APIRouter(prefix='/response',tags=['response'])
+router = APIRouter(prefix='/response',tags=['response'],dependencies=[Depends(log)])
 
 templates = Jinja2Templates(directory="./templates")
 product=['Laptop','Phone','Bluetooth']
@@ -115,9 +118,15 @@ async def raw_res():
     content = "Raw Response with custom header"
     return Response(content=content, media_type="text/plain", headers={"X-Custom": "Yes"})
 
+
+async def wait_for_movement(n:int):
+    await asyncio.sleep(n)
+    return 'ok'
+
 @router.get('/get_all')
-async def get_all():
+async def get_all(n:int):
     data=" ".join(product)
+    await wait_for_movement(n)
     return Response(content=data,media_type='text/plain')
 
 

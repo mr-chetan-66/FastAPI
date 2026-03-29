@@ -1,3 +1,5 @@
+from mimetypes import init
+
 from fastapi import Depends, HTTPException, FastAPI, APIRouter
 
 app = FastAPI()
@@ -23,6 +25,29 @@ def list_products(pagination: PaginationParams = Depends()):
 # http://127.0.0.1:8000/products/?skip=5&limit=20
 # http://127.0.0.1:8000/products/?skip=10
 # http://127.0.0.1:8000/products/---------------------------------
+
+class User:
+    def __init__(self,name:str='Chetan' , age:int=22):
+        self.name=name
+        self.age=age
+    
+@app.post('create_user')        
+def create_user(name:str,age:int,password:str,user:User=Depends(User)):
+    return{
+        "Name":user.name,
+        "Age":user.age
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 # Reusable Security Dependencies
 
@@ -58,14 +83,6 @@ def admin_stats():
 
 from fastapi import Depends
 from sqlalchemy.orm import Session
-from .database import SessionLocal
-
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
 
 @app.get("/users/")
 def read_users(db: Session = Depends(get_db)):
@@ -76,6 +93,7 @@ def read_users(db: Session = Depends(get_db)):
 
 import sqlite3
 from fastapi import FastAPI, Depends
+from DB_2.database2 import SessionLocal, get_db
 
 app = FastAPI()
 
