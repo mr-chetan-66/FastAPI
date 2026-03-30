@@ -342,3 +342,42 @@ def get_data():
 # async def route():
 #     x = await get_data()
 #     return x
+
+
+
+
+# from pydantic import BaseModel, Field
+
+# class User(BaseModel):
+#     name: str = Field(..., title="Full Name", max_length=50, example="John Doe")
+#     age: int = Field(..., ge=1, le=120, example=30)
+
+# @router.post("/info")
+# def info(data: User):
+#     return data
+
+
+
+# from fastapi import Body
+
+# @router.post("/info")
+# def info(
+#     age: int = Body(..., gt=1),
+#     name: str = Body(..., max_length=50)
+# ):
+#     return {"name": name, "age": age}
+
+# 🧠 When Should You Use Each?
+# ✅ Use Pydantic models when:
+# ✔ The request body is an object
+# ✔ You have 3+ fields
+# ✔ You need validation, examples, descriptions
+# ✔ You want to reuse schema across multiple endpoints
+# ✔ You want nested objects (addresses, settings, items, orders)
+# Ideal for production APIs.
+
+# ⚠️ Use non‑Pydantic Body only when:
+# ✔ You have very simple bodies (1–3 fields)
+# ✔ You don’t want to create a model
+# ✔ The structure is not reused anywhere
+# ✔ The API is very small or temporary

@@ -4,18 +4,18 @@ from fastapi.responses import HTMLResponse,JSONResponse
 from client import html
 from fastapi import FastAPI ,Request,Body
 from fastapi.websockets import WebSocket
-from Auth_S9 import authetication_route
-from DB_2.exception import StoryException
+from auth_S9 import authetication_route
+from db2.exception import StoryException
 from routers_S5 import file, header_cookie_form, response_route
 from routers_S5 import db_route2
 from routers_S5 import router_get
 from routers_S5 import router_post
 from routers_S5 import db_route 
-from DB_S7 import db_model
-from DB_S7.database import engine
+from db_S7 import db_model
+from db_S7.database import engine
 from routers_S5 import live_viewer
-from DB_2 import db_model2
-from DB_2.database2 import engine2
+from db2 import db_model2
+from db2.database2 import engine2
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import time
@@ -40,6 +40,21 @@ def story_exception_handler(request:Request,exec:StoryException):
 # app.exception_handler(HTTPException)
 # def custom_handaler(request:Request,exec:StoryException):
 #     return PlainTextResponse(str(exec),status_code=400)
+# Custom Exception Handler
+# from fastapi import Request
+# from fastapi.responses import JSONResponse
+
+# class MyException(Exception):
+#     def __init__(self, name: str):
+#         self.name = name
+
+# @app.exception_handler(MyException)
+# def my_handler(request: Request, exc: MyException):
+#     return JSONResponse(
+#         status_code=418,
+#         content={"error": f"Oops! {exc.name} caused error."}
+#     )
+
 
 
 @app.get("/")

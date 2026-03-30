@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from DB_S7.database import get_db
-from DB_S7.db_model import DbUser
+from db_S7.database import get_db
+from db_S7.db_model import DbUser
 
 router = APIRouter(
     prefix="/live",
