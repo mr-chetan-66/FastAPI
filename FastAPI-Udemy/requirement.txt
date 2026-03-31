@@ -8,3 +8,5 @@ aiofile
 requests
 pytest
 websockets
+pytesseract
+pillow
