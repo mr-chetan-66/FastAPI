@@ -4,9 +4,8 @@ from sqlalchemy.orm import Session
 from typing import Optional
 from datetime import datetime, timedelta
 from jose import jwt,JWTError
-
-from DB_2 import db_func2
-from DB_2.database2 import get_db
+from db2 import db_func2
+from db2.database2 import get_db
  
  
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
@@ -46,3 +45,46 @@ def verify_user_using_jwt(token:str=Depends(oauth2_scheme),db:Session=Depends(ge
     raise credential_exception 
   
   return user
+
+
+# When you write:
+# TypeScriptoauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")Show more lines
+# You are telling FastAPI & Swagger:
+
+# Where the user can obtain the token
+
+# Swagger shows a login form using this tokenUrl
+# That form calls your backend's /token endpoint
+# User enters username/password → gets JWT
+
+# THIS DOES NOT run during authentication
+
+# FastAPI never calls this tokenUrl during protected requests
+# It does not fetch or refresh tokens
+
+# Real apps NEVER use this tokenUrl
+
+# Only Swagger UI uses it
+# React, Flutter, Android, etc. IGNORE it
+
+
+# GET http://127.0.0.1:8000/read_article/5
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.fakePayload.sig
+
+# So what does oauth2_scheme really do?
+# When you call:
+# Pythontoken: str = Depends(oauth2_scheme)``Show more lines
+# FastAPI does this:
+
+# Look at incoming HTTP request
+# Check for header:
+# Authorization: Bearer <your_jwt_here>
+
+
+# Extract <your_jwt_here> and pass it to your function.
+
+# That’s it.
+# No API call.
+# No redirect.
+# No token fetching.
+# tokenUrl="token" is only documentation for Swagger UI, not an actual call.

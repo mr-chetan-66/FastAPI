@@ -1,9 +1,9 @@
 from fastapi import Depends,APIRouter,HTTPException
-from DB_2 import db_func2
-from DB_2.database2 import get_db
+from db2 import db_func2
+from db2.database2 import get_db
 from schema2 import ArticleBase, ArticleDisplay, UserBase, UserDisplay
 from sqlalchemy.orm import Session
-from Auth_S9.oauth2 import verify_user_using_jwt
+from auth_S9.oauth2 import verify_user_using_jwt
 from custom_log import database_log, log
 
 router=APIRouter(

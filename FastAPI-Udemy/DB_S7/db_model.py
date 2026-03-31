@@ -1,6 +1,6 @@
 ## Model Database --------------------
 
-from DB_S7.database import Base
+from db_S7.database import Base
 from sqlalchemy import Column,Integer,String
 
 class DbUser(Base):

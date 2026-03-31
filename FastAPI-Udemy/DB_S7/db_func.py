@@ -2,8 +2,8 @@
 
 from sqlalchemy.orm.session import Session
 from schema_db import UserBase
-from DB_S7.db_model import DbUser
-from DB_S7.hash import Hash
+from db_S7.db_model import DbUser
+from db_S7.hash import Hash
 
 
 def create_user(request:UserBase,db:Session):
@@ -43,3 +43,36 @@ def delete(id:int,db:Session):
     db.delete(user)
     db.commit()
     return user
+
+
+# VISUALIZATION
+# ❌ Without .first() → Query object
+# Pythonquery = db.query(DbUser).filter(DbUser.id == 1)
+
+
+# Meaning:
+# Query Object
+# ↓
+# Just a description of what to fetch
+# ↓
+# Database has NOT been asked yet
+
+# You cannot use:
+
+# query.username
+# query.email
+
+# ✔ With .first() → Model instance
+# Pythonuser = db.query(DbUser).filter(DbUser.id == 1).first()Show more lines
+# Meaning:
+# Actual Database Row
+# ↓
+# DbUser object
+# ↓
+# username = "Alice"
+# email = "a@gmail.com"
+
+# Now you can:
+
+# user.username
+# user.email

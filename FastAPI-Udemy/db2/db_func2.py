@@ -1,6 +1,6 @@
-from DB_2.db_model2 import DbArticle, DbUser
-from DB_2.exception import StoryException
-from DB_2.hash2 import Hash
+from db2.db_model2 import DbArticle, DbUser
+from db2.exception import StoryException
+from db2.hash2 import Hash
 from schema2 import ArticleBase, UserBase
 from sqlalchemy.orm import Session
 
