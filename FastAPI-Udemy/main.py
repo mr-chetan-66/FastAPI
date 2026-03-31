@@ -11,6 +11,7 @@ from routers_S5 import db_route2
 from routers_S5 import router_get
 from routers_S5 import router_post
 from routers_S5 import db_route 
+from template import template
 from db_S7 import db_model
 from db_S7.database import engine
 from routers_S5 import live_viewer
@@ -19,9 +20,11 @@ from db2.database2 import engine2
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import time
+from routers_S5.header_cookie_form import router
 
 
 app=FastAPI()
+app.include_router(template.router)
 app.include_router(file.router)
 app.include_router(db_route2.router)
 app.include_router(authetication_route.router)
@@ -117,6 +120,7 @@ app.add_middleware(
 # REQUEST → middleware → endpoint → middleware → RESPONSE
 
 app.mount("/files",StaticFiles(directory='./Files_S10'),name='files')
+app.mount("/static",StaticFiles(directory='template/static'),name='static')
 
 
 

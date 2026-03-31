@@ -201,6 +201,46 @@
         "documentation": {}
     },
     {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Cookie",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -250,6 +290,22 @@
     },
     {
         "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -314,6 +370,46 @@
     },
     {
         "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Header",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -482,6 +578,22 @@
     },
     {
         "label": "Base",
+        "importPath": "db2.database2",
+        "description": "db2.database2",
+        "isExtraImport": true,
+        "detail": "db2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db2.database2",
+        "description": "db2.database2",
+        "isExtraImport": true,
+        "detail": "db2.database2",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
         "importPath": "db2.database2",
         "description": "db2.database2",
         "isExtraImport": true,
@@ -681,6 +793,22 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -706,6 +834,14 @@
     },
     {
         "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -774,6 +910,22 @@
         "description": "db2",
         "isExtraImport": true,
         "detail": "db2",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -1202,6 +1354,14 @@
         "documentation": {}
     },
     {
+        "label": "HTMLResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
         "label": "JSONResponse",
         "importPath": "fastapi.responses",
         "description": "fastapi.responses",
@@ -1262,11 +1422,19 @@
         "documentation": {}
     },
     {
-        "label": "init",
-        "importPath": "mimetypes",
-        "description": "mimetypes",
+        "label": "Template",
+        "importPath": "mako.template",
+        "description": "mako.template",
         "isExtraImport": true,
-        "detail": "mimetypes",
+        "detail": "mako.template",
+        "documentation": {}
+    },
+    {
+        "label": "ProductBase",
+        "importPath": "template.template_schema",
+        "description": "template.template_schema",
+        "isExtraImport": true,
+        "detail": "template.template_schema",
         "documentation": {}
     },
     {
@@ -1276,22 +1444,6 @@
         "importPath": "sqlite3",
         "description": "sqlite3",
         "detail": "sqlite3",
-        "documentation": {}
-    },
-    {
-        "label": "SessionLocal",
-        "importPath": "DB_2.database2",
-        "description": "DB_2.database2",
-        "isExtraImport": true,
-        "detail": "DB_2.database2",
-        "documentation": {}
-    },
-    {
-        "label": "get_db",
-        "importPath": "DB_2.database2",
-        "description": "DB_2.database2",
-        "isExtraImport": true,
-        "detail": "DB_2.database2",
         "documentation": {}
     },
     {
@@ -1383,6 +1535,14 @@
         "documentation": {}
     },
     {
+        "label": "template",
+        "importPath": "template",
+        "description": "template",
+        "isExtraImport": true,
+        "detail": "template",
+        "documentation": {}
+    },
+    {
         "label": "CORSMiddleware",
         "importPath": "fastapi.middleware.cors",
         "description": "fastapi.middleware.cors",
@@ -1396,6 +1556,14 @@
         "description": "fastapi.staticfiles",
         "isExtraImport": true,
         "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "routers_S5.header_cookie_form",
+        "description": "routers_S5.header_cookie_form",
+        "isExtraImport": true,
+        "detail": "routers_S5.header_cookie_form",
         "documentation": {}
     },
     {
@@ -1931,7 +2099,34 @@
         "kind": 2,
         "importPath": "routers_S5.header_cookie_form",
         "description": "routers_S5.header_cookie_form",
-        "peekOfCode": "def create_product_using_form(data:str=Form(...)):\n    product.append(data)\n    return product",
+        "peekOfCode": "def create_product_using_form(data:str=Form(...)):\n    product.append(data)\n    return product\nfrom fastapi import APIRouter, Request, Response, Header, Cookie\nfrom typing import Optional, List\nrouter = APIRouter()\nproduct = \"Mobile\"\n@router.get(\"/multi-request_higher\")\ndef multi_request_header(\n    request: Request,",
+        "detail": "routers_S5.header_cookie_form",
+        "documentation": {}
+    },
+    {
+        "label": "multi_request_header",
+        "kind": 2,
+        "importPath": "routers_S5.header_cookie_form",
+        "description": "routers_S5.header_cookie_form",
+        "peekOfCode": "def multi_request_header(\n    request: Request,\n    response: Response,\n    custom_header: Optional[List[str]] = Header(None),\n    test_cookie: Optional[str] = Cookie(None)\n):\n    # ---------------------------\n    # 1. Read all Request Headers\n    # ---------------------------\n    all_headers = dict(request.headers)",
+        "detail": "routers_S5.header_cookie_form",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers_S5.header_cookie_form",
+        "description": "routers_S5.header_cookie_form",
+        "peekOfCode": "router = APIRouter()\nproduct = \"Mobile\"\n@router.get(\"/multi-request_higher\")\ndef multi_request_header(\n    request: Request,\n    response: Response,\n    custom_header: Optional[List[str]] = Header(None),\n    test_cookie: Optional[str] = Cookie(None)\n):\n    # ---------------------------",
+        "detail": "routers_S5.header_cookie_form",
+        "documentation": {}
+    },
+    {
+        "label": "product",
+        "kind": 5,
+        "importPath": "routers_S5.header_cookie_form",
+        "description": "routers_S5.header_cookie_form",
+        "peekOfCode": "product = \"Mobile\"\n@router.get(\"/multi-request_higher\")\ndef multi_request_header(\n    request: Request,\n    response: Response,\n    custom_header: Optional[List[str]] = Header(None),\n    test_cookie: Optional[str] = Cookie(None)\n):\n    # ---------------------------\n    # 1. Read all Request Headers",
         "detail": "routers_S5.header_cookie_form",
         "documentation": {}
     },
@@ -2062,6 +2257,24 @@
         "documentation": {}
     },
     {
+        "label": "get_product",
+        "kind": 2,
+        "importPath": "template.template",
+        "description": "template.template",
+        "peekOfCode": "def get_product(id:int, product:ProductBase):\n    template=Template(filename='template/product.html')\n    html=template.render(\n        id=id,\n        title=product.title,\n        desc=product.desc,\n        price=product.price\n    )\n    return HTMLResponse(content=html)",
+        "detail": "template.template",
+        "documentation": {}
+    },
+    {
+        "label": "ProductBase",
+        "kind": 6,
+        "importPath": "template.template_schema",
+        "description": "template.template_schema",
+        "peekOfCode": "class ProductBase(BaseModel):\n    title:str\n    desc:str\n    price:float",
+        "detail": "template.template_schema",
+        "documentation": {}
+    },
+    {
         "label": "html",
         "kind": 5,
         "importPath": "client",
@@ -2174,7 +2387,7 @@
         "kind": 2,
         "importPath": "dependencies_S13",
         "description": "dependencies_S13",
-        "peekOfCode": "def read_users(db: Session = Depends(get_db)):\n    return db.query(User).all()\n# http://127.0.0.1:8000/users/\n# http://localhost:8000/users/ -------------------------------------\nimport sqlite3\nfrom fastapi import FastAPI, Depends\nfrom DB_2.database2 import SessionLocal, get_db\napp = FastAPI()\ndef create_connection():\n    return sqlite3.connect(\"test.db\")",
+        "peekOfCode": "def read_users(db: Session = Depends(get_db)):\n    return db.query(User).all()\n# http://127.0.0.1:8000/users/\n# http://localhost:8000/users/ -------------------------------------\nimport sqlite3\nfrom fastapi import FastAPI, Depends\nfrom db2.database2 import SessionLocal, get_db\napp = FastAPI()\ndef create_connection():\n    return sqlite3.connect(\"test.db\")",
         "detail": "dependencies_S13",
         "documentation": {}
     },
@@ -2206,6 +2419,51 @@
         "documentation": {}
     },
     {
+        "label": "get_token",
+        "kind": 2,
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
+        "peekOfCode": "def get_token(authorization: str = Header(...)):\n    \"\"\"\n    Extract token from 'Authorization' header.\n    Example header: Authorization: Bearer abc123\n    \"\"\"\n    if not authorization.startswith(\"Bearer \"):\n        raise HTTPException(status_code=401, detail=\"Invalid token format\")\n    token = authorization.split(\" \")[1]\n    return token\n# ---------------------------------------------------",
+        "detail": "dependencies_S13",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
+        "peekOfCode": "def get_user(token: str = Depends(get_token)):\n    \"\"\"\n    Decode token -> fetch user. Replace this with real DB lookup.\n    \"\"\"\n    fake_db = {\n        \"abc123\": {\"username\": \"alice\", \"role\": \"admin\"},\n        \"xyz789\": {\"username\": \"bob\", \"role\": \"viewer\"},\n    }\n    user = fake_db.get(token)\n    if not user:",
+        "detail": "dependencies_S13",
+        "documentation": {}
+    },
+    {
+        "label": "require_admin",
+        "kind": 2,
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
+        "peekOfCode": "def require_admin(user: dict = Depends(get_user)):\n    \"\"\"\n    Ensure the user is an admin.\n    \"\"\"\n    if user[\"role\"] != \"admin\":\n        raise HTTPException(\n            status_code=status.HTTP_403_FORBIDDEN,\n            detail=\"Admin access required\",\n        )\n    return user  # passed admin user",
+        "detail": "dependencies_S13",
+        "documentation": {}
+    },
+    {
+        "label": "admin_dashboard",
+        "kind": 2,
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
+        "peekOfCode": "def admin_dashboard(admin: dict = Depends(require_admin)):\n    return {\n        \"message\": \"Welcome to Admin Dashboard\",\n        \"admin_user\": admin,\n    }\n@app.get(\"/profile\")\ndef profile(user: dict = Depends(get_user)):\n    return {\n        \"message\": \"User Profile\",\n        \"user\": user,",
+        "detail": "dependencies_S13",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 2,
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
+        "peekOfCode": "def profile(user: dict = Depends(get_user)):\n    return {\n        \"message\": \"User Profile\",\n        \"user\": user,\n    }",
+        "detail": "dependencies_S13",
+        "documentation": {}
+    },
+    {
         "label": "app",
         "kind": 5,
         "importPath": "dependencies_S13",
@@ -2229,6 +2487,15 @@
         "importPath": "dependencies_S13",
         "description": "dependencies_S13",
         "peekOfCode": "app = FastAPI()\ndef create_connection():\n    return sqlite3.connect(\"test.db\")\ndef get_connection():\n    conn = create_connection()\n    try:\n        yield conn\n    finally:\n        conn.close()\n@app.get(\"/test\")",
+        "detail": "dependencies_S13",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "dependencies_S13",
+        "description": "dependencies_S13",
+        "peekOfCode": "app = FastAPI()\n# ---------------------------------------------------\n# Level 1 Dependency — Get token from header\n# ---------------------------------------------------\ndef get_token(authorization: str = Header(...)):\n    \"\"\"\n    Extract token from 'Authorization' header.\n    Example header: Authorization: Bearer abc123\n    \"\"\"\n    if not authorization.startswith(\"Bearer \"):",
         "detail": "dependencies_S13",
         "documentation": {}
     },
@@ -2476,11 +2743,29 @@
         "documentation": {}
     },
     {
-        "label": "test",
+        "label": "User",
+        "kind": 6,
+        "importPath": "testapi",
+        "description": "testapi",
+        "peekOfCode": "class User(BaseModel):\n    name:str\n    age:int\nuser_list:List[User]=[]\napp=FastAPI()\n@app.post(\"/\")\ndef get_all_user(user:User):\n    return user_list.append(user)\n@app.get(\"/user/{name}\")\ndef get_entity(name:str):",
+        "detail": "testapi",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_user",
         "kind": 2,
         "importPath": "testapi",
         "description": "testapi",
-        "peekOfCode": "def test():\n    return \"Hii\"",
+        "peekOfCode": "def get_all_user(user:User):\n    return user_list.append(user)\n@app.get(\"/user/{name}\")\ndef get_entity(name:str):\n    for u in user_list:\n        if(u.name==name):\n            return u",
+        "detail": "testapi",
+        "documentation": {}
+    },
+    {
+        "label": "get_entity",
+        "kind": 2,
+        "importPath": "testapi",
+        "description": "testapi",
+        "peekOfCode": "def get_entity(name:str):\n    for u in user_list:\n        if(u.name==name):\n            return u",
         "detail": "testapi",
         "documentation": {}
     },

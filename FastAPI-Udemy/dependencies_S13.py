@@ -1,5 +1,3 @@
-from mimetypes import init
-
 from fastapi import Depends, HTTPException, FastAPI, APIRouter
 
 app = FastAPI()
@@ -93,7 +91,7 @@ def read_users(db: Session = Depends(get_db)):
 
 import sqlite3
 from fastapi import FastAPI, Depends
-from DB_2.database2 import SessionLocal, get_db
+from db2.database2 import SessionLocal, get_db
 
 app = FastAPI()
 
@@ -136,3 +134,75 @@ def test(conn = Depends(get_connection)):
 # Applying shared dependencies
 # Adding route prefixes
 
+
+
+from fastapi import FastAPI, Depends, HTTPException, Header, status
+
+app = FastAPI()
+
+# ---------------------------------------------------
+# Level 1 Dependency — Get token from header
+# ---------------------------------------------------
+def get_token(authorization: str = Header(...)):
+    """
+    Extract token from 'Authorization' header.
+    Example header: Authorization: Bearer abc123
+    """
+    if not authorization.startswith("Bearer "):
+        raise HTTPException(status_code=401, detail="Invalid token format")
+    
+    token = authorization.split(" ")[1]
+    return token
+
+
+# ---------------------------------------------------
+# Level 2 Dependency — Validate token & return user
+# ---------------------------------------------------
+def get_user(token: str = Depends(get_token)):
+    """
+    Decode token -> fetch user. Replace this with real DB lookup.
+    """
+    fake_db = {
+        "abc123": {"username": "alice", "role": "admin"},
+        "xyz789": {"username": "bob", "role": "viewer"},
+    }
+
+    user = fake_db.get(token)
+    if not user:
+        raise HTTPException(status_code=401, detail="Invalid token")
+
+    return user
+
+
+# ---------------------------------------------------
+# Level 3 Dependency — Role-based permission check
+# ---------------------------------------------------
+def require_admin(user: dict = Depends(get_user)):
+    """
+    Ensure the user is an admin.
+    """
+    if user["role"] != "admin":
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Admin access required",
+        )
+    return user  # passed admin user
+
+
+# ---------------------------------------------------
+# Level 4 — Route using the top-level dependency
+# ---------------------------------------------------
+@app.get("/admin/dashboard")
+def admin_dashboard(admin: dict = Depends(require_admin)):
+    return {
+        "message": "Welcome to Admin Dashboard",
+        "admin_user": admin,
+    }
+
+
+@app.get("/profile")
+def profile(user: dict = Depends(get_user)):
+    return {
+        "message": "User Profile",
+        "user": user,
+    }
