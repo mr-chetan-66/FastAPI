@@ -6,7 +6,6 @@ from models import DbPost
 from schema import PostBase
 from datetime import datetime
 
-
 def create_post(db:Session, request:PostBase):
     new_post=DbPost(
         image_url=request.image_url,
@@ -31,8 +30,21 @@ def delete_post(id:int, db:Session):
     user=db.query(DbPost).filter(DbPost.id==id).first()
     if user is None:
         raise HTTPException(status_code=404,detail='Post Not Found')
-    
-
     db.delete(user)
     db.commit()
+    return user
+
+def update(id:int, db:Session,request:PostBase):
+    user=db.query(DbPost).filter(DbPost.id==id).first()
+    if not user:
+        raise HTTPException(status_code=404,detail='Post Not Found')
+    
+    user.image_url = request.image_url
+    user.title = request.title
+    user.content = request.content
+    user.creator = request.creator
+    user.timestamp = datetime.now()
+
+    db.commit()
+    db.refresh(user)
     return user

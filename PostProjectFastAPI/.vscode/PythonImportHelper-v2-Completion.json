@@ -260,6 +260,14 @@
         "documentation": {}
     },
     {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
         "label": "router",
         "importPath": "db_route",
         "description": "db_route",
@@ -343,7 +351,16 @@
         "kind": 2,
         "importPath": "db_func",
         "description": "db_func",
-        "peekOfCode": "def delete_post(id:int, db:Session):\n    user=db.query(DbPost).filter(DbPost.id==id).first()\n    if user is None:\n        raise HTTPException(status_code=404,detail='Post Not Found')\n    db.delete(user)\n    db.commit()\n    return user",
+        "peekOfCode": "def delete_post(id:int, db:Session):\n    user=db.query(DbPost).filter(DbPost.id==id).first()\n    if user is None:\n        raise HTTPException(status_code=404,detail='Post Not Found')\n    db.delete(user)\n    db.commit()\n    return user\ndef update(id:int, db:Session,request:PostBase):\n    user=db.query(DbPost).filter(DbPost.id==id).first()\n    if not user:",
+        "detail": "db_func",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "kind": 2,
+        "importPath": "db_func",
+        "description": "db_func",
+        "peekOfCode": "def update(id:int, db:Session,request:PostBase):\n    user=db.query(DbPost).filter(DbPost.id==id).first()\n    if not user:\n        raise HTTPException(status_code=404,detail='Post Not Found')\n    user.image_url = request.image_url\n    user.title = request.title\n    user.content = request.content\n    user.creator = request.creator\n    user.timestamp = datetime.now()\n    db.commit()",
         "detail": "db_func",
         "documentation": {}
     },
@@ -352,7 +369,7 @@
         "kind": 2,
         "importPath": "db_route",
         "description": "db_route",
-        "peekOfCode": "def create_post(request:PostBase,db:Session=Depends(get_db)):\n    return db_func.create_post(db,request)\n@router.get(\"/get\",response_model=List[PostDisplay])\ndef get_all_post(db:Session=Depends(get_db)):\n    return db_func.get_all_post(db)\n@router.delete('delete/{id}',response_model=PostDisplay)\ndef delete_post(id:int,db:Session=Depends(get_db)):\n    return db_func.delete_post(id,db)\n@router.post('/upload_file')\ndef upload_file(image:UploadFile=File(...)):",
+        "peekOfCode": "def create_post(request:PostBase,db:Session=Depends(get_db)):\n    return db_func.create_post(db,request)\n@router.get(\"/get\",response_model=List[PostDisplay])\ndef get_all_post(db:Session=Depends(get_db)):\n    return db_func.get_all_post(db)\n@router.delete('/delete/{id}',response_model=PostDisplay)\ndef delete_post(id:int,db:Session=Depends(get_db)):\n    return db_func.delete_post(id,db)\n@router.put(\"/update/{id}\",response_model=PostDisplay)\ndef update_data(id:int,request:PostBase,db:Session=Depends(get_db)):",
         "detail": "db_route",
         "documentation": {}
     },
@@ -361,7 +378,7 @@
         "kind": 2,
         "importPath": "db_route",
         "description": "db_route",
-        "peekOfCode": "def get_all_post(db:Session=Depends(get_db)):\n    return db_func.get_all_post(db)\n@router.delete('delete/{id}',response_model=PostDisplay)\ndef delete_post(id:int,db:Session=Depends(get_db)):\n    return db_func.delete_post(id,db)\n@router.post('/upload_file')\ndef upload_file(image:UploadFile=File(...)):\n    letters=string.ascii_letters\n    rand_str=''.join(random.choice(letters) for _ in range(6))\n    new=f'_{rand_str}.'",
+        "peekOfCode": "def get_all_post(db:Session=Depends(get_db)):\n    return db_func.get_all_post(db)\n@router.delete('/delete/{id}',response_model=PostDisplay)\ndef delete_post(id:int,db:Session=Depends(get_db)):\n    return db_func.delete_post(id,db)\n@router.put(\"/update/{id}\",response_model=PostDisplay)\ndef update_data(id:int,request:PostBase,db:Session=Depends(get_db)):\n    return db_func.update(id,db,request)\n@router.post('/upload_file')\ndef upload_file(image:UploadFile=File(...)):",
         "detail": "db_route",
         "documentation": {}
     },
@@ -370,7 +387,16 @@
         "kind": 2,
         "importPath": "db_route",
         "description": "db_route",
-        "peekOfCode": "def delete_post(id:int,db:Session=Depends(get_db)):\n    return db_func.delete_post(id,db)\n@router.post('/upload_file')\ndef upload_file(image:UploadFile=File(...)):\n    letters=string.ascii_letters\n    rand_str=''.join(random.choice(letters) for _ in range(6))\n    new=f'_{rand_str}.'\n    filename=new.join(image.filename.rsplit('.',1))\n    path=f'images/{filename}'\n    with open(path,\"wb+\") as f:",
+        "peekOfCode": "def delete_post(id:int,db:Session=Depends(get_db)):\n    return db_func.delete_post(id,db)\n@router.put(\"/update/{id}\",response_model=PostDisplay)\ndef update_data(id:int,request:PostBase,db:Session=Depends(get_db)):\n    return db_func.update(id,db,request)\n@router.post('/upload_file')\ndef upload_file(image:UploadFile=File(...)):\n    letters=string.ascii_letters\n    rand_str=''.join(random.choice(letters) for _ in range(6))\n    new=f'_{rand_str}.'",
+        "detail": "db_route",
+        "documentation": {}
+    },
+    {
+        "label": "update_data",
+        "kind": 2,
+        "importPath": "db_route",
+        "description": "db_route",
+        "peekOfCode": "def update_data(id:int,request:PostBase,db:Session=Depends(get_db)):\n    return db_func.update(id,db,request)\n@router.post('/upload_file')\ndef upload_file(image:UploadFile=File(...)):\n    letters=string.ascii_letters\n    rand_str=''.join(random.choice(letters) for _ in range(6))\n    new=f'_{rand_str}.'\n    filename=new.join(image.filename.rsplit('.',1))\n    path=f'images/{filename}'\n    with open(path,\"wb+\") as f:",
         "detail": "db_route",
         "documentation": {}
     },

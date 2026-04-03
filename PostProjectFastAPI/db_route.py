@@ -20,9 +20,13 @@ def create_post(request:PostBase,db:Session=Depends(get_db)):
 def get_all_post(db:Session=Depends(get_db)):
     return db_func.get_all_post(db)
 
-@router.delete('delete/{id}',response_model=PostDisplay)
+@router.delete('/delete/{id}',response_model=PostDisplay)
 def delete_post(id:int,db:Session=Depends(get_db)):
     return db_func.delete_post(id,db)
+
+@router.put("/update/{id}",response_model=PostDisplay)
+def update_data(id:int,request:PostBase,db:Session=Depends(get_db)):
+    return db_func.update(id,db,request)
 
 @router.post('/upload_file')
 def upload_file(image:UploadFile=File(...)):
