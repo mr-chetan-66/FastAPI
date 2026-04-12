@@ -1,0 +1,62 @@
+[
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HashModel",
+        "importPath": "redis_om",
+        "description": "redis_om",
+        "isExtraImport": true,
+        "detail": "redis_om",
+        "documentation": {}
+    },
+    {
+        "label": "get_redis_connection",
+        "importPath": "redis_om",
+        "description": "redis_om",
+        "isExtraImport": true,
+        "detail": "redis_om",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class Product(HashModel):\n    name: str\n    price: float\n    quantity: int\n    class Meta:\n        database = redis\n@app.get(\"/products\")\ndef all_products():\n    return []",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "all_products",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def all_products():\n    return []",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI()\nredis = get_redis_connection(\n    host=\"\",     # put actual host\n    port=11844,\n    password=\"\",\n    decode_responses=True\n)\nclass Product(HashModel):\n    name: str\n    price: float",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "redis = get_redis_connection(\n    host=\"\",     # put actual host\n    port=11844,\n    password=\"\",\n    decode_responses=True\n)\nclass Product(HashModel):\n    name: str\n    price: float\n    quantity: int",
+        "detail": "main",
+        "documentation": {}
+    }
+]

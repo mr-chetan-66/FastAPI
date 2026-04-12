@@ -1,0 +1,696 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "get_redis_connection",
+        "importPath": "redis_om",
+        "description": "redis_om",
+        "isExtraImport": true,
+        "detail": "redis_om",
+        "documentation": {}
+    },
+    {
+        "label": "HashModel",
+        "importPath": "redis_om",
+        "description": "redis_om",
+        "isExtraImport": true,
+        "detail": "redis_om",
+        "documentation": {}
+    },
+    {
+        "label": "get_redis_connection",
+        "importPath": "redis_om",
+        "description": "redis_om",
+        "isExtraImport": true,
+        "detail": "redis_om",
+        "documentation": {}
+    },
+    {
+        "label": "HashModel",
+        "importPath": "redis_om",
+        "description": "redis_om",
+        "isExtraImport": true,
+        "detail": "redis_om",
+        "documentation": {}
+    },
+    {
+        "label": "ProductCreate",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "ProductCreate",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "ProductDisplay",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreate",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreate",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "routes",
+        "description": "routes",
+        "isExtraImport": true,
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "db_func",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "db_func",
+        "description": "db_func",
+        "detail": "db_func",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundTasks",
+        "importPath": "fastapi.background",
+        "description": "fastapi.background",
+        "isExtraImport": true,
+        "detail": "fastapi.background",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundTasks",
+        "importPath": "fastapi.background",
+        "description": "fastapi.background",
+        "isExtraImport": true,
+        "detail": "fastapi.background",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "router",
+        "description": "router",
+        "isExtraImport": true,
+        "detail": "router",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len('Scripts') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len('Scripts') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "kind": 5,
+        "importPath": "Inventory.database",
+        "description": "Inventory.database",
+        "peekOfCode": "redis = get_redis_connection(\n    host=\"redis-12158.crce179.ap-south-1-1.ec2.cloud.redislabs.com\",\n    port=12158,\n    password=\"bioBrMgKAeZcKhi6BDy01uWtX3iklwsF\",\n    decode_responses=True\n)",
+        "detail": "Inventory.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_products",
+        "kind": 2,
+        "importPath": "Inventory.db_func",
+        "description": "Inventory.db_func",
+        "peekOfCode": "def get_all_products():\n    products=Product.all_pks()\n    if not products:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"No Product Available!!\")\n    pl=[Product.get(pk) for pk in products]\n    return sorted(pl,key=lambda x:(x.price,x.name), reverse=True)\ndef get_product(pk:str):\n    product=Product.get(pk)\n    if not product:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Product Not Found!!\")",
+        "detail": "Inventory.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "get_product",
+        "kind": 2,
+        "importPath": "Inventory.db_func",
+        "description": "Inventory.db_func",
+        "peekOfCode": "def get_product(pk:str):\n    product=Product.get(pk)\n    if not product:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Product Not Found!!\")\n    return product\ndef create_product_db(product: ProductCreate):\n    db_product = Product(**product.model_dump())\n    db_product.save()\n    return db_product\ndef update_product(pk:str,product:ProductCreate):",
+        "detail": "Inventory.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "create_product_db",
+        "kind": 2,
+        "importPath": "Inventory.db_func",
+        "description": "Inventory.db_func",
+        "peekOfCode": "def create_product_db(product: ProductCreate):\n    db_product = Product(**product.model_dump())\n    db_product.save()\n    return db_product\ndef update_product(pk:str,product:ProductCreate):\n    p=Product.get(pk)\n    if not p:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail=\"Product Not Found!!\")\n    p.name=product.name\n    p.price=product.price",
+        "detail": "Inventory.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "update_product",
+        "kind": 2,
+        "importPath": "Inventory.db_func",
+        "description": "Inventory.db_func",
+        "peekOfCode": "def update_product(pk:str,product:ProductCreate):\n    p=Product.get(pk)\n    if not p:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail=\"Product Not Found!!\")\n    p.name=product.name\n    p.price=product.price\n    p.quantity=product.quantity\n    p.save()\n    return p\ndef delete_product_db(pk:str):",
+        "detail": "Inventory.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "delete_product_db",
+        "kind": 2,
+        "importPath": "Inventory.db_func",
+        "description": "Inventory.db_func",
+        "peekOfCode": "def delete_product_db(pk:str):\n    product=Product.get(pk)\n    if not product:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Product Not Found\")\n    Product.delete(pk)\n    return {\"message\": \"Product deleted\"}",
+        "detail": "Inventory.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Inventory.main",
+        "description": "Inventory.main",
+        "peekOfCode": "app = FastAPI()\napp.include_router(router)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:3000\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"]\n)",
+        "detail": "Inventory.main",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "Inventory.model",
+        "description": "Inventory.model",
+        "peekOfCode": "class Product(HashModel,index=True):\n    name: str\n    price: float\n    quantity: int\n    class Meta:\n        database = redis",
+        "detail": "Inventory.model",
+        "documentation": {}
+    },
+    {
+        "label": "all_products",
+        "kind": 2,
+        "importPath": "Inventory.routes",
+        "description": "Inventory.routes",
+        "peekOfCode": "def all_products():\n    return db_func.get_all_products()\n@router.get(\"/{pk}\",response_model=ProductDisplay)\ndef get_product(pk:str):\n    return db_func.get_product(pk)\n## CREATE\n@router.post(\"/\",response_model=ProductDisplay)\ndef create_product(product: ProductCreate):\n    return db_func.create_product_db(product)\n## UPDATE",
+        "detail": "Inventory.routes",
+        "documentation": {}
+    },
+    {
+        "label": "get_product",
+        "kind": 2,
+        "importPath": "Inventory.routes",
+        "description": "Inventory.routes",
+        "peekOfCode": "def get_product(pk:str):\n    return db_func.get_product(pk)\n## CREATE\n@router.post(\"/\",response_model=ProductDisplay)\ndef create_product(product: ProductCreate):\n    return db_func.create_product_db(product)\n## UPDATE\n@router.put(\"/{pk}\", response_model=ProductDisplay)\ndef update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk,product)",
+        "detail": "Inventory.routes",
+        "documentation": {}
+    },
+    {
+        "label": "create_product",
+        "kind": 2,
+        "importPath": "Inventory.routes",
+        "description": "Inventory.routes",
+        "peekOfCode": "def create_product(product: ProductCreate):\n    return db_func.create_product_db(product)\n## UPDATE\n@router.put(\"/{pk}\", response_model=ProductDisplay)\ndef update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk,product)\n## DELETE\n@router.delete(\"/{pk}\")\ndef delete_product(pk:str):\n    return db_func.delete_product_db(pk)",
+        "detail": "Inventory.routes",
+        "documentation": {}
+    },
+    {
+        "label": "update_product",
+        "kind": 2,
+        "importPath": "Inventory.routes",
+        "description": "Inventory.routes",
+        "peekOfCode": "def update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk,product)\n## DELETE\n@router.delete(\"/{pk}\")\ndef delete_product(pk:str):\n    return db_func.delete_product_db(pk)",
+        "detail": "Inventory.routes",
+        "documentation": {}
+    },
+    {
+        "label": "delete_product",
+        "kind": 2,
+        "importPath": "Inventory.routes",
+        "description": "Inventory.routes",
+        "peekOfCode": "def delete_product(pk:str):\n    return db_func.delete_product_db(pk)",
+        "detail": "Inventory.routes",
+        "documentation": {}
+    },
+    {
+        "label": "ProductCreate",
+        "kind": 6,
+        "importPath": "Inventory.schema",
+        "description": "Inventory.schema",
+        "peekOfCode": "class ProductCreate(BaseModel):\n    name: str\n    price: float\n    quantity: int\nclass ProductDisplay(BaseModel):\n    pk:str\n    name: str\n    price: float\n    quantity: int",
+        "detail": "Inventory.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ProductDisplay",
+        "kind": 6,
+        "importPath": "Inventory.schema",
+        "description": "Inventory.schema",
+        "peekOfCode": "class ProductDisplay(BaseModel):\n    pk:str\n    name: str\n    price: float\n    quantity: int",
+        "detail": "Inventory.schema",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "kind": 5,
+        "importPath": "Payment.database",
+        "description": "Payment.database",
+        "peekOfCode": "redis = get_redis_connection(\n    host=\"redis-12158.crce179.ap-south-1-1.ec2.cloud.redislabs.com\",\n    port=12158,\n    password=\"bioBrMgKAeZcKhi6BDy01uWtX3iklwsF\",\n    decode_responses=True\n)",
+        "detail": "Payment.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_order_all",
+        "kind": 2,
+        "importPath": "Payment.db_func",
+        "description": "Payment.db_func",
+        "peekOfCode": "def get_order_all():\n    try:\n        return [Order.get(pk) for pk in Order.all_pks()]\n    except:\n        raise HTTPException(status_code=404, detail=\"No Order found\")\ndef get_order(pk:str):\n    try:\n        return Order.get(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"Order not found\")",
+        "detail": "Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "get_order",
+        "kind": 2,
+        "importPath": "Payment.db_func",
+        "description": "Payment.db_func",
+        "peekOfCode": "def get_order(pk:str):\n    try:\n        return Order.get(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"Order not found\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    req_of_product=requests.get(\"http://localhost:8000/products/%s\"%request.product_id)\n    # async with httpx.AsyncClient() as client:\n    #     req_of_product=await client.get(f\"http://localhost:8000/products/{request.product_id}\")\n    if req_of_product.status_code != 200:",
+        "detail": "Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "post_order",
+        "kind": 2,
+        "importPath": "Payment.db_func",
+        "description": "Payment.db_func",
+        "peekOfCode": "def post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    req_of_product=requests.get(\"http://localhost:8000/products/%s\"%request.product_id)\n    # async with httpx.AsyncClient() as client:\n    #     req_of_product=await client.get(f\"http://localhost:8000/products/{request.product_id}\")\n    if req_of_product.status_code != 200:\n        raise Exception(400,\"Inventory service error\")\n    product=req_of_product.json()\n    order=Order(\n        product_id=request.product_id,\n        price=product['price'],",
+        "detail": "Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "order_completed",
+        "kind": 2,
+        "importPath": "Payment.db_func",
+        "description": "Payment.db_func",
+        "peekOfCode": "def order_completed(order_id: str):\n    time.sleep(5)\n    order = Order.get(order_id)\n    order.save()\n    payload = {\n        \"order_id\": order.pk,\n        \"product_id\": order.product_id,\n        \"quantity\": order.quantity\n    }\n    redis.xadd(\"order_completed\", payload, \"*\", maxlen=1000)",
+        "detail": "Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "delete_order",
+        "kind": 2,
+        "importPath": "Payment.db_func",
+        "description": "Payment.db_func",
+        "peekOfCode": "def delete_order(pk:str):\n    try:\n        Order.delete(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"No Order found\")\n    return {\"message\": \"Order deleted\"}\ndef delete_all_order():\n    try:\n        for pk in Order.all_pks():\n            Order.delete(pk)",
+        "detail": "Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "delete_all_order",
+        "kind": 2,
+        "importPath": "Payment.db_func",
+        "description": "Payment.db_func",
+        "peekOfCode": "def delete_all_order():\n    try:\n        for pk in Order.all_pks():\n            Order.delete(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"No Order found\")\n    return {\"message\": \"All order deleted\"}\n# ---------------------------------------------------------------\n# |   NAME / TERM          |              MEANING               |\n# ---------------------------------------------------------------",
+        "detail": "Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "Payment.model",
+        "description": "Payment.model",
+        "peekOfCode": "class Order(HashModel,index=True):\n    product_id:str\n    price:float\n    fee:float\n    total:float\n    quantity:int\n    status:str # pending/completed/refund\n    class Meta:\n        database=redis",
+        "detail": "Payment.model",
+        "documentation": {}
+    },
+    {
+        "label": "get_order_all",
+        "kind": 2,
+        "importPath": "Payment.router",
+        "description": "Payment.router",
+        "peekOfCode": "def get_order_all():\n    return db_func.get_order_all()\n@router.get(\"/{pk}\")\ndef get_order(pk:str):\n    return db_func.get_order(pk)\n@router.post(\"/\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    return db_func.post_order(request,bgtask)\n@router.delete(\"/{pk}\")\ndef delete_order(pk:str):",
+        "detail": "Payment.router",
+        "documentation": {}
+    },
+    {
+        "label": "get_order",
+        "kind": 2,
+        "importPath": "Payment.router",
+        "description": "Payment.router",
+        "peekOfCode": "def get_order(pk:str):\n    return db_func.get_order(pk)\n@router.post(\"/\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    return db_func.post_order(request,bgtask)\n@router.delete(\"/{pk}\")\ndef delete_order(pk:str):\n    return db_func.delete_order(pk)\n@router.delete(\"/all\")\ndef delete_all_order():",
+        "detail": "Payment.router",
+        "documentation": {}
+    },
+    {
+        "label": "post_order",
+        "kind": 2,
+        "importPath": "Payment.router",
+        "description": "Payment.router",
+        "peekOfCode": "def post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    return db_func.post_order(request,bgtask)\n@router.delete(\"/{pk}\")\ndef delete_order(pk:str):\n    return db_func.delete_order(pk)\n@router.delete(\"/all\")\ndef delete_all_order():\n    return db_func.delete_all_order()",
+        "detail": "Payment.router",
+        "documentation": {}
+    },
+    {
+        "label": "delete_order",
+        "kind": 2,
+        "importPath": "Payment.router",
+        "description": "Payment.router",
+        "peekOfCode": "def delete_order(pk:str):\n    return db_func.delete_order(pk)\n@router.delete(\"/all\")\ndef delete_all_order():\n    return db_func.delete_all_order()",
+        "detail": "Payment.router",
+        "documentation": {}
+    },
+    {
+        "label": "delete_all_order",
+        "kind": 2,
+        "importPath": "Payment.router",
+        "description": "Payment.router",
+        "peekOfCode": "def delete_all_order():\n    return db_func.delete_all_order()",
+        "detail": "Payment.router",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreate",
+        "kind": 6,
+        "importPath": "Payment.schema",
+        "description": "Payment.schema",
+        "peekOfCode": "class OrderCreate(BaseModel):\n    product_id:str\n    quantity:int\nclass OrderDisplay(BaseModel):\n    product_id:str\n    total:float\n    quantity:int\n    status:str",
+        "detail": "Payment.schema",
+        "documentation": {}
+    },
+    {
+        "label": "OrderDisplay",
+        "kind": 6,
+        "importPath": "Payment.schema",
+        "description": "Payment.schema",
+        "peekOfCode": "class OrderDisplay(BaseModel):\n    product_id:str\n    total:float\n    quantity:int\n    status:str",
+        "detail": "Payment.schema",
+        "documentation": {}
+    }
+]

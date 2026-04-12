@@ -1,23 +1,5 @@
 [
     {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "fastapi",
         "kind": 6,
         "isExtraImport": true,
@@ -603,6 +585,62 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "OAuth2PasswordRequestForm",
         "importPath": "fastapi.security",
         "description": "fastapi.security",
@@ -947,6 +985,14 @@
         "documentation": {}
     },
     {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -1016,6 +1062,22 @@
         "description": "db2",
         "isExtraImport": true,
         "detail": "db2",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -1745,6 +1807,22 @@
         "documentation": {}
     },
     {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
         "label": "StaticFiles",
         "importPath": "fastapi.staticfiles",
         "description": "fastapi.staticfiles",
@@ -1834,6 +1912,46 @@
         "documentation": {}
     },
     {
+        "label": "ProductCreate",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "ProductCreate",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "ProductDisplay",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreate",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreate",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
         "label": "db_func",
         "kind": 6,
         "isExtraImport": true,
@@ -1876,6 +1994,46 @@
         "documentation": {}
     },
     {
+        "label": "redis",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
         "label": "router",
         "importPath": "db_route",
         "description": "db_route",
@@ -1884,39 +2042,152 @@
         "documentation": {}
     },
     {
-        "label": "_Known",
+        "label": "json",
         "kind": 6,
-        "importPath": "fastapi-blog-web.node_modules.flatted.python.flatted",
-        "description": "fastapi-blog-web.node_modules.flatted.python.flatted",
-        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
-        "detail": "fastapi-blog-web.node_modules.flatted.python.flatted",
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
-        "label": "_String",
+        "label": "sys",
         "kind": 6,
-        "importPath": "fastapi-blog-web.node_modules.flatted.python.flatted",
-        "description": "fastapi-blog-web.node_modules.flatted.python.flatted",
-        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
-        "detail": "fastapi-blog-web.node_modules.flatted.python.flatted",
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
         "documentation": {}
     },
     {
-        "label": "parse",
-        "kind": 2,
-        "importPath": "fastapi-blog-web.node_modules.flatted.python.flatted",
-        "description": "fastapi-blog-web.node_modules.flatted.python.flatted",
-        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
-        "detail": "fastapi-blog-web.node_modules.flatted.python.flatted",
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
         "documentation": {}
     },
     {
-        "label": "stringify",
-        "kind": 2,
-        "importPath": "fastapi-blog-web.node_modules.flatted.python.flatted",
-        "description": "fastapi-blog-web.node_modules.flatted.python.flatted",
-        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
-        "detail": "fastapi-blog-web.node_modules.flatted.python.flatted",
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "importPath": "model",
+        "description": "model",
+        "isExtraImport": true,
+        "detail": "model",
+        "documentation": {}
+    },
+    {
+        "label": "get_redis_connection",
+        "importPath": "redis_om",
+        "description": "redis_om",
+        "isExtraImport": true,
+        "detail": "redis_om",
+        "documentation": {}
+    },
+    {
+        "label": "HashModel",
+        "importPath": "redis_om",
+        "description": "redis_om",
+        "isExtraImport": true,
+        "detail": "redis_om",
+        "documentation": {}
+    },
+    {
+        "label": "get_redis_connection",
+        "importPath": "redis_om",
+        "description": "redis_om",
+        "isExtraImport": true,
+        "detail": "redis_om",
+        "documentation": {}
+    },
+    {
+        "label": "HashModel",
+        "importPath": "redis_om",
+        "description": "redis_om",
+        "isExtraImport": true,
+        "detail": "redis_om",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "routes",
+        "description": "routes",
+        "isExtraImport": true,
+        "detail": "routes",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundTasks",
+        "importPath": "fastapi.background",
+        "description": "fastapi.background",
+        "isExtraImport": true,
+        "detail": "fastapi.background",
+        "documentation": {}
+    },
+    {
+        "label": "BackgroundTasks",
+        "importPath": "fastapi.background",
+        "description": "fastapi.background",
+        "isExtraImport": true,
+        "detail": "fastapi.background",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "router",
+        "description": "router",
+        "isExtraImport": true,
+        "detail": "router",
         "documentation": {}
     },
     {
@@ -3137,154 +3408,541 @@
     {
         "label": "get_db",
         "kind": 2,
-        "importPath": "PostProjectFastAPI.database",
-        "description": "PostProjectFastAPI.database",
+        "importPath": "FastAPI_Project_BlogWeb.backend.database",
+        "description": "FastAPI_Project_BlogWeb.backend.database",
         "peekOfCode": "def get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "PostProjectFastAPI.database",
+        "detail": "FastAPI_Project_BlogWeb.backend.database",
         "documentation": {}
     },
     {
         "label": "SQLALCHEMY_DATABASE_URL",
         "kind": 5,
-        "importPath": "PostProjectFastAPI.database",
-        "description": "PostProjectFastAPI.database",
-        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./fastapi-post.db\"\nengine = create_engine(\n    SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db",
-        "detail": "PostProjectFastAPI.database",
+        "importPath": "FastAPI_Project_BlogWeb.backend.database",
+        "description": "FastAPI_Project_BlogWeb.backend.database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"postgresql+psycopg2://postgres:12345@localhost:5432/fastapi_db\"\nengine = create_engine(SQLALCHEMY_DATABASE_URL)\n# SQLALCHEMY_DATABASE_URL = \"sqlite:///./fastapi-post.db\"\n# engine = create_engine(\n#     SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n# )\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()",
+        "detail": "FastAPI_Project_BlogWeb.backend.database",
         "documentation": {}
     },
     {
         "label": "engine",
         "kind": 5,
-        "importPath": "PostProjectFastAPI.database",
-        "description": "PostProjectFastAPI.database",
-        "peekOfCode": "engine = create_engine(\n    SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:",
-        "detail": "PostProjectFastAPI.database",
+        "importPath": "FastAPI_Project_BlogWeb.backend.database",
+        "description": "FastAPI_Project_BlogWeb.backend.database",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL)\n# SQLALCHEMY_DATABASE_URL = \"sqlite:///./fastapi-post.db\"\n# engine = create_engine(\n#     SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False}\n# )\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:",
+        "detail": "FastAPI_Project_BlogWeb.backend.database",
         "documentation": {}
     },
     {
         "label": "SessionLocal",
         "kind": 5,
-        "importPath": "PostProjectFastAPI.database",
-        "description": "PostProjectFastAPI.database",
+        "importPath": "FastAPI_Project_BlogWeb.backend.database",
+        "description": "FastAPI_Project_BlogWeb.backend.database",
         "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\nBase = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "PostProjectFastAPI.database",
+        "detail": "FastAPI_Project_BlogWeb.backend.database",
         "documentation": {}
     },
     {
         "label": "Base",
         "kind": 5,
-        "importPath": "PostProjectFastAPI.database",
-        "description": "PostProjectFastAPI.database",
+        "importPath": "FastAPI_Project_BlogWeb.backend.database",
+        "description": "FastAPI_Project_BlogWeb.backend.database",
         "peekOfCode": "Base = declarative_base() #A special class that remembers all models that inherit from it.\ndef get_db():\n    db=SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
-        "detail": "PostProjectFastAPI.database",
+        "detail": "FastAPI_Project_BlogWeb.backend.database",
         "documentation": {}
     },
     {
         "label": "create_post",
         "kind": 2,
-        "importPath": "PostProjectFastAPI.db_func",
-        "description": "PostProjectFastAPI.db_func",
+        "importPath": "FastAPI_Project_BlogWeb.backend.db_func",
+        "description": "FastAPI_Project_BlogWeb.backend.db_func",
         "peekOfCode": "def create_post(db:Session, request:PostBase):\n    new_post=DbPost(\n        image_url=request.image_url,\n        title=request.title,\n        content=request.content,\n        creator=request.creator,\n        timestamp=datetime.now()\n    )\n    db.add(new_post)\n    db.commit()",
-        "detail": "PostProjectFastAPI.db_func",
+        "detail": "FastAPI_Project_BlogWeb.backend.db_func",
         "documentation": {}
     },
     {
         "label": "get_all_post",
         "kind": 2,
-        "importPath": "PostProjectFastAPI.db_func",
-        "description": "PostProjectFastAPI.db_func",
+        "importPath": "FastAPI_Project_BlogWeb.backend.db_func",
+        "description": "FastAPI_Project_BlogWeb.backend.db_func",
         "peekOfCode": "def get_all_post(db:Session):\n    users=db.query(DbPost).all()\n    if not users :\n        raise HTTPException(status_code=status.HTTP_204_NO_CONTENT,detail='Post Not Found')\n    return users\ndef delete_post(id:int, db:Session):\n    user=db.query(DbPost).filter(DbPost.id==id).first()\n    if user is None:\n        raise HTTPException(status_code=404,detail='Post Not Found')\n    db.delete(user)",
-        "detail": "PostProjectFastAPI.db_func",
+        "detail": "FastAPI_Project_BlogWeb.backend.db_func",
         "documentation": {}
     },
     {
         "label": "delete_post",
         "kind": 2,
-        "importPath": "PostProjectFastAPI.db_func",
-        "description": "PostProjectFastAPI.db_func",
+        "importPath": "FastAPI_Project_BlogWeb.backend.db_func",
+        "description": "FastAPI_Project_BlogWeb.backend.db_func",
         "peekOfCode": "def delete_post(id:int, db:Session):\n    user=db.query(DbPost).filter(DbPost.id==id).first()\n    if user is None:\n        raise HTTPException(status_code=404,detail='Post Not Found')\n    db.delete(user)\n    db.commit()\n    return user\ndef update(id:int, db:Session,request:PostBase):\n    user=db.query(DbPost).filter(DbPost.id==id).first()\n    if not user:",
-        "detail": "PostProjectFastAPI.db_func",
+        "detail": "FastAPI_Project_BlogWeb.backend.db_func",
         "documentation": {}
     },
     {
         "label": "update",
         "kind": 2,
-        "importPath": "PostProjectFastAPI.db_func",
-        "description": "PostProjectFastAPI.db_func",
+        "importPath": "FastAPI_Project_BlogWeb.backend.db_func",
+        "description": "FastAPI_Project_BlogWeb.backend.db_func",
         "peekOfCode": "def update(id:int, db:Session,request:PostBase):\n    user=db.query(DbPost).filter(DbPost.id==id).first()\n    if not user:\n        raise HTTPException(status_code=404,detail='Post Not Found')\n    user.image_url = request.image_url\n    user.title = request.title\n    user.content = request.content\n    user.creator = request.creator\n    user.timestamp = datetime.now()\n    db.commit()",
-        "detail": "PostProjectFastAPI.db_func",
+        "detail": "FastAPI_Project_BlogWeb.backend.db_func",
         "documentation": {}
     },
     {
         "label": "create_post",
         "kind": 2,
-        "importPath": "PostProjectFastAPI.db_route",
-        "description": "PostProjectFastAPI.db_route",
+        "importPath": "FastAPI_Project_BlogWeb.backend.db_route",
+        "description": "FastAPI_Project_BlogWeb.backend.db_route",
         "peekOfCode": "def create_post(request:PostBase,db:Session=Depends(get_db)):\n    return db_func.create_post(db,request)\n@router.get(\"/get\",response_model=List[PostDisplay])\ndef get_all_post(db:Session=Depends(get_db)):\n    return db_func.get_all_post(db)\n@router.delete('/delete/{id}',response_model=PostDisplay)\ndef delete_post(id:int,db:Session=Depends(get_db)):\n    return db_func.delete_post(id,db)\n@router.put(\"/update/{id}\",response_model=PostDisplay)\ndef update_data(id:int,request:PostBase,db:Session=Depends(get_db)):",
-        "detail": "PostProjectFastAPI.db_route",
+        "detail": "FastAPI_Project_BlogWeb.backend.db_route",
         "documentation": {}
     },
     {
         "label": "get_all_post",
         "kind": 2,
-        "importPath": "PostProjectFastAPI.db_route",
-        "description": "PostProjectFastAPI.db_route",
+        "importPath": "FastAPI_Project_BlogWeb.backend.db_route",
+        "description": "FastAPI_Project_BlogWeb.backend.db_route",
         "peekOfCode": "def get_all_post(db:Session=Depends(get_db)):\n    return db_func.get_all_post(db)\n@router.delete('/delete/{id}',response_model=PostDisplay)\ndef delete_post(id:int,db:Session=Depends(get_db)):\n    return db_func.delete_post(id,db)\n@router.put(\"/update/{id}\",response_model=PostDisplay)\ndef update_data(id:int,request:PostBase,db:Session=Depends(get_db)):\n    return db_func.update(id,db,request)\n@router.post('/upload_file')\ndef upload_file(image:UploadFile=File(...)):",
-        "detail": "PostProjectFastAPI.db_route",
+        "detail": "FastAPI_Project_BlogWeb.backend.db_route",
         "documentation": {}
     },
     {
         "label": "delete_post",
         "kind": 2,
-        "importPath": "PostProjectFastAPI.db_route",
-        "description": "PostProjectFastAPI.db_route",
+        "importPath": "FastAPI_Project_BlogWeb.backend.db_route",
+        "description": "FastAPI_Project_BlogWeb.backend.db_route",
         "peekOfCode": "def delete_post(id:int,db:Session=Depends(get_db)):\n    return db_func.delete_post(id,db)\n@router.put(\"/update/{id}\",response_model=PostDisplay)\ndef update_data(id:int,request:PostBase,db:Session=Depends(get_db)):\n    return db_func.update(id,db,request)\n@router.post('/upload_file')\ndef upload_file(image:UploadFile=File(...)):\n    letters=string.ascii_letters\n    rand_str=''.join(random.choice(letters) for _ in range(6))\n    new=f'_{rand_str}.'",
-        "detail": "PostProjectFastAPI.db_route",
+        "detail": "FastAPI_Project_BlogWeb.backend.db_route",
         "documentation": {}
     },
     {
         "label": "update_data",
         "kind": 2,
-        "importPath": "PostProjectFastAPI.db_route",
-        "description": "PostProjectFastAPI.db_route",
+        "importPath": "FastAPI_Project_BlogWeb.backend.db_route",
+        "description": "FastAPI_Project_BlogWeb.backend.db_route",
         "peekOfCode": "def update_data(id:int,request:PostBase,db:Session=Depends(get_db)):\n    return db_func.update(id,db,request)\n@router.post('/upload_file')\ndef upload_file(image:UploadFile=File(...)):\n    letters=string.ascii_letters\n    rand_str=''.join(random.choice(letters) for _ in range(6))\n    new=f'_{rand_str}.'\n    filename=new.join(image.filename.rsplit('.',1))\n    path=f'images/{filename}'\n    with open(path,\"wb+\") as f:",
-        "detail": "PostProjectFastAPI.db_route",
+        "detail": "FastAPI_Project_BlogWeb.backend.db_route",
         "documentation": {}
     },
     {
         "label": "upload_file",
         "kind": 2,
-        "importPath": "PostProjectFastAPI.db_route",
-        "description": "PostProjectFastAPI.db_route",
+        "importPath": "FastAPI_Project_BlogWeb.backend.db_route",
+        "description": "FastAPI_Project_BlogWeb.backend.db_route",
         "peekOfCode": "def upload_file(image:UploadFile=File(...)):\n    letters=string.ascii_letters\n    rand_str=''.join(random.choice(letters) for _ in range(6))\n    new=f'_{rand_str}.'\n    filename=new.join(image.filename.rsplit('.',1))\n    path=f'images/{filename}'\n    with open(path,\"wb+\") as f:\n        shutil.copyfileobj(image.file,f)\n    return {\n        'filename':path",
-        "detail": "PostProjectFastAPI.db_route",
+        "detail": "FastAPI_Project_BlogWeb.backend.db_route",
         "documentation": {}
     },
     {
         "label": "DbPost",
         "kind": 6,
-        "importPath": "PostProjectFastAPI.models",
-        "description": "PostProjectFastAPI.models",
+        "importPath": "FastAPI_Project_BlogWeb.backend.models",
+        "description": "FastAPI_Project_BlogWeb.backend.models",
         "peekOfCode": "class DbPost(Base):\n    __tablename__='post'\n    id=Column(Integer,primary_key=True, index=True)\n    image_url=Column(String)\n    title=Column(String)\n    content=Column(String)\n    creator=Column(String)\n    timestamp=Column(DateTime)",
-        "detail": "PostProjectFastAPI.models",
+        "detail": "FastAPI_Project_BlogWeb.backend.models",
         "documentation": {}
     },
     {
         "label": "PostBase",
         "kind": 6,
-        "importPath": "PostProjectFastAPI.schema",
-        "description": "PostProjectFastAPI.schema",
+        "importPath": "FastAPI_Project_BlogWeb.backend.schema",
+        "description": "FastAPI_Project_BlogWeb.backend.schema",
         "peekOfCode": "class PostBase(BaseModel):\n    image_url:str\n    title:str\n    content:str\n    creator:str\nclass PostDisplay(BaseModel):\n    id:int\n    image_url:str\n    title:str\n    content:str",
-        "detail": "PostProjectFastAPI.schema",
+        "detail": "FastAPI_Project_BlogWeb.backend.schema",
         "documentation": {}
     },
     {
         "label": "PostDisplay",
         "kind": 6,
-        "importPath": "PostProjectFastAPI.schema",
-        "description": "PostProjectFastAPI.schema",
+        "importPath": "FastAPI_Project_BlogWeb.backend.schema",
+        "description": "FastAPI_Project_BlogWeb.backend.schema",
         "peekOfCode": "class PostDisplay(BaseModel):\n    id:int\n    image_url:str\n    title:str\n    content:str\n    creator:str\n    timestamp:datetime\n    class Config():\n        from_attributes=True",
-        "detail": "PostProjectFastAPI.schema",
+        "detail": "FastAPI_Project_BlogWeb.backend.schema",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "description": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
+        "detail": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "description": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
+        "detail": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "description": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "description": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "FastAPI_Project_BlogWeb.frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "description": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len('Scripts') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "description": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len('Scripts') - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)",
+        "detail": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "description": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "description": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "description": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = '' or os.path.basename(base)\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "description": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in '..\\\\Lib\\\\site-packages'.split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if '' else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "description": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "description": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "description": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "Microservices_FastAPI..venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI.Inventory.database",
+        "description": "Microservices_FastAPI.Inventory.database",
+        "peekOfCode": "redis = get_redis_connection(\n    host=\"redis-12158.crce179.ap-south-1-1.ec2.cloud.redislabs.com\",\n    port=12158,\n    password=\"bioBrMgKAeZcKhi6BDy01uWtX3iklwsF\",\n    decode_responses=True\n)",
+        "detail": "Microservices_FastAPI.Inventory.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_products",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Inventory.db_func",
+        "description": "Microservices_FastAPI.Inventory.db_func",
+        "peekOfCode": "def get_all_products():\n    products=Product.all_pks()\n    if not products:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"No Product Available!!\")\n    pl=[Product.get(pk) for pk in products]\n    return sorted(pl,key=lambda x:(x.price,x.name), reverse=True)\ndef get_product(pk:str):\n    product=Product.get(pk)\n    if not product:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Product Not Found!!\")",
+        "detail": "Microservices_FastAPI.Inventory.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "get_product",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Inventory.db_func",
+        "description": "Microservices_FastAPI.Inventory.db_func",
+        "peekOfCode": "def get_product(pk:str):\n    product=Product.get(pk)\n    if not product:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Product Not Found!!\")\n    return product\ndef create_product_db(product: ProductCreate):\n    db_product = Product(**product.model_dump())\n    db_product.save()\n    return db_product\ndef update_product(pk:str,product:ProductCreate):",
+        "detail": "Microservices_FastAPI.Inventory.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "create_product_db",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Inventory.db_func",
+        "description": "Microservices_FastAPI.Inventory.db_func",
+        "peekOfCode": "def create_product_db(product: ProductCreate):\n    db_product = Product(**product.model_dump())\n    db_product.save()\n    return db_product\ndef update_product(pk:str,product:ProductCreate):\n    p=Product.get(pk)\n    if not p:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail=\"Product Not Found!!\")\n    p.name=product.name\n    p.price=product.price",
+        "detail": "Microservices_FastAPI.Inventory.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "update_product",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Inventory.db_func",
+        "description": "Microservices_FastAPI.Inventory.db_func",
+        "peekOfCode": "def update_product(pk:str,product:ProductCreate):\n    p=Product.get(pk)\n    if not p:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail=\"Product Not Found!!\")\n    p.name=product.name\n    p.price=product.price\n    p.quantity=product.quantity\n    p.save()\n    return p\ndef delete_product_db(pk:str):",
+        "detail": "Microservices_FastAPI.Inventory.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "delete_product_db",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Inventory.db_func",
+        "description": "Microservices_FastAPI.Inventory.db_func",
+        "peekOfCode": "def delete_product_db(pk:str):\n    product=Product.get(pk)\n    if not product:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Product Not Found\")\n    Product.delete(pk)\n    return {\"message\": \"Product deleted\"}",
+        "detail": "Microservices_FastAPI.Inventory.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI.Inventory.main",
+        "description": "Microservices_FastAPI.Inventory.main",
+        "peekOfCode": "app = FastAPI()\napp.include_router(router)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:3000\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"]\n)",
+        "detail": "Microservices_FastAPI.Inventory.main",
+        "documentation": {}
+    },
+    {
+        "label": "Product",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.Inventory.model",
+        "description": "Microservices_FastAPI.Inventory.model",
+        "peekOfCode": "class Product(HashModel,index=True):\n    name: str\n    price: float\n    quantity: int\n    class Meta:\n        database = redis",
+        "detail": "Microservices_FastAPI.Inventory.model",
+        "documentation": {}
+    },
+    {
+        "label": "all_products",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Inventory.routes",
+        "description": "Microservices_FastAPI.Inventory.routes",
+        "peekOfCode": "def all_products():\n    return db_func.get_all_products()\n@router.get(\"/{pk}\",response_model=ProductDisplay)\ndef get_product(pk:str):\n    return db_func.get_product(pk)\n## CREATE\n@router.post(\"/\",response_model=ProductDisplay)\ndef create_product(product: ProductCreate):\n    return db_func.create_product_db(product)\n## UPDATE",
+        "detail": "Microservices_FastAPI.Inventory.routes",
+        "documentation": {}
+    },
+    {
+        "label": "get_product",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Inventory.routes",
+        "description": "Microservices_FastAPI.Inventory.routes",
+        "peekOfCode": "def get_product(pk:str):\n    return db_func.get_product(pk)\n## CREATE\n@router.post(\"/\",response_model=ProductDisplay)\ndef create_product(product: ProductCreate):\n    return db_func.create_product_db(product)\n## UPDATE\n@router.put(\"/{pk}\", response_model=ProductDisplay)\ndef update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk,product)",
+        "detail": "Microservices_FastAPI.Inventory.routes",
+        "documentation": {}
+    },
+    {
+        "label": "create_product",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Inventory.routes",
+        "description": "Microservices_FastAPI.Inventory.routes",
+        "peekOfCode": "def create_product(product: ProductCreate):\n    return db_func.create_product_db(product)\n## UPDATE\n@router.put(\"/{pk}\", response_model=ProductDisplay)\ndef update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk,product)\n## DELETE\n@router.delete(\"/{pk}\")\ndef delete_product(pk:str):\n    return db_func.delete_product_db(pk)",
+        "detail": "Microservices_FastAPI.Inventory.routes",
+        "documentation": {}
+    },
+    {
+        "label": "update_product",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Inventory.routes",
+        "description": "Microservices_FastAPI.Inventory.routes",
+        "peekOfCode": "def update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk,product)\n## DELETE\n@router.delete(\"/{pk}\")\ndef delete_product(pk:str):\n    return db_func.delete_product_db(pk)",
+        "detail": "Microservices_FastAPI.Inventory.routes",
+        "documentation": {}
+    },
+    {
+        "label": "delete_product",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Inventory.routes",
+        "description": "Microservices_FastAPI.Inventory.routes",
+        "peekOfCode": "def delete_product(pk:str):\n    return db_func.delete_product_db(pk)",
+        "detail": "Microservices_FastAPI.Inventory.routes",
+        "documentation": {}
+    },
+    {
+        "label": "ProductCreate",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.Inventory.schema",
+        "description": "Microservices_FastAPI.Inventory.schema",
+        "peekOfCode": "class ProductCreate(BaseModel):\n    name: str\n    price: float\n    quantity: int\nclass ProductDisplay(BaseModel):\n    pk:str\n    name: str\n    price: float\n    quantity: int",
+        "detail": "Microservices_FastAPI.Inventory.schema",
+        "documentation": {}
+    },
+    {
+        "label": "ProductDisplay",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.Inventory.schema",
+        "description": "Microservices_FastAPI.Inventory.schema",
+        "peekOfCode": "class ProductDisplay(BaseModel):\n    pk:str\n    name: str\n    price: float\n    quantity: int",
+        "detail": "Microservices_FastAPI.Inventory.schema",
+        "documentation": {}
+    },
+    {
+        "label": "redis",
+        "kind": 5,
+        "importPath": "Microservices_FastAPI.Payment.database",
+        "description": "Microservices_FastAPI.Payment.database",
+        "peekOfCode": "redis = get_redis_connection(\n    host=\"redis-12158.crce179.ap-south-1-1.ec2.cloud.redislabs.com\",\n    port=12158,\n    password=\"bioBrMgKAeZcKhi6BDy01uWtX3iklwsF\",\n    decode_responses=True\n)",
+        "detail": "Microservices_FastAPI.Payment.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_order_all",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Payment.db_func",
+        "description": "Microservices_FastAPI.Payment.db_func",
+        "peekOfCode": "def get_order_all():\n    try:\n        return [Order.get(pk) for pk in Order.all_pks()]\n    except:\n        raise HTTPException(status_code=404, detail=\"No Order found\")\ndef get_order(pk:str):\n    try:\n        return Order.get(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"Order not found\")",
+        "detail": "Microservices_FastAPI.Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "get_order",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Payment.db_func",
+        "description": "Microservices_FastAPI.Payment.db_func",
+        "peekOfCode": "def get_order(pk:str):\n    try:\n        return Order.get(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"Order not found\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    req_of_product=requests.get(\"http://localhost:8000/products/%s\"%request.product_id)\n    # async with httpx.AsyncClient() as client:\n    #     req_of_product=await client.get(f\"http://localhost:8000/products/{request.product_id}\")\n    if req_of_product.status_code != 200:",
+        "detail": "Microservices_FastAPI.Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "post_order",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Payment.db_func",
+        "description": "Microservices_FastAPI.Payment.db_func",
+        "peekOfCode": "def post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    req_of_product=requests.get(\"http://localhost:8000/products/%s\"%request.product_id)\n    # async with httpx.AsyncClient() as client:\n    #     req_of_product=await client.get(f\"http://localhost:8000/products/{request.product_id}\")\n    if req_of_product.status_code != 200:\n        raise Exception(400,\"Inventory service error\")\n    product=req_of_product.json()\n    order=Order(\n        product_id=request.product_id,\n        price=product['price'],",
+        "detail": "Microservices_FastAPI.Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "order_completed",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Payment.db_func",
+        "description": "Microservices_FastAPI.Payment.db_func",
+        "peekOfCode": "def order_completed(order_id: str):\n    time.sleep(5)\n    order = Order.get(order_id)\n    order.save()\n    payload = {\n        \"order_id\": order.pk,\n        \"product_id\": order.product_id,\n        \"quantity\": order.quantity\n    }\n    redis.xadd(\"order_completed\", payload, \"*\", maxlen=1000)",
+        "detail": "Microservices_FastAPI.Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "delete_order",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Payment.db_func",
+        "description": "Microservices_FastAPI.Payment.db_func",
+        "peekOfCode": "def delete_order(pk:str):\n    try:\n        Order.delete(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"No Order found\")\n    return {\"message\": \"Order deleted\"}\ndef delete_all_order():\n    try:\n        for pk in Order.all_pks():\n            Order.delete(pk)",
+        "detail": "Microservices_FastAPI.Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "delete_all_order",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Payment.db_func",
+        "description": "Microservices_FastAPI.Payment.db_func",
+        "peekOfCode": "def delete_all_order():\n    try:\n        for pk in Order.all_pks():\n            Order.delete(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"No Order found\")\n    return {\"message\": \"All order deleted\"}\n# ---------------------------------------------------------------\n# |   NAME / TERM          |              MEANING               |\n# ---------------------------------------------------------------",
+        "detail": "Microservices_FastAPI.Payment.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.Payment.model",
+        "description": "Microservices_FastAPI.Payment.model",
+        "peekOfCode": "class Order(HashModel,index=True):\n    product_id:str\n    price:float\n    fee:float\n    total:float\n    quantity:int\n    status:str # pending/completed/refund\n    class Meta:\n        database=redis",
+        "detail": "Microservices_FastAPI.Payment.model",
+        "documentation": {}
+    },
+    {
+        "label": "get_order_all",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Payment.router",
+        "description": "Microservices_FastAPI.Payment.router",
+        "peekOfCode": "def get_order_all():\n    return db_func.get_order_all()\n@router.get(\"/{pk}\")\ndef get_order(pk:str):\n    return db_func.get_order(pk)\n@router.post(\"/\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    return db_func.post_order(request,bgtask)\n@router.delete(\"/{pk}\")\ndef delete_order(pk:str):",
+        "detail": "Microservices_FastAPI.Payment.router",
+        "documentation": {}
+    },
+    {
+        "label": "get_order",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Payment.router",
+        "description": "Microservices_FastAPI.Payment.router",
+        "peekOfCode": "def get_order(pk:str):\n    return db_func.get_order(pk)\n@router.post(\"/\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    return db_func.post_order(request,bgtask)\n@router.delete(\"/{pk}\")\ndef delete_order(pk:str):\n    return db_func.delete_order(pk)\n@router.delete(\"/all\")\ndef delete_all_order():",
+        "detail": "Microservices_FastAPI.Payment.router",
+        "documentation": {}
+    },
+    {
+        "label": "post_order",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Payment.router",
+        "description": "Microservices_FastAPI.Payment.router",
+        "peekOfCode": "def post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    return db_func.post_order(request,bgtask)\n@router.delete(\"/{pk}\")\ndef delete_order(pk:str):\n    return db_func.delete_order(pk)\n@router.delete(\"/all\")\ndef delete_all_order():\n    return db_func.delete_all_order()",
+        "detail": "Microservices_FastAPI.Payment.router",
+        "documentation": {}
+    },
+    {
+        "label": "delete_order",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Payment.router",
+        "description": "Microservices_FastAPI.Payment.router",
+        "peekOfCode": "def delete_order(pk:str):\n    return db_func.delete_order(pk)\n@router.delete(\"/all\")\ndef delete_all_order():\n    return db_func.delete_all_order()",
+        "detail": "Microservices_FastAPI.Payment.router",
+        "documentation": {}
+    },
+    {
+        "label": "delete_all_order",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.Payment.router",
+        "description": "Microservices_FastAPI.Payment.router",
+        "peekOfCode": "def delete_all_order():\n    return db_func.delete_all_order()",
+        "detail": "Microservices_FastAPI.Payment.router",
+        "documentation": {}
+    },
+    {
+        "label": "OrderCreate",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.Payment.schema",
+        "description": "Microservices_FastAPI.Payment.schema",
+        "peekOfCode": "class OrderCreate(BaseModel):\n    product_id:str\n    quantity:int\nclass OrderDisplay(BaseModel):\n    product_id:str\n    total:float\n    quantity:int\n    status:str",
+        "detail": "Microservices_FastAPI.Payment.schema",
+        "documentation": {}
+    },
+    {
+        "label": "OrderDisplay",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.Payment.schema",
+        "description": "Microservices_FastAPI.Payment.schema",
+        "peekOfCode": "class OrderDisplay(BaseModel):\n    product_id:str\n    total:float\n    quantity:int\n    status:str",
+        "detail": "Microservices_FastAPI.Payment.schema",
         "documentation": {}
     }
 ]

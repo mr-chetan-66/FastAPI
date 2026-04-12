@@ -1,0 +1,8 @@
+fastapi 
+uvicorn 
+sqlalchemy
+passlib
+python-multipart
+python-jwt
+aiofile
+psycopg2-binary

@@ -1,0 +1,45 @@
+	
+Response body
+Download
+[
+  {
+    "id": 2,
+    "image_url": "images/tokyo_DqSQTw.jpg",
+    "title": "Exploring Tokyo: The Heart of Modern Japan",
+    "content": "Tokyo blends cutting-edge innovation with ancient tradition. From the bustling Shibuya Crossing to the serene Meiji Shrine, the city offers an unmatched cultural and urban experience.",
+    "creator": "John Doe",
+    "timestamp": "2026-04-03T12:33:26.661072"
+  },
+  {
+    "id": 3,
+    "image_url": "images/paris_FuEGGI.jpg",
+    "title": "Paris: The City of Lights and Timeless Romance",
+    "content": "Paris stands as a global symbol of art, cuisine, and culture. Whether walking along the Seine or admiring the Eiffel Tower at dusk, it's a city that captivates every visitor.",
+    "creator": "Anna Smith",
+    "timestamp": "2026-04-03T12:26:50.852889"
+  },
+  {
+    "id": 7,
+    "image_url": "images/nyc_LxsuNh.jpg",
+    "title": "New York City: The Iconic Urban Playground",
+    "content": "Known as the city that never sleeps, New York City offers towering skyscrapers, world-class museums, and an unmatched fast-paced lifestyle that inspires millions.",
+    "creator": "Michael Johnson",
+    "timestamp": "2026-04-03T12:28:43.884661"
+  },
+  {
+    "id": 9,
+    "image_url": "images/dubai_twIfQC.jpg",
+    "title": "Dubai: A Futuristic Oasis in the Desert",
+    "content": "Dubai has transformed into an ultra-modern metropolis known for luxury shopping, man-made islands, and architectural marvels like the Burj Khalifa.",
+    "creator": "Sara Khan",
+    "timestamp": "2026-04-03T12:30:29.746261"
+  },
+  {
+    "id": 10,
+    "image_url": "images/sydney_gLWvBf.jpg",
+    "title": "Sydney: A Stunning Blend of Nature and Urban Life",
+    "content": "From the iconic Opera House to pristine beaches like Bondi, Sydney offers a perfect balance of vibrant city living and breathtaking natural beauty.",
+    "creator": "David Miller",
+    "timestamp": "2026-04-03T12:32:16.440099"
+  }
+]
