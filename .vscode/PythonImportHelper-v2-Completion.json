@@ -585,6 +585,174 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "HTTPException",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -642,6 +810,14 @@
     },
     {
         "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
         "importPath": "fastapi.security",
         "description": "fastapi.security",
         "isExtraImport": true,
@@ -817,6 +993,54 @@
         "documentation": {}
     },
     {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "DbUser",
         "importPath": "db2.db_model2",
         "description": "db2.db_model2",
@@ -985,11 +1209,84 @@
         "documentation": {}
     },
     {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
         "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -1041,6 +1338,22 @@
         "documentation": {}
     },
     {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
         "label": "db_func2",
         "importPath": "db2",
         "description": "db2",
@@ -1062,6 +1375,14 @@
         "description": "db2",
         "isExtraImport": true,
         "detail": "db2",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -1265,6 +1586,54 @@
         "documentation": {}
     },
     {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
         "label": "declarative_base",
         "importPath": "sqlalchemy.ext.declarative",
         "description": "sqlalchemy.ext.declarative",
@@ -1366,6 +1735,46 @@
         "description": "passlib.context",
         "isExtraImport": true,
         "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm.session",
+        "description": "sqlalchemy.orm.session",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.session",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm.session",
+        "description": "sqlalchemy.orm.session",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.session",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm.session",
+        "description": "sqlalchemy.orm.session",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.session",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm.session",
+        "description": "sqlalchemy.orm.session",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.session",
         "documentation": {}
     },
     {
@@ -1628,6 +2037,14 @@
         "documentation": {}
     },
     {
+        "label": "name",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
         "label": "asyncio",
         "kind": 6,
         "isExtraImport": true,
@@ -1823,6 +2240,22 @@
         "documentation": {}
     },
     {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
         "label": "StaticFiles",
         "importPath": "fastapi.staticfiles",
         "description": "fastapi.staticfiles",
@@ -1937,6 +2370,14 @@
     },
     {
         "label": "OrderCreate",
+        "importPath": "schema",
+        "description": "schema",
+        "isExtraImport": true,
+        "detail": "schema",
+        "documentation": {}
+    },
+    {
+        "label": "OrderDisplay",
         "importPath": "schema",
         "description": "schema",
         "isExtraImport": true,
@@ -2060,6 +2501,328 @@
         "documentation": {}
     },
     {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security.oauth2",
+        "description": "fastapi.security.oauth2",
+        "isExtraImport": true,
+        "detail": "fastapi.security.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "DbUser",
+        "importPath": "db.models",
+        "description": "db.models",
+        "isExtraImport": true,
+        "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbComment",
+        "importPath": "db.models",
+        "description": "db.models",
+        "isExtraImport": true,
+        "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbPost",
+        "importPath": "db.models",
+        "description": "db.models",
+        "isExtraImport": true,
+        "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbUser",
+        "importPath": "db.models",
+        "description": "db.models",
+        "isExtraImport": true,
+        "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "importPath": "db.hashing",
+        "description": "db.hashing",
+        "isExtraImport": true,
+        "detail": "db.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "importPath": "db.hashing",
+        "description": "db.hashing",
+        "isExtraImport": true,
+        "detail": "db.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "auth.oauth2",
+        "description": "auth.oauth2",
+        "isExtraImport": true,
+        "detail": "auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.oauth2",
+        "description": "auth.oauth2",
+        "isExtraImport": true,
+        "detail": "auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.oauth2",
+        "description": "auth.oauth2",
+        "isExtraImport": true,
+        "detail": "auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "db_user",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "db_comment",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "db_post",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "db_user",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "CommentBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "CommentBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserAuth",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostDisplay",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserAuth",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserDisplay",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy.sql.schema",
+        "description": "sqlalchemy.sql.schema",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.schema",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi.exceptions",
+        "description": "fastapi.exceptions",
+        "isExtraImport": true,
+        "detail": "fastapi.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "importPath": "sqlalchemy.sql.functions",
+        "description": "sqlalchemy.sql.functions",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "post",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "comment",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "authentication",
+        "importPath": "auth",
+        "description": "auth",
+        "isExtraImport": true,
+        "detail": "auth",
+        "documentation": {}
+    },
+    {
         "label": "runpy",
         "kind": 6,
         "isExtraImport": true,
@@ -2135,6 +2898,14 @@
     },
     {
         "label": "get_redis_connection",
+        "importPath": "redis_om",
+        "description": "redis_om",
+        "isExtraImport": true,
+        "detail": "redis_om",
+        "documentation": {}
+    },
+    {
+        "label": "HashModel",
         "importPath": "redis_om",
         "description": "redis_om",
         "isExtraImport": true,
@@ -3595,6 +4366,429 @@
         "documentation": {}
     },
     {
+        "label": "login",
+        "kind": 2,
+        "importPath": "instagram-clone-api.auth.authentication",
+        "description": "instagram-clone-api.auth.authentication",
+        "peekOfCode": "def login(request: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n  user = db.query(DbUser).filter(DbUser.username == request.username).first()\n  if not user:\n    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,\n          detail='Invalid credentials')\n  if not Hash.verify(user.password, request.password):\n    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,\n          detail='Incorrect password')\n  access_token = create_access_token(data={'username': user.username})\n  return {",
+        "detail": "instagram-clone-api.auth.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "instagram-clone-api.auth.authentication",
+        "description": "instagram-clone-api.auth.authentication",
+        "peekOfCode": "router = APIRouter(\n  tags=['authentication']\n)\n@router.post('/login')\ndef login(request: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n  user = db.query(DbUser).filter(DbUser.username == request.username).first()\n  if not user:\n    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,\n          detail='Invalid credentials')\n  if not Hash.verify(user.password, request.password):",
+        "detail": "instagram-clone-api.auth.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "instagram-clone-api.auth.oauth2",
+        "description": "instagram-clone-api.auth.oauth2",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n  to_encode = data.copy()\n  if expires_delta:\n    expire = datetime.utcnow() + expires_delta\n  else:\n    expire = datetime.utcnow() + timedelta(minutes=15)\n  to_encode.update({\"exp\": expire})\n  encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n  return encoded_jwt\ndef get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):",
+        "detail": "instagram-clone-api.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "instagram-clone-api.auth.oauth2",
+        "description": "instagram-clone-api.auth.oauth2",
+        "peekOfCode": "def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):\n  credentials_exception = HTTPException(\n    status_code=status.HTTP_401_UNAUTHORIZED,\n    detail=\"Could not validate credentials\",\n    headers={\"WWW-Authenticate\": \"Bearer\"},\n  )\n  try:\n    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n    username: str = payload.get(\"username\")\n    if username is None:",
+        "detail": "instagram-clone-api.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "instagram-clone-api.auth.oauth2",
+        "description": "instagram-clone-api.auth.oauth2",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"login\")\nSECRET_KEY = '333809dfe79d55fc49216952965632e7cc0b46b1d27ce34792581014a6cef1b1'\nALGORITHM = 'HS256'\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n  to_encode = data.copy()\n  if expires_delta:\n    expire = datetime.utcnow() + expires_delta\n  else:\n    expire = datetime.utcnow() + timedelta(minutes=15)",
+        "detail": "instagram-clone-api.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "instagram-clone-api.auth.oauth2",
+        "description": "instagram-clone-api.auth.oauth2",
+        "peekOfCode": "SECRET_KEY = '333809dfe79d55fc49216952965632e7cc0b46b1d27ce34792581014a6cef1b1'\nALGORITHM = 'HS256'\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n  to_encode = data.copy()\n  if expires_delta:\n    expire = datetime.utcnow() + expires_delta\n  else:\n    expire = datetime.utcnow() + timedelta(minutes=15)\n  to_encode.update({\"exp\": expire})",
+        "detail": "instagram-clone-api.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "instagram-clone-api.auth.oauth2",
+        "description": "instagram-clone-api.auth.oauth2",
+        "peekOfCode": "ALGORITHM = 'HS256'\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n  to_encode = data.copy()\n  if expires_delta:\n    expire = datetime.utcnow() + expires_delta\n  else:\n    expire = datetime.utcnow() + timedelta(minutes=15)\n  to_encode.update({\"exp\": expire})\n  encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "instagram-clone-api.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "instagram-clone-api.auth.oauth2",
+        "description": "instagram-clone-api.auth.oauth2",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n  to_encode = data.copy()\n  if expires_delta:\n    expire = datetime.utcnow() + expires_delta\n  else:\n    expire = datetime.utcnow() + timedelta(minutes=15)\n  to_encode.update({\"exp\": expire})\n  encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n  return encoded_jwt",
+        "detail": "instagram-clone-api.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "instagram-clone-api.db.database",
+        "description": "instagram-clone-api.db.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "instagram-clone-api.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "instagram-clone-api.db.database",
+        "description": "instagram-clone-api.db.database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = 'sqlite:///./ig_api.db'\nengine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "instagram-clone-api.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "instagram-clone-api.db.database",
+        "description": "instagram-clone-api.db.database",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "instagram-clone-api.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "instagram-clone-api.db.database",
+        "description": "instagram-clone-api.db.database",
+        "peekOfCode": "SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "instagram-clone-api.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "instagram-clone-api.db.database",
+        "description": "instagram-clone-api.db.database",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "instagram-clone-api.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "instagram-clone-api.db.db_comment",
+        "description": "instagram-clone-api.db.db_comment",
+        "peekOfCode": "def create(db: Session, request: CommentBase):\n  new_comment = DbComment(\n    text = request.text,\n    username = request.username,\n    post_id = request.post_id,\n    timestamp = datetime.now()\n  )\n  db.add(new_comment)\n  db.commit()\n  db.refresh(new_comment)",
+        "detail": "instagram-clone-api.db.db_comment",
+        "documentation": {}
+    },
+    {
+        "label": "get_all",
+        "kind": 2,
+        "importPath": "instagram-clone-api.db.db_comment",
+        "description": "instagram-clone-api.db.db_comment",
+        "peekOfCode": "def get_all(db: Session, post_id: int):\n  return db.query(DbComment).filter(DbComment.post_id == post_id).all()",
+        "detail": "instagram-clone-api.db.db_comment",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "instagram-clone-api.db.db_post",
+        "description": "instagram-clone-api.db.db_post",
+        "peekOfCode": "def create(db: Session, request: PostBase):\n  new_post = DbPost(\n    image_url = request.image_url,\n    image_url_type = request.image_url_type,\n    caption = request.caption,\n    timestamp = datetime.datetime.now(),\n    user_id = request.creator_id\n  )\n  db.add(new_post)\n  db.commit()",
+        "detail": "instagram-clone-api.db.db_post",
+        "documentation": {}
+    },
+    {
+        "label": "get_all",
+        "kind": 2,
+        "importPath": "instagram-clone-api.db.db_post",
+        "description": "instagram-clone-api.db.db_post",
+        "peekOfCode": "def get_all(db: Session):\n  return db.query(DbPost).all()\ndef delete(db: Session, id: int, user_id: int):\n  post = db.query(DbPost).filter(DbPost.id == id).first()\n  if not post:\n    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n          detail=f'Post with id {id} not found')\n  if post.user_id != user_id:\n    raise HTTPException(status_code=status.HTTP_403_FORBIDDEN,\n          detail='Only post creator can delete post')",
+        "detail": "instagram-clone-api.db.db_post",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "instagram-clone-api.db.db_post",
+        "description": "instagram-clone-api.db.db_post",
+        "peekOfCode": "def delete(db: Session, id: int, user_id: int):\n  post = db.query(DbPost).filter(DbPost.id == id).first()\n  if not post:\n    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n          detail=f'Post with id {id} not found')\n  if post.user_id != user_id:\n    raise HTTPException(status_code=status.HTTP_403_FORBIDDEN,\n          detail='Only post creator can delete post')\n  db.delete(post)\n  db.commit()",
+        "detail": "instagram-clone-api.db.db_post",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "instagram-clone-api.db.db_user",
+        "description": "instagram-clone-api.db.db_user",
+        "peekOfCode": "def create_user(db: Session, request: UserBase):\n  new_user = DbUser(\n    username = request.username,\n    email = request.email,\n    password = Hash.bcrypt(request.password)\n  )\n  db.add(new_user)\n  db.commit()\n  db.refresh(new_user)\n  return new_user",
+        "detail": "instagram-clone-api.db.db_user",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_username",
+        "kind": 2,
+        "importPath": "instagram-clone-api.db.db_user",
+        "description": "instagram-clone-api.db.db_user",
+        "peekOfCode": "def get_user_by_username(db: Session, username: str):\n  user = db.query(DbUser).filter(DbUser.username == username).first()\n  if not user:\n    raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,\n      detail=f'User with username {username} not found')\n  return user",
+        "detail": "instagram-clone-api.db.db_user",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "kind": 6,
+        "importPath": "instagram-clone-api.db.hashing",
+        "description": "instagram-clone-api.db.hashing",
+        "peekOfCode": "class Hash():\n  def bcrypt(password: str):\n    return pwd_cxt.hash(password)\n  def verify(hashed_password, plain_password):\n    return pwd_cxt.verify(plain_password, hashed_password)",
+        "detail": "instagram-clone-api.db.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_cxt",
+        "kind": 5,
+        "importPath": "instagram-clone-api.db.hashing",
+        "description": "instagram-clone-api.db.hashing",
+        "peekOfCode": "pwd_cxt = CryptContext(schemes=['bcrypt'], deprecated='auto')\nclass Hash():\n  def bcrypt(password: str):\n    return pwd_cxt.hash(password)\n  def verify(hashed_password, plain_password):\n    return pwd_cxt.verify(plain_password, hashed_password)",
+        "detail": "instagram-clone-api.db.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "DbUser",
+        "kind": 6,
+        "importPath": "instagram-clone-api.db.models",
+        "description": "instagram-clone-api.db.models",
+        "peekOfCode": "class DbUser(Base):\n  __tablename__ = 'user'\n  id = Column(Integer, primary_key=True, index=True)\n  username = Column(String)\n  email = Column(String)\n  password = Column(String)\n  items = relationship('DbPost', back_populates='user')\nclass DbPost(Base):\n  __tablename__ = 'post'\n  id = Column(Integer, primary_key=True, index=True)",
+        "detail": "instagram-clone-api.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbPost",
+        "kind": 6,
+        "importPath": "instagram-clone-api.db.models",
+        "description": "instagram-clone-api.db.models",
+        "peekOfCode": "class DbPost(Base):\n  __tablename__ = 'post'\n  id = Column(Integer, primary_key=True, index=True)\n  image_url = Column(String)\n  image_url_type = Column(String)\n  caption = Column(String)\n  timestamp = Column(DateTime)\n  user_id = Column(Integer, ForeignKey('user.id'))\n  user = relationship('DbUser', back_populates='items')\n  comments = relationship('DbComment', back_populates='post')",
+        "detail": "instagram-clone-api.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbComment",
+        "kind": 6,
+        "importPath": "instagram-clone-api.db.models",
+        "description": "instagram-clone-api.db.models",
+        "peekOfCode": "class DbComment(Base):\n  __tablename__ = 'comment'\n  id = Column(Integer, primary_key=True, index=True)\n  text = Column(String)\n  username = Column(String)\n  timestamp = Column(DateTime)\n  post_id = Column(Integer, ForeignKey('post.id'))\n  post = relationship(\"DbPost\", back_populates=\"comments\")",
+        "detail": "instagram-clone-api.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "comments",
+        "kind": 2,
+        "importPath": "instagram-clone-api.routers.comment",
+        "description": "instagram-clone-api.routers.comment",
+        "peekOfCode": "def comments(post_id: int, db: Session = Depends(get_db)):\n  return db_comment.get_all(db, post_id)\n@router.post('')\ndef create(request: CommentBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n  return db_comment.create(db, request)",
+        "detail": "instagram-clone-api.routers.comment",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "instagram-clone-api.routers.comment",
+        "description": "instagram-clone-api.routers.comment",
+        "peekOfCode": "def create(request: CommentBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n  return db_comment.create(db, request)",
+        "detail": "instagram-clone-api.routers.comment",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "instagram-clone-api.routers.comment",
+        "description": "instagram-clone-api.routers.comment",
+        "peekOfCode": "router = APIRouter(\n  prefix='/comment',\n  tags=['comment']\n)\n@router.get('/all/{post_id}')\ndef comments(post_id: int, db: Session = Depends(get_db)):\n  return db_comment.get_all(db, post_id)\n@router.post('')\ndef create(request: CommentBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n  return db_comment.create(db, request)",
+        "detail": "instagram-clone-api.routers.comment",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "instagram-clone-api.routers.post",
+        "description": "instagram-clone-api.routers.post",
+        "peekOfCode": "def create(request: PostBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n  if not request.image_url_type in image_url_types:\n    raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, \n              detail=\"Parameter image_url_type can only take values 'absolute' or 'relative'.\")\n  return db_post.create(db, request)\n@router.get('/all', response_model=List[PostDisplay])\ndef posts(db: Session = Depends(get_db)):\n  return db_post.get_all(db)\n@router.post('/image')\ndef upload_image(image: UploadFile = File(...), current_user: UserAuth = Depends(get_current_user)):",
+        "detail": "instagram-clone-api.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "posts",
+        "kind": 2,
+        "importPath": "instagram-clone-api.routers.post",
+        "description": "instagram-clone-api.routers.post",
+        "peekOfCode": "def posts(db: Session = Depends(get_db)):\n  return db_post.get_all(db)\n@router.post('/image')\ndef upload_image(image: UploadFile = File(...), current_user: UserAuth = Depends(get_current_user)):\n  letters = string.ascii_letters\n  rand_str = ''.join(random.choice(letters) for i in range(6))\n  new = f'_{rand_str}.'\n  filename = new.join(image.filename.rsplit('.', 1))\n  path = f'images/{filename}'\n  with open(path, \"w+b\") as buffer:",
+        "detail": "instagram-clone-api.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "upload_image",
+        "kind": 2,
+        "importPath": "instagram-clone-api.routers.post",
+        "description": "instagram-clone-api.routers.post",
+        "peekOfCode": "def upload_image(image: UploadFile = File(...), current_user: UserAuth = Depends(get_current_user)):\n  letters = string.ascii_letters\n  rand_str = ''.join(random.choice(letters) for i in range(6))\n  new = f'_{rand_str}.'\n  filename = new.join(image.filename.rsplit('.', 1))\n  path = f'images/{filename}'\n  with open(path, \"w+b\") as buffer:\n    shutil.copyfileobj(image.file, buffer)\n  return {'filename': path}\n@router.get('/delete/{id}')",
+        "detail": "instagram-clone-api.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "instagram-clone-api.routers.post",
+        "description": "instagram-clone-api.routers.post",
+        "peekOfCode": "def delete(id: int, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n  return db_post.delete(db, id, current_user.id)",
+        "detail": "instagram-clone-api.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "instagram-clone-api.routers.post",
+        "description": "instagram-clone-api.routers.post",
+        "peekOfCode": "router = APIRouter(\n  prefix='/post',\n  tags=['post']\n)\nimage_url_types = ['absolute', 'relative']\n@router.post('', response_model=PostDisplay)\ndef create(request: PostBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n  if not request.image_url_type in image_url_types:\n    raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, \n              detail=\"Parameter image_url_type can only take values 'absolute' or 'relative'.\")",
+        "detail": "instagram-clone-api.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "image_url_types",
+        "kind": 5,
+        "importPath": "instagram-clone-api.routers.post",
+        "description": "instagram-clone-api.routers.post",
+        "peekOfCode": "image_url_types = ['absolute', 'relative']\n@router.post('', response_model=PostDisplay)\ndef create(request: PostBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n  if not request.image_url_type in image_url_types:\n    raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, \n              detail=\"Parameter image_url_type can only take values 'absolute' or 'relative'.\")\n  return db_post.create(db, request)\n@router.get('/all', response_model=List[PostDisplay])\ndef posts(db: Session = Depends(get_db)):\n  return db_post.get_all(db)",
+        "detail": "instagram-clone-api.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "instagram-clone-api.routers.schemas",
+        "description": "instagram-clone-api.routers.schemas",
+        "peekOfCode": "class UserBase(BaseModel):\n  username: str\n  email: str\n  password: str\nclass UserDisplay(BaseModel):\n  username: str\n  email: str\n  class Config():\n    orm_mode = True\nclass PostBase(BaseModel):",
+        "detail": "instagram-clone-api.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserDisplay",
+        "kind": 6,
+        "importPath": "instagram-clone-api.routers.schemas",
+        "description": "instagram-clone-api.routers.schemas",
+        "peekOfCode": "class UserDisplay(BaseModel):\n  username: str\n  email: str\n  class Config():\n    orm_mode = True\nclass PostBase(BaseModel):\n  image_url: str\n  image_url_type: str\n  caption: str\n  creator_id: int",
+        "detail": "instagram-clone-api.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "kind": 6,
+        "importPath": "instagram-clone-api.routers.schemas",
+        "description": "instagram-clone-api.routers.schemas",
+        "peekOfCode": "class PostBase(BaseModel):\n  image_url: str\n  image_url_type: str\n  caption: str\n  creator_id: int\n# For PostDisplay\nclass User(BaseModel):\n  username: str\n  class Config():\n    orm_mode = True",
+        "detail": "instagram-clone-api.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "instagram-clone-api.routers.schemas",
+        "description": "instagram-clone-api.routers.schemas",
+        "peekOfCode": "class User(BaseModel):\n  username: str\n  class Config():\n    orm_mode = True\n# For PostDisplay\nclass Comment(BaseModel):\n  text: str\n  username: str\n  timestamp: datetime\n  class Config():",
+        "detail": "instagram-clone-api.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Comment",
+        "kind": 6,
+        "importPath": "instagram-clone-api.routers.schemas",
+        "description": "instagram-clone-api.routers.schemas",
+        "peekOfCode": "class Comment(BaseModel):\n  text: str\n  username: str\n  timestamp: datetime\n  class Config():\n    orm_mode = True\nclass PostDisplay(BaseModel):\n  id: int\n  image_url: str\n  image_url_type: str",
+        "detail": "instagram-clone-api.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostDisplay",
+        "kind": 6,
+        "importPath": "instagram-clone-api.routers.schemas",
+        "description": "instagram-clone-api.routers.schemas",
+        "peekOfCode": "class PostDisplay(BaseModel):\n  id: int\n  image_url: str\n  image_url_type: str\n  caption: str\n  timestamp: datetime\n  user: User\n  comments: List[Comment]\n  class Config():\n    orm_mode = True",
+        "detail": "instagram-clone-api.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserAuth",
+        "kind": 6,
+        "importPath": "instagram-clone-api.routers.schemas",
+        "description": "instagram-clone-api.routers.schemas",
+        "peekOfCode": "class UserAuth(BaseModel):\n  id: int\n  username: str\n  email: str\nclass CommentBase(BaseModel):\n  username: str\n  text: str\n  post_id: int",
+        "detail": "instagram-clone-api.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "CommentBase",
+        "kind": 6,
+        "importPath": "instagram-clone-api.routers.schemas",
+        "description": "instagram-clone-api.routers.schemas",
+        "peekOfCode": "class CommentBase(BaseModel):\n  username: str\n  text: str\n  post_id: int",
+        "detail": "instagram-clone-api.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "instagram-clone-api.routers.user",
+        "description": "instagram-clone-api.routers.user",
+        "peekOfCode": "def create_user(request: UserBase, db: Session = Depends(get_db)):\n  return db_user.create_user(db, request)",
+        "detail": "instagram-clone-api.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "instagram-clone-api.routers.user",
+        "description": "instagram-clone-api.routers.user",
+        "peekOfCode": "router = APIRouter(\n  prefix='/user',\n  tags=['user']\n)\n@router.post('', response_model=UserDisplay)\ndef create_user(request: UserBase, db: Session = Depends(get_db)):\n  return db_user.create_user(db, request)",
+        "detail": "instagram-clone-api.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "instagram-clone-api.main",
+        "description": "instagram-clone-api.main",
+        "peekOfCode": "def root():\n  return \"Hello world!\"\norigins = [\n  'http://localhost:3000',\n  'http://localhost:3001',\n  'http://localhost:3002'\n]\napp.add_middleware(\n  CORSMiddleware,\n  allow_origins=origins,",
+        "detail": "instagram-clone-api.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "instagram-clone-api.main",
+        "description": "instagram-clone-api.main",
+        "peekOfCode": "app = FastAPI()\napp.include_router(user.router)\napp.include_router(post.router)\napp.include_router(comment.router)\napp.include_router(authentication.router)\n@app.get(\"/\")\ndef root():\n  return \"Hello world!\"\norigins = [\n  'http://localhost:3000',",
+        "detail": "instagram-clone-api.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "instagram-clone-api.main",
+        "description": "instagram-clone-api.main",
+        "peekOfCode": "origins = [\n  'http://localhost:3000',\n  'http://localhost:3001',\n  'http://localhost:3002'\n]\napp.add_middleware(\n  CORSMiddleware,\n  allow_origins=origins,\n  allow_credentials=True,\n  allow_methods=['*'],",
+        "detail": "instagram-clone-api.main",
+        "documentation": {}
+    },
+    {
         "label": "bin_dir",
         "kind": 5,
         "importPath": "Microservices_FastAPI..venv.Scripts.activate_this",
@@ -3678,271 +4872,379 @@
     {
         "label": "redis",
         "kind": 5,
-        "importPath": "Microservices_FastAPI.Inventory.database",
-        "description": "Microservices_FastAPI.Inventory.database",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.database",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.database",
         "peekOfCode": "redis = get_redis_connection(\n    host=\"redis-12158.crce179.ap-south-1-1.ec2.cloud.redislabs.com\",\n    port=12158,\n    password=\"bioBrMgKAeZcKhi6BDy01uWtX3iklwsF\",\n    decode_responses=True\n)",
-        "detail": "Microservices_FastAPI.Inventory.database",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.database",
         "documentation": {}
     },
     {
         "label": "get_all_products",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Inventory.db_func",
-        "description": "Microservices_FastAPI.Inventory.db_func",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.db_func",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.db_func",
         "peekOfCode": "def get_all_products():\n    products=Product.all_pks()\n    if not products:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"No Product Available!!\")\n    pl=[Product.get(pk) for pk in products]\n    return sorted(pl,key=lambda x:(x.price,x.name), reverse=True)\ndef get_product(pk:str):\n    product=Product.get(pk)\n    if not product:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Product Not Found!!\")",
-        "detail": "Microservices_FastAPI.Inventory.db_func",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.db_func",
         "documentation": {}
     },
     {
         "label": "get_product",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Inventory.db_func",
-        "description": "Microservices_FastAPI.Inventory.db_func",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.db_func",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.db_func",
         "peekOfCode": "def get_product(pk:str):\n    product=Product.get(pk)\n    if not product:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Product Not Found!!\")\n    return product\ndef create_product_db(product: ProductCreate):\n    db_product = Product(**product.model_dump())\n    db_product.save()\n    return db_product\ndef update_product(pk:str,product:ProductCreate):",
-        "detail": "Microservices_FastAPI.Inventory.db_func",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.db_func",
         "documentation": {}
     },
     {
         "label": "create_product_db",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Inventory.db_func",
-        "description": "Microservices_FastAPI.Inventory.db_func",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.db_func",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.db_func",
         "peekOfCode": "def create_product_db(product: ProductCreate):\n    db_product = Product(**product.model_dump())\n    db_product.save()\n    return db_product\ndef update_product(pk:str,product:ProductCreate):\n    p=Product.get(pk)\n    if not p:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail=\"Product Not Found!!\")\n    p.name=product.name\n    p.price=product.price",
-        "detail": "Microservices_FastAPI.Inventory.db_func",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.db_func",
         "documentation": {}
     },
     {
         "label": "update_product",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Inventory.db_func",
-        "description": "Microservices_FastAPI.Inventory.db_func",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.db_func",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.db_func",
         "peekOfCode": "def update_product(pk:str,product:ProductCreate):\n    p=Product.get(pk)\n    if not p:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,detail=\"Product Not Found!!\")\n    p.name=product.name\n    p.price=product.price\n    p.quantity=product.quantity\n    p.save()\n    return p\ndef delete_product_db(pk:str):",
-        "detail": "Microservices_FastAPI.Inventory.db_func",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.db_func",
         "documentation": {}
     },
     {
         "label": "delete_product_db",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Inventory.db_func",
-        "description": "Microservices_FastAPI.Inventory.db_func",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.db_func",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.db_func",
         "peekOfCode": "def delete_product_db(pk:str):\n    product=Product.get(pk)\n    if not product:\n        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=\"Product Not Found\")\n    Product.delete(pk)\n    return {\"message\": \"Product deleted\"}",
-        "detail": "Microservices_FastAPI.Inventory.db_func",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.db_func",
         "documentation": {}
     },
     {
         "label": "app",
         "kind": 5,
-        "importPath": "Microservices_FastAPI.Inventory.main",
-        "description": "Microservices_FastAPI.Inventory.main",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.main",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.main",
         "peekOfCode": "app = FastAPI()\napp.include_router(router)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"http://localhost:3000\"],\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"]\n)",
-        "detail": "Microservices_FastAPI.Inventory.main",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.main",
         "documentation": {}
     },
     {
         "label": "Product",
         "kind": 6,
-        "importPath": "Microservices_FastAPI.Inventory.model",
-        "description": "Microservices_FastAPI.Inventory.model",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.model",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.model",
         "peekOfCode": "class Product(HashModel,index=True):\n    name: str\n    price: float\n    quantity: int\n    class Meta:\n        database = redis",
-        "detail": "Microservices_FastAPI.Inventory.model",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.model",
         "documentation": {}
     },
     {
         "label": "all_products",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Inventory.routes",
-        "description": "Microservices_FastAPI.Inventory.routes",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.routes",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.routes",
         "peekOfCode": "def all_products():\n    return db_func.get_all_products()\n@router.get(\"/{pk}\",response_model=ProductDisplay)\ndef get_product(pk:str):\n    return db_func.get_product(pk)\n## CREATE\n@router.post(\"/\",response_model=ProductDisplay)\ndef create_product(product: ProductCreate):\n    return db_func.create_product_db(product)\n## UPDATE",
-        "detail": "Microservices_FastAPI.Inventory.routes",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.routes",
         "documentation": {}
     },
     {
         "label": "get_product",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Inventory.routes",
-        "description": "Microservices_FastAPI.Inventory.routes",
-        "peekOfCode": "def get_product(pk:str):\n    return db_func.get_product(pk)\n## CREATE\n@router.post(\"/\",response_model=ProductDisplay)\ndef create_product(product: ProductCreate):\n    return db_func.create_product_db(product)\n## UPDATE\n@router.put(\"/{pk}\", response_model=ProductDisplay)\ndef update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk,product)",
-        "detail": "Microservices_FastAPI.Inventory.routes",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.routes",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.routes",
+        "peekOfCode": "def get_product(pk:str):\n    return db_func.get_product(pk)\n## CREATE\n@router.post(\"/\",response_model=ProductDisplay)\ndef create_product(product: ProductCreate):\n    return db_func.create_product_db(product)\n## UPDATE\n@router.put(\"/{pk}\", response_model=ProductDisplay)\ndef update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk, product)",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.routes",
         "documentation": {}
     },
     {
         "label": "create_product",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Inventory.routes",
-        "description": "Microservices_FastAPI.Inventory.routes",
-        "peekOfCode": "def create_product(product: ProductCreate):\n    return db_func.create_product_db(product)\n## UPDATE\n@router.put(\"/{pk}\", response_model=ProductDisplay)\ndef update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk,product)\n## DELETE\n@router.delete(\"/{pk}\")\ndef delete_product(pk:str):\n    return db_func.delete_product_db(pk)",
-        "detail": "Microservices_FastAPI.Inventory.routes",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.routes",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.routes",
+        "peekOfCode": "def create_product(product: ProductCreate):\n    return db_func.create_product_db(product)\n## UPDATE\n@router.put(\"/{pk}\", response_model=ProductDisplay)\ndef update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk, product)\n## DELETE\n@router.delete(\"/{pk}\")\ndef delete_product(pk:str):\n    return db_func.delete_product_db(pk)",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.routes",
         "documentation": {}
     },
     {
         "label": "update_product",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Inventory.routes",
-        "description": "Microservices_FastAPI.Inventory.routes",
-        "peekOfCode": "def update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk,product)\n## DELETE\n@router.delete(\"/{pk}\")\ndef delete_product(pk:str):\n    return db_func.delete_product_db(pk)",
-        "detail": "Microservices_FastAPI.Inventory.routes",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.routes",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.routes",
+        "peekOfCode": "def update_product(pk:str,product:ProductCreate):\n    return db_func.update_product(pk, product)\n## DELETE\n@router.delete(\"/{pk}\")\ndef delete_product(pk:str):\n    return db_func.delete_product_db(pk)",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.routes",
         "documentation": {}
     },
     {
         "label": "delete_product",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Inventory.routes",
-        "description": "Microservices_FastAPI.Inventory.routes",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.routes",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.routes",
         "peekOfCode": "def delete_product(pk:str):\n    return db_func.delete_product_db(pk)",
-        "detail": "Microservices_FastAPI.Inventory.routes",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.routes",
         "documentation": {}
     },
     {
         "label": "ProductCreate",
         "kind": 6,
-        "importPath": "Microservices_FastAPI.Inventory.schema",
-        "description": "Microservices_FastAPI.Inventory.schema",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.schema",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.schema",
         "peekOfCode": "class ProductCreate(BaseModel):\n    name: str\n    price: float\n    quantity: int\nclass ProductDisplay(BaseModel):\n    pk:str\n    name: str\n    price: float\n    quantity: int",
-        "detail": "Microservices_FastAPI.Inventory.schema",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.schema",
         "documentation": {}
     },
     {
         "label": "ProductDisplay",
         "kind": 6,
-        "importPath": "Microservices_FastAPI.Inventory.schema",
-        "description": "Microservices_FastAPI.Inventory.schema",
+        "importPath": "Microservices_FastAPI.backend.inventory-microservice.schema",
+        "description": "Microservices_FastAPI.backend.inventory-microservice.schema",
         "peekOfCode": "class ProductDisplay(BaseModel):\n    pk:str\n    name: str\n    price: float\n    quantity: int",
-        "detail": "Microservices_FastAPI.Inventory.schema",
+        "detail": "Microservices_FastAPI.backend.inventory-microservice.schema",
         "documentation": {}
     },
     {
         "label": "redis",
         "kind": 5,
-        "importPath": "Microservices_FastAPI.Payment.database",
-        "description": "Microservices_FastAPI.Payment.database",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.database",
+        "description": "Microservices_FastAPI.backend.payment-microservice.database",
         "peekOfCode": "redis = get_redis_connection(\n    host=\"redis-12158.crce179.ap-south-1-1.ec2.cloud.redislabs.com\",\n    port=12158,\n    password=\"bioBrMgKAeZcKhi6BDy01uWtX3iklwsF\",\n    decode_responses=True\n)",
-        "detail": "Microservices_FastAPI.Payment.database",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.database",
         "documentation": {}
     },
     {
-        "label": "get_order_all",
+        "label": "get_all_order",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Payment.db_func",
-        "description": "Microservices_FastAPI.Payment.db_func",
-        "peekOfCode": "def get_order_all():\n    try:\n        return [Order.get(pk) for pk in Order.all_pks()]\n    except:\n        raise HTTPException(status_code=404, detail=\"No Order found\")\ndef get_order(pk:str):\n    try:\n        return Order.get(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"Order not found\")",
-        "detail": "Microservices_FastAPI.Payment.db_func",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "description": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "peekOfCode": "def get_all_order():\n    try:\n        return [Order.get(pk) for pk in Order.all_pks()]\n    except:\n        raise HTTPException(status_code=404, detail=\"No Order found\")\ndef get_order(pk:str):\n    try:\n        return Order.get(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"Order not found\")",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.db_func",
         "documentation": {}
     },
     {
         "label": "get_order",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Payment.db_func",
-        "description": "Microservices_FastAPI.Payment.db_func",
-        "peekOfCode": "def get_order(pk:str):\n    try:\n        return Order.get(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"Order not found\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    req_of_product=requests.get(\"http://localhost:8000/products/%s\"%request.product_id)\n    # async with httpx.AsyncClient() as client:\n    #     req_of_product=await client.get(f\"http://localhost:8000/products/{request.product_id}\")\n    if req_of_product.status_code != 200:",
-        "detail": "Microservices_FastAPI.Payment.db_func",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "description": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "peekOfCode": "def get_order(pk:str):\n    try:\n        return Order.get(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"Order not found\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    req_of_product=requests.get(f\"http://localhost:8000/products/{request.product_id}\")\n    # async with httpx.AsyncClient() as client:\n    #     req_of_product=await client.get(f\"http://localhost:8000/products/{request.product_id}\")\n    if req_of_product.status_code != 200:",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.db_func",
         "documentation": {}
     },
     {
         "label": "post_order",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Payment.db_func",
-        "description": "Microservices_FastAPI.Payment.db_func",
-        "peekOfCode": "def post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    req_of_product=requests.get(\"http://localhost:8000/products/%s\"%request.product_id)\n    # async with httpx.AsyncClient() as client:\n    #     req_of_product=await client.get(f\"http://localhost:8000/products/{request.product_id}\")\n    if req_of_product.status_code != 200:\n        raise Exception(400,\"Inventory service error\")\n    product=req_of_product.json()\n    order=Order(\n        product_id=request.product_id,\n        price=product['price'],",
-        "detail": "Microservices_FastAPI.Payment.db_func",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "description": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "peekOfCode": "def post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    req_of_product=requests.get(f\"http://localhost:8000/products/{request.product_id}\")\n    # async with httpx.AsyncClient() as client:\n    #     req_of_product=await client.get(f\"http://localhost:8000/products/{request.product_id}\")\n    if req_of_product.status_code != 200:\n        raise Exception(400,\"inventory-microservice service error\")\n    product=req_of_product.json()\n    product_price = float(product[\"price\"])\n    q=request.quantity\n    order = Order(",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.db_func",
         "documentation": {}
     },
     {
         "label": "order_completed",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Payment.db_func",
-        "description": "Microservices_FastAPI.Payment.db_func",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "description": "Microservices_FastAPI.backend.payment-microservice.db_func",
         "peekOfCode": "def order_completed(order_id: str):\n    time.sleep(5)\n    order = Order.get(order_id)\n    order.save()\n    payload = {\n        \"order_id\": order.pk,\n        \"product_id\": order.product_id,\n        \"quantity\": order.quantity\n    }\n    redis.xadd(\"order_completed\", payload, \"*\", maxlen=1000)",
-        "detail": "Microservices_FastAPI.Payment.db_func",
-        "documentation": {}
-    },
-    {
-        "label": "delete_order",
-        "kind": 2,
-        "importPath": "Microservices_FastAPI.Payment.db_func",
-        "description": "Microservices_FastAPI.Payment.db_func",
-        "peekOfCode": "def delete_order(pk:str):\n    try:\n        Order.delete(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"No Order found\")\n    return {\"message\": \"Order deleted\"}\ndef delete_all_order():\n    try:\n        for pk in Order.all_pks():\n            Order.delete(pk)",
-        "detail": "Microservices_FastAPI.Payment.db_func",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.db_func",
         "documentation": {}
     },
     {
         "label": "delete_all_order",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Payment.db_func",
-        "description": "Microservices_FastAPI.Payment.db_func",
-        "peekOfCode": "def delete_all_order():\n    try:\n        for pk in Order.all_pks():\n            Order.delete(pk)\n    except:\n        raise HTTPException(status_code=404, detail=\"No Order found\")\n    return {\"message\": \"All order deleted\"}\n# ---------------------------------------------------------------\n# |   NAME / TERM          |              MEANING               |\n# ---------------------------------------------------------------",
-        "detail": "Microservices_FastAPI.Payment.db_func",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "description": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "peekOfCode": "def delete_all_order():\n    try:\n        [Order.delete(pk) for pk in Order.all_pks()]\n        return \"All Order Deleted!!\"\n    except:\n        raise HTTPException(status_code=404, detail=\"No Order found\")\ndef delete_order(pk:str):\n    try:\n        Order.delete(pk)\n        return \"Order Deleted!!\"",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "documentation": {}
+    },
+    {
+        "label": "delete_order",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "description": "Microservices_FastAPI.backend.payment-microservice.db_func",
+        "peekOfCode": "def delete_order(pk:str):\n    try:\n        Order.delete(pk)\n        return \"Order Deleted!!\"\n    except:\n        raise HTTPException(status_code=404, detail=\"Order not found\")\n# ---------------------------------------------------------------\n# |   NAME / TERM          |              MEANING               |\n# ---------------------------------------------------------------\n# | request: Request       | Incoming request object in FastAPI |",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.db_func",
         "documentation": {}
     },
     {
         "label": "Order",
         "kind": 6,
-        "importPath": "Microservices_FastAPI.Payment.model",
-        "description": "Microservices_FastAPI.Payment.model",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.model",
+        "description": "Microservices_FastAPI.backend.payment-microservice.model",
         "peekOfCode": "class Order(HashModel,index=True):\n    product_id:str\n    price:float\n    fee:float\n    total:float\n    quantity:int\n    status:str # pending/completed/refund\n    class Meta:\n        database=redis",
-        "detail": "Microservices_FastAPI.Payment.model",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.model",
         "documentation": {}
     },
     {
         "label": "get_order_all",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Payment.router",
-        "description": "Microservices_FastAPI.Payment.router",
-        "peekOfCode": "def get_order_all():\n    return db_func.get_order_all()\n@router.get(\"/{pk}\")\ndef get_order(pk:str):\n    return db_func.get_order(pk)\n@router.post(\"/\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    return db_func.post_order(request,bgtask)\n@router.delete(\"/{pk}\")\ndef delete_order(pk:str):",
-        "detail": "Microservices_FastAPI.Payment.router",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.router",
+        "description": "Microservices_FastAPI.backend.payment-microservice.router",
+        "peekOfCode": "def get_order_all():\n    return db_func.get_all_order()\n@router.get(\"/{pk}\",response_model=OrderDisplay)\ndef get_order(pk:str):\n    return db_func.get_order(pk)\n@router.post(\"/\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks,response_model=OrderDisplay):\n    return db_func.post_order(request, bgtask)\n@router.delete(\"/all\")\ndef get_order_all():",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.router",
         "documentation": {}
     },
     {
         "label": "get_order",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Payment.router",
-        "description": "Microservices_FastAPI.Payment.router",
-        "peekOfCode": "def get_order(pk:str):\n    return db_func.get_order(pk)\n@router.post(\"/\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    return db_func.post_order(request,bgtask)\n@router.delete(\"/{pk}\")\ndef delete_order(pk:str):\n    return db_func.delete_order(pk)\n@router.delete(\"/all\")\ndef delete_all_order():",
-        "detail": "Microservices_FastAPI.Payment.router",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.router",
+        "description": "Microservices_FastAPI.backend.payment-microservice.router",
+        "peekOfCode": "def get_order(pk:str):\n    return db_func.get_order(pk)\n@router.post(\"/\")\ndef post_order(request:OrderCreate,bgtask:BackgroundTasks,response_model=OrderDisplay):\n    return db_func.post_order(request, bgtask)\n@router.delete(\"/all\")\ndef get_order_all():\n    return db_func.delete_all_order()\n@router.delete(\"/{pk}\")\ndef get_order(pk:str):",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.router",
         "documentation": {}
     },
     {
         "label": "post_order",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Payment.router",
-        "description": "Microservices_FastAPI.Payment.router",
-        "peekOfCode": "def post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    return db_func.post_order(request,bgtask)\n@router.delete(\"/{pk}\")\ndef delete_order(pk:str):\n    return db_func.delete_order(pk)\n@router.delete(\"/all\")\ndef delete_all_order():\n    return db_func.delete_all_order()",
-        "detail": "Microservices_FastAPI.Payment.router",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.router",
+        "description": "Microservices_FastAPI.backend.payment-microservice.router",
+        "peekOfCode": "def post_order(request:OrderCreate,bgtask:BackgroundTasks,response_model=OrderDisplay):\n    return db_func.post_order(request, bgtask)\n@router.delete(\"/all\")\ndef get_order_all():\n    return db_func.delete_all_order()\n@router.delete(\"/{pk}\")\ndef get_order(pk:str):\n    return db_func.delete_order(pk)",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.router",
         "documentation": {}
     },
     {
-        "label": "delete_order",
+        "label": "get_order_all",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Payment.router",
-        "description": "Microservices_FastAPI.Payment.router",
-        "peekOfCode": "def delete_order(pk:str):\n    return db_func.delete_order(pk)\n@router.delete(\"/all\")\ndef delete_all_order():\n    return db_func.delete_all_order()",
-        "detail": "Microservices_FastAPI.Payment.router",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.router",
+        "description": "Microservices_FastAPI.backend.payment-microservice.router",
+        "peekOfCode": "def get_order_all():\n    return db_func.delete_all_order()\n@router.delete(\"/{pk}\")\ndef get_order(pk:str):\n    return db_func.delete_order(pk)",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.router",
         "documentation": {}
     },
     {
-        "label": "delete_all_order",
+        "label": "get_order",
         "kind": 2,
-        "importPath": "Microservices_FastAPI.Payment.router",
-        "description": "Microservices_FastAPI.Payment.router",
-        "peekOfCode": "def delete_all_order():\n    return db_func.delete_all_order()",
-        "detail": "Microservices_FastAPI.Payment.router",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.router",
+        "description": "Microservices_FastAPI.backend.payment-microservice.router",
+        "peekOfCode": "def get_order(pk:str):\n    return db_func.delete_order(pk)",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.router",
         "documentation": {}
     },
     {
         "label": "OrderCreate",
         "kind": 6,
-        "importPath": "Microservices_FastAPI.Payment.schema",
-        "description": "Microservices_FastAPI.Payment.schema",
-        "peekOfCode": "class OrderCreate(BaseModel):\n    product_id:str\n    quantity:int\nclass OrderDisplay(BaseModel):\n    product_id:str\n    total:float\n    quantity:int\n    status:str",
-        "detail": "Microservices_FastAPI.Payment.schema",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.schema",
+        "description": "Microservices_FastAPI.backend.payment-microservice.schema",
+        "peekOfCode": "class OrderCreate(BaseModel):\n    product_id:str\n    quantity:int\nclass OrderDisplay(HashModel):\n    pk:str\n    product_id:str\n    fee:float\n    total:float\n    quantity:int\n    status:str",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.schema",
         "documentation": {}
     },
     {
         "label": "OrderDisplay",
         "kind": 6,
-        "importPath": "Microservices_FastAPI.Payment.schema",
-        "description": "Microservices_FastAPI.Payment.schema",
-        "peekOfCode": "class OrderDisplay(BaseModel):\n    product_id:str\n    total:float\n    quantity:int\n    status:str",
-        "detail": "Microservices_FastAPI.Payment.schema",
+        "importPath": "Microservices_FastAPI.backend.payment-microservice.schema",
+        "description": "Microservices_FastAPI.backend.payment-microservice.schema",
+        "peekOfCode": "class OrderDisplay(HashModel):\n    pk:str\n    product_id:str\n    fee:float\n    total:float\n    quantity:int\n    status:str",
+        "detail": "Microservices_FastAPI.backend.payment-microservice.schema",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.flat-cache@3.2.0.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.flatted@3.4.2.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "description": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "Microservices_FastAPI.frontend.node_modules..pnpm.node_modules.flatted.python.flatted",
         "documentation": {}
     }
 ]

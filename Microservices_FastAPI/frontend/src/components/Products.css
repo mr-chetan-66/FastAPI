@@ -9,22 +9,38 @@
   align-items: center;
 }
 
-/* ADD BUTTON */
-.btn-custom {
-  padding: 7px 14px;
+/* WRAPPER FOR BUTTONS */
+.header-buttons {
+  display: flex;
+  gap: 10px;
+  /* space between both buttons */
+}
+
+/* BLUE BUTTONS */
+.btn-blue {
+  padding: 7px 16px;
+  background: #0d6efd;
+  /* ✅ matches Product List blue */
+  border: none;
+  color: white;
   font-size: 14px;
-  border: 1px solid #6c757d;
-  background: white;
   border-radius: 6px;
-  cursor: pointer;
-  color: #333;
   text-decoration: none;
+  cursor: pointer;
   transition: 0.2s ease;
 }
 
-.btn-custom:hover {
-  background: #6c757d;
-  color: white;
+.btn-blue:hover {
+  background: #0954c6;
+  /* darker blue hover */
+}
+
+.data-table td:first-child {
+
+  font-size: 12px;
+  width: 50px;
+  text-align: left;
+
 }
 
 /* DELETE BUTTON */
@@ -59,7 +75,8 @@
 
 /* TITLE BOX — now BLUE instead of RED */
 .box-title {
-  background: #0d6efd; /* ✅ changed to button color */
+  background: #0d6efd;
+  /* ✅ changed to button color */
   padding: 16px;
   color: white;
   font-size: 22px;

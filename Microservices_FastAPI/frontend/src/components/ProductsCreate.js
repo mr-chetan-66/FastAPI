@@ -37,12 +37,12 @@ export const ProductsCreate = () => {
                 </div>
 
                 <div className="form-floating">
-                    <input name="price" type="number" className="form-control" placeholder="Price" />
+                    <input name="price" type="number" step='0.01' min="0" oninput="this.value = this.value < 0 ? 0 : this.value;" className="form-control" placeholder="Price" />
                     <label>Price</label>
                 </div>
 
                 <div className="form-floating">
-                    <input name="quantity" type="number" className="form-control" placeholder="Quantity" />
+                    <input name="quantity" type="number" min="0" oninput="this.value=this.value<0?0:this.value;" className="form-control" placeholder="Quantity" />
                     <label>Quantity</label>
                 </div>
 

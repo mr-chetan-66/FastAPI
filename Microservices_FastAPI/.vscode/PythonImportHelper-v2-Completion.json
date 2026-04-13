@@ -623,7 +623,7 @@
         "kind": 2,
         "importPath": "backend.payment-microservice.db_func",
         "description": "backend.payment-microservice.db_func",
-        "peekOfCode": "def post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    req_of_product=requests.get(f\"http://localhost:8000/products/{request.product_id}\")\n    # async with httpx.AsyncClient() as client:\n    #     req_of_product=await client.get(f\"http://localhost:8000/products/{request.product_id}\")\n    if req_of_product.status_code != 200:\n        raise Exception(400,\"inventory-microservice service error\")\n    product=req_of_product.json()\n    order=Order(\n        product_id=request.product_id,\n        price=product['price'],",
+        "peekOfCode": "def post_order(request:OrderCreate,bgtask:BackgroundTasks):\n    req_of_product=requests.get(f\"http://localhost:8000/products/{request.product_id}\")\n    # async with httpx.AsyncClient() as client:\n    #     req_of_product=await client.get(f\"http://localhost:8000/products/{request.product_id}\")\n    if req_of_product.status_code != 200:\n        raise Exception(400,\"inventory-microservice service error\")\n    product=req_of_product.json()\n    product_price = float(product[\"price\"])\n    q=request.quantity\n    order = Order(",
         "detail": "backend.payment-microservice.db_func",
         "documentation": {}
     },

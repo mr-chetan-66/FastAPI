@@ -28,14 +28,16 @@ def post_order(request:OrderCreate,bgtask:BackgroundTasks):
     if req_of_product.status_code != 200:
         raise Exception(400,"inventory-microservice service error")
     product=req_of_product.json()
-
-    order=Order(
+    
+    product_price = float(product["price"])
+    q=request.quantity
+    order = Order(
         product_id=request.product_id,
-        price=product['price'],
-        fee=0.2*product['price'],
-        total=1.2*product['price'],
-        quantity=request.quantity,
-        status='pending'
+        price=product_price,
+        fee=0.2 * product_price,
+        total=1.2 * product_price*q,
+        quantity=q,
+        status="pending",
     )
 
     order.save()
