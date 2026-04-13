@@ -18,7 +18,7 @@ def get_order(pk:str):
 
 @router.post("/")
 def post_order(request:OrderCreate,bgtask:BackgroundTasks):
-    return db_func.post_order(request,bgtask)
+    return db_func.post_order(request, bgtask)
 
 @router.delete("/{pk}")
 def delete_order(pk:str):

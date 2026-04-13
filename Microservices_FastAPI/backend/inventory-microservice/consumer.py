@@ -10,7 +10,7 @@ try:
 except:
     print(f"--> {GROUP}: Group Already Exists")
 
-print("--> Inventory consumer running... Waiting for messages...\n")
+print("--> inventory-backend consumer running... Waiting for messages...\n")
 
 while True:
     try:
@@ -27,7 +27,7 @@ while True:
                     print(f"--> Updating product {product.pk}, subtracting {data['quantity']} units")
                     product.quantity-=int(data['quantity'])
                     product.save()
-                    print("--> Inventory updated successfully")
+                    print("--> inventory-backend updated successfully")
                     redis.xack(STREAM, GROUP, msg_id)
                     print(f"--> Acknowledged message {msg_id}")
                 except Exception as e:

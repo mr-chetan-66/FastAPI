@@ -11,7 +11,7 @@ try:
 except:
     print(f"--> {GROUP}: Group Already Exists")
 
-print("--> Payment refund consumer running... Waiting for messages...\n")
+print("--> payment-backend refund consumer running... Waiting for messages...\n")
 
 while True:
     try:

@@ -73,7 +73,7 @@
 #
 # ✅ Want a visual? (Super Simple)
 # +----------------+     +----------------+     +----------------+
-# |  Product API   | --> |  Order API     | --> | Payment API    |
+# |  Product API   | --> |  Order API     | --> | payment-backend API    |
 # +----------------+     +----------------+     +----------------+
 #       FastAPI                   FastAPI                 FastAPI
 #       Port 8001                 Port 8002               Port 8003
@@ -168,10 +168,10 @@
 #
 # 6️⃣ Limited fault isolation
 # In monolith:
-# ❌ If Payment fails → whole app can crash
+# ❌ If payment-backend fails → whole app can crash
 # ❌ If one module has memory leak → entire app suffers
 # Microservices isolate failures:
-# ✅ Payment Service goes down
+# ✅ payment-backend Service goes down
 # ✅ Product & Search still work
 # Huge benefit at scale.
 #

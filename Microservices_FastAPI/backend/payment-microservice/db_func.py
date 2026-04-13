@@ -27,7 +27,7 @@ def post_order(request:OrderCreate,bgtask:BackgroundTasks):
     #     req_of_product=await client.get(f"http://localhost:8000/products/{request.product_id}")
 
     if req_of_product.status_code != 200:
-        raise Exception(400,"Inventory service error")
+        raise Exception(400,"inventory-backend service error")
     product=req_of_product.json()
 
     order=Order(

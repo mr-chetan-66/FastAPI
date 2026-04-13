@@ -24,7 +24,7 @@ def create_product(product: ProductCreate):
 ## UPDATE
 @router.put("/{pk}", response_model=ProductDisplay)
 def update_product(pk:str,product:ProductCreate):
-    return db_func.update_product(pk,product)
+    return db_func.update_product(pk, product)
 
 ## DELETE
 @router.delete("/{pk}")
