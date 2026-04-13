@@ -57,7 +57,7 @@
 # ✅ Can be deployed separately
 # 👉 This is microservices architecture.
 #
-# ✅ Microservices = Independent Components
+# ✅ Microservices = Independent components
 # So yes — your Product service is a microservice because:
 # ✅ It is separated
 # ✅ It has its own schema/models
@@ -73,7 +73,7 @@
 #
 # ✅ Want a visual? (Super Simple)
 # +----------------+     +----------------+     +----------------+
-# |  Product API   | --> |  Order API     | --> | payment-backend API    |
+# |  Product API   | --> |  Order API     | --> | payment-microservice API    |
 # +----------------+     +----------------+     +----------------+
 #       FastAPI                   FastAPI                 FastAPI
 #       Port 8001                 Port 8002               Port 8003
@@ -168,10 +168,10 @@
 #
 # 6️⃣ Limited fault isolation
 # In monolith:
-# ❌ If payment-backend fails → whole app can crash
+# ❌ If payment-microservice fails → whole app can crash
 # ❌ If one module has memory leak → entire app suffers
 # Microservices isolate failures:
-# ✅ payment-backend Service goes down
+# ✅ payment-microservice Service goes down
 # ✅ Product & Search still work
 # Huge benefit at scale.
 #

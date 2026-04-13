@@ -5,12 +5,12 @@ STREAM='order_completed'
 GROUP='inventory-group'
 
 try:
-    redis.xgroup_create(STREAM,GROUP,id='0',mkstream=True)
+    redis.xgroup_create(STREAM,GROUP,mkstream=True)
     print(f"--> Created consumer group: {GROUP}")
 except:
     print(f"--> {GROUP}: Group Already Exists")
 
-print("--> inventory-backend consumer running... Waiting for messages...\n")
+print("--> inventory-microservice consumer running... Waiting for messages...\n")
 
 while True:
     try:
@@ -27,7 +27,7 @@ while True:
                     print(f"--> Updating product {product.pk}, subtracting {data['quantity']} units")
                     product.quantity-=int(data['quantity'])
                     product.save()
-                    print("--> inventory-backend updated successfully")
+                    print("--> inventory-microservice updated successfully")
                     redis.xack(STREAM, GROUP, msg_id)
                     print(f"--> Acknowledged message {msg_id}")
                 except Exception as e:

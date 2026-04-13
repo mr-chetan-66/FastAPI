@@ -1,15 +1,14 @@
-
 # import httpx
 import requests
 from fastapi import HTTPException
 from model import Order
-from schema import OrderCreate
 from fastapi.background import BackgroundTasks
 import time
 from database import redis
+from schema import OrderCreate
 
 
-def get_order_all():
+def get_all_order():
     try:
         return [Order.get(pk) for pk in Order.all_pks()]
     except:
@@ -22,12 +21,12 @@ def get_order(pk:str):
         raise HTTPException(status_code=404, detail="Order not found")
 
 def post_order(request:OrderCreate,bgtask:BackgroundTasks):
-    req_of_product=requests.get("http://localhost:8000/products/%s"%request.product_id)
+    req_of_product=requests.get(f"http://localhost:8000/products/{request.product_id}")
     # async with httpx.AsyncClient() as client:
     #     req_of_product=await client.get(f"http://localhost:8000/products/{request.product_id}")
 
     if req_of_product.status_code != 200:
-        raise Exception(400,"inventory-backend service error")
+        raise Exception(400,"inventory-microservice service error")
     product=req_of_product.json()
 
     order=Order(
@@ -41,7 +40,7 @@ def post_order(request:OrderCreate,bgtask:BackgroundTasks):
 
     order.save()
     bgtask.add_task(order_completed,order.pk)
-    return order.model_dump()
+    return order
 
 def order_completed(order_id: str):
     time.sleep(5)
@@ -58,23 +57,19 @@ def order_completed(order_id: str):
     order.status = "completed"
     order.save()
 
+def delete_all_order():
+    try:
+        [Order.delete(pk) for pk in Order.all_pks()]
+        return "All Order Deleted!!"
+    except:
+        raise HTTPException(status_code=404, detail="No Order found")
+
 def delete_order(pk:str):
     try:
         Order.delete(pk)
+        return "Order Deleted!!"
     except:
-        raise HTTPException(status_code=404, detail="No Order found")
-
-    return {"message": "Order deleted"}
-
-def delete_all_order():
-    try:
-        for pk in Order.all_pks():
-            Order.delete(pk)
-    except:
-        raise HTTPException(status_code=404, detail="No Order found")
-
-    return {"message": "All order deleted"}
-
+        raise HTTPException(status_code=404, detail="Order not found")
 
 
 

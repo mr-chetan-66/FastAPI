@@ -6,12 +6,12 @@ GROUP='payment-group'
 STREAM='refund_completed'
 
 try:
-    redis.xgroup_create(STREAM,GROUP,id='0',mkstream=True)
+    redis.xgroup_create(STREAM,GROUP,mkstream=True)
     print(f"--> Created consumer group: {GROUP}")
 except:
     print(f"--> {GROUP}: Group Already Exists")
 
-print("--> payment-backend refund consumer running... Waiting for messages...\n")
+print("--> payment refund consumer running... Waiting for messages...\n")
 
 while True:
     try:

@@ -12,6 +12,7 @@ router=APIRouter(
 @router.get("/",response_model=List[ProductDisplay])
 def all_products():
     return db_func.get_all_products()
+
 @router.get("/{pk}",response_model=ProductDisplay)
 def get_product(pk:str):
     return db_func.get_product(pk)
