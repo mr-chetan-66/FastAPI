@@ -8,6 +8,22 @@ function Post({ postparam, onDelete }) {
     ? BASE_URL + postparam.image_url
     : null;
 
+  const handleDelete = () => {
+    fetch(BASE_URL + `post/delete/${postparam.id}`, {
+      method: "DELETE",
+    })
+      .then((response) => {
+        if (!response.ok) throw response;
+        return response;
+      })
+      .then(() => {
+        onDelete(postparam.id); // ✅ notify parent
+      })
+      .catch((error) => {
+        console.error("Delete failed:", error);
+      });
+  };
+
   return (
     <div className="post">
       {imageUrl && (
@@ -26,8 +42,8 @@ function Post({ postparam, onDelete }) {
 
         <div className="post_actions">
           <button
-            className="delete_button" onClick={null}
-            // onClick={() => onDelete?.(postparam.id)}
+            className="delete_button"
+            onClick={handleDelete}
           >
             Delete Post
           </button>

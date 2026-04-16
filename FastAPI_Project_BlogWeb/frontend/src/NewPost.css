@@ -1,0 +1,73 @@
+/* New Post Card */
+.newpost_content {
+  width: 350px;
+  margin: 40px auto;
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid #e6e6e6;
+  background-color: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* File input */
+.newpost_image {
+  width: 100%;
+  font-size: 13px;
+}
+
+/* Inputs */
+.newpost_creator,
+.newpost_title {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+}
+
+.newpost_creator:focus,
+.newpost_title:focus {
+  border-color: #40a9ff;
+}
+
+/* Textarea */
+.newpost_content_text {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  resize: none;
+  outline: none;
+}
+
+.newpost_content_text:focus {
+  border-color: #40a9ff;
+}
+
+/* Button container */
+.newpost_button_div {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 6px;
+}
+
+/* ✅ RED button like delete */
+.newpost_button {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.newpost_button:hover {
+  background-color: #d9363e;
+}
